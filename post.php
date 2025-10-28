@@ -5,7 +5,7 @@
     <?php include 'assets/include/head.php'; ?>
 </head>
 
-<body class="blogPost bg-black">
+<body class="is-post bg-black">
 
     <?php include 'assets/include/header.php'; ?>
 

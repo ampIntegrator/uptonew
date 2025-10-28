@@ -14840,11 +14840,18 @@ ul.withCaret li:before {
 
 pre {
   background-color: #000000;
-  border: 1px solid #d63384;
+  border: 1px solid rgba(214, 51, 132, 0.4);
   border-radius: 8px;
 }
 
 pre * {
-  color: #d63384 !important;
+  color: white !important;
+}
+
+blockquote {
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #04a8ff;
+  color: #ffffff !important;
 }
 /*# sourceMappingURL=main.css.map */

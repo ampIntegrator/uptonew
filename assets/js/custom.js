@@ -177,9 +177,90 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', () => {
     const sliderTrack = document.querySelector('.clientSlider .slider-track');
     const firstUl = sliderTrack.querySelector('ul');
-    
+
     // Cloner automatiquement le ul pour l'effet seamless
     const clone = firstUl.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
     sliderTrack.appendChild(clone);
 });
+
+// Script pour activer automatiquement le menu selon la page actuelle
+document.addEventListener('DOMContentLoaded', function() {
+    // Récupérer le nom du fichier PHP actuel
+    const currentPage = window.location.pathname.split('/').pop();
+
+    // Mapper les pages avec leurs ID de menu correspondants
+    const pageToMenuId = {
+        'solutions.php': 'item002',
+        'troisieme.php': 'item003',
+        'quatrieme.php': 'item004',
+        'cinquieme.php': 'item005',
+        'blog.php': 'item006'
+    };
+
+    // Si la page actuelle existe dans le mapping
+    if (pageToMenuId[currentPage]) {
+        const menuItem = document.getElementById(pageToMenuId[currentPage]);
+        if (menuItem) {
+            menuItem.classList.add('active');
+        }
+    }
+
+    // Alternative : ajouter .active sur tous les liens qui correspondent à la page actuelle
+    const allNavLinks = document.querySelectorAll('header .nav-link, header .btn');
+    allNavLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href === currentPage) {
+            link.classList.add('active');
+        }
+    });
+});
+
+// Fonction pour générer le sommaire (uniquement sur les pages blog)
+function generateTableOfContents() {
+    const summaryBox = document.querySelector('.summaryBox');
+    const postContent = document.querySelector('.postContent');
+
+    // Vérifier que les éléments existent (uniquement sur les pages blog)
+    if (!summaryBox || !postContent) return;
+
+    // Récupérer tous les headings (h2, h3, h4, h5, h6)
+    const headings = postContent.querySelectorAll('h2, h3, h4, h5, h6');
+
+    if (headings.length === 0) return;
+
+    // Créer la liste
+    const ul = document.createElement('ul');
+    ul.classList.add('summary-list');
+
+    headings.forEach((heading, index) => {
+        // Ajouter un ID au heading si il n'en a pas
+        if (!heading.id) {
+            heading.id = `heading-${index}`;
+        }
+
+        // Créer l'élément de liste
+        const li = document.createElement('li');
+        li.classList.add(heading.tagName.toLowerCase()); // Ajoute la classe h2, h3, h4, etc.
+        li.textContent = heading.textContent;
+        li.style.cursor = 'pointer';
+
+        // Ajouter l'événement de clic avec offset de 80px
+        li.addEventListener('click', () => {
+            const yOffset = -80; // Décalage de 80px vers le haut
+            const y = heading.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({
+                top: y,
+                behavior: 'smooth'
+            });
+        });
+
+        ul.appendChild(li);
+    });
+
+    summaryBox.appendChild(ul);
+}
+
+// Exécuter la génération du sommaire au chargement de la page
+document.addEventListener('DOMContentLoaded', generateTableOfContents);
