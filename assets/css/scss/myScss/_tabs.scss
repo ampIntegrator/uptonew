@@ -1,6 +1,6 @@
 .tabs{
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: $border-radius-lg;
     .nav{
         margin: 0;
         height: 40px;
@@ -14,8 +14,8 @@
     }
     .tab-content{
         border-top:0 !important;
-        border-bottom-left-radius: 16px;
-        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: $border-radius-lg;
+        border-bottom-right-radius: $border-radius-lg;
         overflow: hidden;
         background-color: black;
         *:last-child{

@@ -29,10 +29,14 @@ $headings-font-weight: normal;
 $btn-border-radius: 8px;
 $btn-border-radius-sm: 6px;
 
+// Border radius
+$border-radius-lg: 16px;
+$border-radius-md: 8px;
+
 // .card
 $card-border-width: 0px;
 $card-border-color: $borderU;
-$card-border-radius: 16px;
+$card-border-radius: $border-radius-lg;
 
 //accordion
 $accordion-bg: black;
