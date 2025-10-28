@@ -1,22 +1,24 @@
 // Variables personnalisées (AVANT l'import Bootstrap)
-$green: #01FF88;
-$success: $green;
-
-$red: #FF0066;
-$danger: $red;
-
-$blue: #04a8ff;
-$primary: $blue;
-
-$info: #72d2c2;
-$light: #f1f3f5;
-$dark: rgba(18, 27, 54, 1);
+$green       : #01FF88;
+$success     : $green;
+$red         : #FF0066;
+$danger      : $red;
+$orange      :#ffc107;
+$warning     : $orange;
+$purple      : #6f42c1;
+$teal        : #20c997;
+$priceColor  : #428161;
+$blue        : #04a8ff;
+$primary     : $blue;
+$info        : #72d2c2;
+$light       : #f1f3f5;
+$dark        : rgba(18, 27, 54, 1);
 
 // Couleurs de base
-$white: #ffffff;
-$black: #000000;
-$footer-bg: #113A51;
-$text-dark: #212121;
+$white       : #ffffff;
+$black       : #000000;
+$footer-bg   : #113A51;
+$text-dark   : #212121;
 
 $cubiTr: cubic-bezier(0.4, 0, 0.2, 1);
 $trans: .3s all $cubiTr;
@@ -45,6 +47,8 @@ $accordion-border-radius: 10px;
 //tabs
 $nav-tabs-border-radius: 0px;
 
+
+
 // Map des couleurs globale
 $theme-colors: (
     'Primary' : $primary,
@@ -53,9 +57,6 @@ $theme-colors: (
     'Purple'  : $purple,
     'Warning' : $warning,
     'Teal'    : $teal,
-    'Indigo'  : $indigo,
-    'Cyan'    : $cyan,
     'Success' : $green,
     'Info'    : $info
 );
-

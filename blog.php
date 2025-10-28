@@ -461,8 +461,6 @@
 
 </body>
 <script src="assets/js/custom.js"></script>
-<script>
-    document.getElementById('item006').classList.add('active');
-</script>
+
 
 </html>

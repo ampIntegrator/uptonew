@@ -45,19 +45,19 @@
                 .nav-link:not(.active) .textToAdjust,
                 .nav-link.textToAdjust:not(.active) {
                     color: $color !important;
-                    transition: .3s all $cubiTr;
+                    transition: $trans;
                 }
                 
                 // Tabs actifs : background en couleur, texte en blanc
                 .nav-link.active {
                     &.bgToAdjust {
                         background-color: $color !important;
-                        transition: .3s all $cubiTr;
+                        transition: $trans;
                     }
                     
                     &.textToAdjust {
                         color: $white !important;
-                        transition: .3s all $cubiTr;
+                        transition: $trans;
                     }
                 }
                 
@@ -65,7 +65,7 @@
                 .nav-item.borderColorToAdjust {
                     &:not(:first-child) {
                         border-left: 1px solid rgba($color, 0.4);
-                        transition: .3s all $cubiTr;
+                        transition: $trans;
                     }
                 }
             }

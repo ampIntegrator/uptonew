@@ -13,7 +13,7 @@
         }
 
         i {
-            transition: .3s all $cubiTr;
+            transition: $trans;
             position: absolute;
             right: 16px;
             top: 50%;
@@ -39,18 +39,18 @@
             .accordion-button.collapsed {
                 .textToAdjust {
                     color: $color !important;
-                    transition: .3s all $cubiTr;
+                    transition: $trans;
                 }
             }
 
             // Accordion OUVERT : background en couleur, titre et icône en blanc
             .accordion-button:not(.collapsed) {
                 background-color: $color !important;
-                transition: .3s all $cubiTr;
+                transition: $trans;
                 
                 .textToAdjust {
                     color: $white !important;
-                    transition: .3s all $cubiTr;
+                    transition: $trans;
                 }
 
                 i.textToAdjust {

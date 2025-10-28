@@ -1,22 +1,25 @@
 
 header {
-    .navbar{
-        background-color: $dark;
-    }
-    .navbar-brand {
-        transition: .3s all $cubiTr;
 
+    .navbar-brand {
+        transition: $trans;
+        
         svg {
-            height: 72px;
-            width: 72px;
-            transition: .3s all $cubiTr;
+            height: 64px;
+            width: 64px;
+            transition: $trans;
+            
+        }
+        .position-relative{
+            top: 2px;
         }
     }
-
+    
     .navbar {
+        background-color: $dark;
         padding-top: 16px;
         padding-bottom: 16px;
-        transition: .3s all $cubiTr;
+        transition: $trans;
         .container{
             transition: $trans;
         }
