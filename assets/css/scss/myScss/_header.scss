@@ -1,0 +1,109 @@
+
+header {
+    .navbar{
+        background-color: $dark;
+    }
+    .navbar-brand {
+        transition: .3s all $cubiTr;
+
+        svg {
+            height: 72px;
+            width: 72px;
+            transition: .3s all $cubiTr;
+        }
+    }
+
+    .navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        transition: .3s all $cubiTr;
+        .container{
+            transition: $trans;
+        }
+        .nav-item {
+            margin-left: 32px;
+                &:hover{
+                    &.liSuccess a{
+                        color: $success !important
+                    }
+                    &.liDanger a{
+                        color: $danger !important
+                    }
+                    &.liPrimary a{
+                        color: $primary !important
+                    }
+                }
+            .nav-link {
+                color: $body-color;
+                padding: 0;
+                margin: 0;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                font-weight: 500;
+                &.active {
+                    &#item002 {
+                        color: $success;
+                    }
+
+                    &#item003 {
+                        color: $danger;
+                    }
+
+                    &#item004 {
+                        color: $primary;
+                    }
+
+                    &#item005 {
+                        color: $orange;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+body{
+        &.is-scrolled {
+        header {
+            .navbar-brand {
+                font-size: 26px !important;
+                svg {
+                    height: 44px;
+                    width: 44px;
+                }
+                
+            }
+            
+            nav {
+                padding-top: 0px;
+                padding-bottom: 8px;
+                
+                background-color: transparent !important;
+                .nav-item .nav-link {
+                    height: 44px;
+                }
+                > .container{
+    // backdrop-filter: blur(16px) saturate(180%);
+    // -webkit-backdrop-filter: blur(16px) saturate(180%);
+    // background-color: rgba(245, 247, 249, 0.75);
+    // border-radius: 12px;
+    // border: 1px solid rgba(255, 255, 255, 0.125);
+/* From https://css.glass */
+background: rgba(23, 37, 64, .7);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+border: 1px solid rgba(23, 37, 64, 0.29);
+                    border-radius: 0 0 8px 8px ;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+            }
+        }
+    }
+}
+

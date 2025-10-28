@@ -1,0 +1,98 @@
+.tabs{
+    overflow: hidden;
+    border-radius: 16px;
+    .nav{
+        margin: 0;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.08);
+        .nav-link{
+            border:0;
+            font-weight: 600;
+
+        }
+        border:0;
+    }
+    .tab-content{
+        border-top:0 !important;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        overflow: hidden;
+        background-color: black;
+        *:last-child{
+            margin-bottom: 0;
+        }
+        .tab-pane{
+            padding: 20px;
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            &:nth-child(2){
+                background-color: white;
+                p{
+                    color: $dark
+                }
+            }
+        }
+    }
+}
+
+.tabs {
+    // Map des couleurs
+    $tabs-colors: (
+        'Primary' : $primary,
+        'Danger'  : $danger,
+        'Orange'  : $orange,
+        'Purple'  : $purple,
+        'Warning' : $warning,
+        'Teal'    : $teal,
+        'Indigo'  : $indigo,
+        'Cyan'    : $cyan,
+        'Success' : $green,
+        'Info'    : $info
+    );
+    
+    // Boucle pour générer toutes les variantes
+    @each $name, $color in $tabs-colors {
+        &.color#{$name} {
+            .nav {
+                // Tabs non actifs : texte en couleur
+                .nav-link:not(.active) .textToAdjust,
+                .nav-link.textToAdjust:not(.active) {
+                    color: $color !important;
+                    transition: .3s all $cubiTr;
+                }
+                
+                // Tabs actifs : background en couleur, texte en blanc
+                .nav-link.active {
+                    &.bgToAdjust {
+                        background-color: $color !important;
+                        transition: .3s all $cubiTr;
+                    }
+                    
+                    &.textToAdjust {
+                        color: white !important;
+                        transition: .3s all $cubiTr;
+                    }
+                }
+                
+                // Border entre les items
+                .nav-item.borderColorToAdjust {
+                    &:not(:first-child) {
+                        border-left: 1px solid rgba($color, 0.4);
+                        transition: .3s all $cubiTr;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Exception pour colorSuccess et colorWarning : texte en dark quand actif
+    &.colorSuccess,
+    &.colorWarning {
+        .nav {
+            .nav-link.active.textToAdjust {
+                color: $dark !important;
+            }
+        }
+    }
+}

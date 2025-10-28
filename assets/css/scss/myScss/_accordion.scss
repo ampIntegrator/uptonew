@@ -1,0 +1,95 @@
+.accordion {
+    .accordion-item {
+        border: none;
+    }
+
+    .accordion-button {
+        // Icône Bootstrap
+        padding-right: 40px;
+
+        // Masquer la flèche par défaut de Bootstrap
+        &::after {
+            display: none;
+        }
+
+        i {
+            transition: .3s all $cubiTr;
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:focus {
+            box-shadow: none !important;
+            outline: none !important;
+        }
+    }
+
+    // Map des couleurs
+    $accordion-colors: (
+        'Primary': $primary,
+        'Danger': $danger,
+        'Orange': $orange,
+        'Purple': $purple,
+        'Warning': $warning,
+        'Teal': $teal,
+        'Indigo': $indigo,
+        'Cyan': $cyan,
+        'Success': $green,
+        'Info': $info
+    );
+
+    // Boucle pour générer toutes les variantes
+    @each $name, $color in $accordion-colors {
+        &.color#{$name} {
+
+            // Border sur tous les headers sauf le premier
+            .accordion-item:not(:first-child) .borderColorToAdjust {
+                border-top: 1px solid rgba($color, 0.4);
+            }
+
+            // Accordion FERMÉ : titre et icône en couleur
+            .accordion-button.collapsed {
+                .textToAdjust {
+                    color: $color !important;
+                    transition: .3s all $cubiTr;
+                }
+            }
+
+            // Accordion OUVERT : background en couleur, titre et icône en blanc
+            .accordion-button:not(.collapsed) {
+                background-color: $color !important;
+                transition: .3s all $cubiTr;
+                
+                .textToAdjust {
+                    color: white !important;
+                    transition: .3s all $cubiTr;
+                }
+
+                i.textToAdjust {
+                    transform: translateY(-50%) rotate(180deg);
+                }
+            }
+        }
+    }
+
+    // Exception pour colorSuccess et colorWarning : texte en DARK quand ouvert
+    &.colorSuccess,
+    &.colorWarning {
+        .accordion-button:not(.collapsed) {
+            .textToAdjust {
+                color: $dark !important;
+            }
+        }
+    }
+}
+
+.accordion-item:nth-child(2) .accordion-body {
+    background-color: white;
+}
+
+.accordion-item:nth-child(2) .accordion-body,
+.accordion-item:nth-child(2) .accordion-body * {
+    color: #212121 !important;
+}

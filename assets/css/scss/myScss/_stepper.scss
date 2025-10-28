@@ -1,0 +1,160 @@
+:root {
+    --circle-size: 36px;
+    --spacing: clamp(0.25rem, 2vw, 0.5rem);
+}
+
+
+
+
+.stepper {
+
+    .olStepper {
+        display: flex;
+        counter-reset: stepper-counter; // Initialise le compteur
+
+        .stepperItem {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            text-align: center;
+            counter-increment: stepper-counter; // Incrémente le compteur pour chaque item
+
+            &:before {
+                --size: 3rem;
+                content: counter(stepper-counter); // Affiche le numéro
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: var(--circle-size);
+                height: var(--circle-size);
+                border-radius: 50%;
+                background-color: white;
+                margin: 0 auto 1rem;
+                font-weight: 600;
+                font-size: clamp(0.875rem, 3vw, 1.25rem);
+                font-size: 20px;
+            }
+
+            &:not(:last-child) {
+                &:after {
+                    content: "";
+                    position: relative;
+                    top: calc(var(--circle-size) / 2);
+                    width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
+                    left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
+                    height: 2px;
+                    background-color: white;
+                    order: -1;
+                }
+            }
+
+            .stepperTitle {
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 8px;
+
+            }
+
+            .stepperDesc {
+                color: white;
+                font-size: clamp(0.85rem, 2vw, 1rem);
+                padding-left: var(--spacing);
+                padding-right: var(--spacing);
+            }
+
+            &.active {
+                &:before {
+                    color: white;
+                }
+
+                .stepperDesc,
+                .stepperTitle {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    &.vertical{
+        .olStepper{
+            display: block;
+            .stepperItem{
+                display: block;
+                position: relative;
+                padding-left: 62px;
+                text-align: left;
+                &:not(:last-child){
+                    margin-bottom: 40px;
+                                        // Barre verticale
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        left: calc(var(--circle-size) / 2 - 1px);
+                        top: calc(var(--circle-size) + 4px); // Marge de 4px en haut
+                        width: 2px;
+                        height: calc(100% - 12px); // Réduit de 8px (4px haut + 4px bas)
+                        background-color: white;
+                        order: 0;
+                    }
+                }
+                &:before{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                }
+                .stepperTitle{
+                    padding-top: 6px;
+                }
+                .stepperDesc{
+                    padding: 0;
+                }
+            }
+        }
+    }
+    // Map des couleurs
+    $card-colors: (
+        'Primary' : $primary,
+        'Danger' : $danger,
+        'Orange' : $orange,
+        'Purple' : $purple,
+        'Warning' : $warning,
+        'Teal' : $teal,
+        'Indigo' : $indigo,
+        'Cyan' : $cyan,
+        'Success' : $green,
+        'Info' : $info
+    );
+
+    // Boucle pour générer toutes les variantes
+    @each $name, $color in $card-colors {
+        &.color#{$name} {
+            .stepperItem {
+                &:before {
+                    color: $color; // Couleur du texte
+                }
+
+                .stepperTitle {
+                    color: $color;
+
+                }
+
+                &.active {
+                    &:before {
+                        background-color: $color;
+                        color: white !important
+                    }
+
+                    .stepperDesc{
+                        color: white
+                    }
+
+                    .stepperTitle {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+}

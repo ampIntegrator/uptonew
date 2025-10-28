@@ -1,0 +1,218 @@
+form {
+    fieldset {
+        display: block;
+        position: relative;
+        
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+
+        // Styles communs pour input et textarea
+        input:not([type="radio"]):not([type="checkbox"]),
+        textarea {
+            border: 0;
+            display: block;
+            background-color: black;
+            border-radius: 0;
+            width: 100%;
+            outline: none !important;
+            box-shadow: none !important;
+            padding: 0 8px;
+            color: white;
+            overflow: hidden;
+            transition: $trans;
+
+            &:focus,
+            &:active {
+                outline: none !important;
+                box-shadow: none !important;
+
+                &::placeholder {
+                    opacity: 0;
+                }
+            }
+        }
+
+        input:not([type="radio"]):not([type="checkbox"]) {
+            height: 45px;
+            line-height: 44px;
+
+            &::placeholder {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+                position: absolute;
+                left: 8px;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: $trans;
+                
+            }
+
+            &:focus::placeholder,
+            &:active::placeholder {
+                top: 0%;
+            }
+        }
+
+        textarea {
+            height: 100px;
+            padding: 8px;
+
+            &::placeholder {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+                position: absolute;
+                left: 8px;
+                top: 16px;
+                transform: translateY(-50%);
+                transition: $trans;
+            }
+
+            &:focus::placeholder,
+            &:active::placeholder {
+                top: 0;
+            }
+        }
+
+        // Border bottom géré via classe
+        &.borderColorToAdjust {
+
+            input:not([type="radio"]):not([type="checkbox"]),
+            textarea {
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+            }
+        }
+    }
+}
+
+// Styles communs pour inputRadioBox et inputCheckBox
+.inputRadioBox,
+.inputCheckBox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    border: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 8px;
+    background-color: black;
+
+    >span {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 8px;
+        width: 100%;
+    }
+
+    label {
+        font-weight: 600;
+        color: white;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 24px;
+        cursor: pointer;
+        transition: $trans;
+
+        i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            min-width: 18px;
+            max-width: 18px;
+            height: 18px;
+            background-color: white !important; // BLANC par défaut - important pour écraser bgToAdjust
+            color: white;
+            transition: $trans;
+            font-size: 20px;
+        }
+    }
+
+    input {
+        display: none !important;
+    }
+}
+
+// Différence entre radio (rond) et checkbox (carré)
+.inputRadioBox label i {
+    border-radius: 50%;
+}
+
+.inputCheckBox label i {
+    border-radius: 3px;
+}
+
+// Boucle pour générer toutes les variantes de couleurs
+form {
+    $form-colors: (
+        'Primary': $primary,
+        'Danger': $danger,
+        'Orange': $orange,
+        'Purple': $purple,
+        'Warning': $warning,
+        'Teal': $teal,
+        'Indigo': $indigo,
+        'Cyan': $cyan,
+        'Success': $green,
+        'Info': $info
+    );
+
+@each $name, $color in $form-colors {
+    &.color#{$name} {
+
+        // Texte à ajuster
+        .textToAdjust {
+            color: $color !important;
+            transition: $trans;
+        }
+
+        // Placeholder à ajuster
+        .placeholderToAdjust::placeholder {
+            color: $color !important;
+        }
+
+        // Border à ajuster
+        .borderColorToAdjust {
+            border-color: rgba($color, 0.3) !important;
+
+            &:focus-within {
+                border-color: $color !important;
+            }
+        }
+
+        fieldset.borderColorToAdjust {
+
+            input:not([type="radio"]):not([type="checkbox"]),
+            textarea {
+                border-bottom-color: rgba($color, 0.3);
+
+                &:focus,
+                &:active {
+                    border-color: $color;
+                }
+            }
+        }
+
+        // SEULEMENT quand checked : le background devient coloré
+        input:checked+label.checkableLabel {
+            i {
+                background-color: $color !important; // Couleur seulement si checked
+                color: white !important;
+            }
+
+            span {
+                color: $color !important;
+            }
+        }
+    }
+}
+}

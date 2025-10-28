@@ -1,0 +1,470 @@
+// FONTS
+@font-face {
+    font-family: 'dinBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN Alternate Bold'), url('../fonts/DINAlternate-Bold.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+@import 'scss/myScss/variables';
+@import 'scss/bootstrap/bootstrap';
+@import 'scss/myScss/box';
+@import 'scss/myScss/accordion';
+@import 'scss/myScss/card';
+@import 'scss/myScss/tabs';
+@import 'scss/myScss/header';
+@import 'scss/myScss/offcanvas';
+@import 'scss/myScss/stepper';
+@import 'scss/myScss/footer';
+@import 'scss/myScss/form';
+@import 'scss/myScss/blog';
+
+// Vos styles personnalisés APRÈS Bootstrap
+.text-orange {
+    color: $orange !important
+}
+
+.bg-orange {
+    background-color: $orange !important
+}
+
+.text-purple {
+    color: $purple !important
+}
+
+.bg-purple {
+    background-color: $purple !important
+}
+
+.text-teal {
+    color: $teal !important
+}
+
+.bg-teal {
+    background-color: $teal !important
+}
+
+.text-indigo {
+    color: $indigo !important
+}
+
+.bg-indigo {
+    background-color: $indigo !important
+}
+
+.text-cyan {
+    color: $cyan !important
+}
+
+.bg-cyan {
+    background-color: $cyan !important
+}
+
+.btn{
+    flex-shrink:0;
+}
+
+.fz14{
+    font-size: 14px;
+}
+body {
+    padding-top: 105px;
+    background-color: black;
+
+
+
+    ul {
+        list-style: none;
+    }
+
+}
+
+.separator {
+    display: block;
+    height: 6px;
+    width: 40px;
+    margin-bottom: 24px;
+}
+
+.flexCS {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.flexCC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCSB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fs-0 {
+    font-size: 72px;
+
+}
+
+.headingWithIcon {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    i {
+        font-size: 48px;
+        margin-right: 16px;
+
+    }
+
+    line-height: 1.15;
+    margin-bottom: 24px;
+}
+
+h3,
+h2 {
+    margin-bottom: 16px;
+
+}
+
+.radioZone {
+    .form-check {
+        padding-left: 8px;
+    }
+
+    label {
+        div {
+            transition: .3s all $cubiTr;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+    }
+
+    input {
+        &:checked {
+            +label .p-2 {
+                width: 30px;
+            }
+        }
+    }
+}
+
+p {
+    strong {
+        font-weight: 600;
+
+    }
+}
+
+
+
+#menuToggler {
+    background-color: transparent;
+    border: 1px solid rgba($success, .3);
+
+    >div {
+        width: 22px;
+        height: 2px;
+        margin: 4px 0;
+        border-radius: 1px;
+    }
+}
+
+.portfolioThumbnail {
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >* {
+        line-height: 1.2;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0;
+        position: relative;
+        z-index: 5;
+        transition: $trans;
+        text-align: center;
+        color: white;
+    }
+
+    border-radius: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    transition: $trans;
+    cursor: pointer;
+
+    &:after {
+        transition: $trans;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(0, 0, 0, .25);
+    }
+
+    // Map des couleurs
+    $portfolio-colors: (
+        'Primary' : $primary,
+        'Danger' : $danger,
+        'Orange' : $orange,
+        'Purple' : $purple,
+        'Warning' : $warning,
+        'Teal' : $teal,
+        'Indigo' : $indigo,
+        'Cyan' : $cyan,
+        'Success' : $green,
+        'Info' : $info
+    );
+
+// Boucle pour générer toutes les variantes
+@each $name, $color in $portfolio-colors {
+    &.color#{$name} {
+
+        &.active,
+        &:hover {
+            * {
+                color: white
+            }
+
+            &:after {
+                background-color: $color;
+
+            }
+        }
+    }
+}
+
+// Exception pour colorSuccess et colorWarning : texte en dark
+&.colorSuccess,
+&.colorWarning {
+    &:hover>* {
+        color: $dark !important;
+        opacity: 1;
+    }
+}
+}
+
+.texture {
+    background-image: url(../img/mockup.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 400px;
+}
+
+header {
+    .underMenu {
+        overflow: hidden;
+        transition: $trans;
+
+        >.row {
+            overflow: hidden;
+            transition: all 0.3s ease;
+
+            >div {
+                border-top-width: 2px;
+                border-top-style: solid;
+                padding-top: 24px;
+            }
+        }
+
+        li {
+            &:not(:last-child) {
+                margin-bottom: 12px;
+                line-height: 1.15;
+            }
+        }
+    }
+}
+
+.underMenu .rowSuccess,
+.underMenu .rowDanger,
+.underMenu .rowPrimary {
+    display: none;
+    padding-top: 16px;
+}
+
+.bgi {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &.h160 {
+        height: 160px;
+
+    }
+}
+
+.subMenuTitle {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.15;
+}
+.badge{
+    text-decoration: none !important;
+}
+
+.badgeBox{
+    display: flex;
+    flex-wrap: wrap;
+    .badge{
+        margin-inline-end: 8px;
+    }
+}
+
+.roundedImg{
+    border-radius: 16px
+}
+#topPage {
+    height: 120px;
+
+    h1 {
+        font-size: 48px;
+        margin: 0 auto;
+        color: white;
+        line-height: 1.2;
+        max-width: 700px;
+    }
+}
+
+.fw-semibold{
+    font-weight: 600; 
+}
+
+
+.clientSlider {
+    overflow: hidden;
+    padding: 0px 0;
+    background: transparent; // Optionnel
+    position: relative;
+
+    // Gradient gauche
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px; // Largeur du fade
+        height: 100%;
+        background: linear-gradient(to right, #000 0%, transparent 100%);
+        z-index: 2;
+        pointer-events: none; // Pour garder les logos cliquables
+    }
+
+    // Gradient droite
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px; // Largeur du fade
+        height: 100%;
+        background: linear-gradient(to left, #000 0%, transparent 100%);
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-shrink: 0; // Important pour éviter la compression
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+        flex-shrink: 0;
+    }
+
+    img {
+        max-height: 44px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        filter: brightness(0) invert(1);
+        transition: all 0.3s ease;
+    }
+}
+
+.box{
+    .clientSlider{
+            // Gradient gauche
+    &::before {
+        background: linear-gradient(to right, $dark 0%, transparent 100%);
+
+    }
+
+    // Gradient droite
+    &::after {
+
+        background: linear-gradient(to left, $dark 0%, transparent 100%);
+
+    }
+    }
+}
+
+.slider-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+
+    &:hover {
+        animation-play-state: paused; // Pause au survol
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); // -50% car on a dupliqué le contenu
+    }
+}
+
+
+
+ul{
+    &.withCaret{
+        margin: 0;
+        padding: 0;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            line-height: 1.2;
+            &:not(:last-child){
+                margin-bottom: 16px;
+            }
+            &:before{
+                content: "\f234";
+                    font-family: bootstrap-icons !important;
+                    font-style: normal;
+                    font-weight: 400 !important;
+                    font-variant: normal;
+                    position: relative;
+                    left: -4px;
+                    margin-right: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="759" viewBox="0 0 759 900" height="900" preserveAspectRatio="xMidYMid meet" version="1.0">
+  <defs>
+    <clipPath id="3f01df4482">
+      <path d="M 0.582031 2.355469 L 91.417969 2.355469 L 91.417969 795.867188 L 0.582031 795.867188 Z M 0.582031 2.355469 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="da00dfe882">
+      <path d="M 668.582031 2.355469 L 759.417969 2.355469 L 759.417969 795.867188 L 668.582031 795.867188 Z M 668.582031 2.355469 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="83851e68b5">
+      <path d="M 501.046875 326.316406 L 595.488281 326.316406 L 595.488281 795.867188 L 501.046875 795.867188 Z M 501.046875 326.316406 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="68c8f41c3e">
+      <path d="M 333.710938 434.496094 L 428.148438 434.496094 L 428.148438 795.867188 L 333.710938 795.867188 Z M 333.710938 434.496094 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="bfb980d5f6">
+      <path d="M 159.902344 543.402344 L 254.339844 543.402344 L 254.339844 795.867188 L 159.902344 795.867188 Z M 159.902344 543.402344 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="754a65d15b">
+      <path d="M 1.871094 703.421875 L 254.332031 703.421875 L 254.332031 795.867188 L 1.871094 795.867188 Z M 1.871094 703.421875 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="8f4dc32995">
+      <path d="M 501.039062 703.421875 L 759.410156 703.421875 L 759.410156 795.867188 L 501.039062 795.867188 Z M 501.039062 703.421875 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="f377c8a800">
+      <path d="M 0.574219 0 L 759.347656 0 L 759.347656 92.449219 L 0.574219 92.449219 Z M 0.574219 0 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="de39cde743">
+      <path d="M 501 745.703125 L 662.199219 745.703125 L 662.199219 900 L 501 900 Z M 501 745.703125 " clip-rule="nonzero"/>
+    </clipPath>
+    <clipPath id="400d8e305a">
+      <path d="M 501.046875 164.496094 L 595.488281 164.496094 L 595.488281 259.644531 L 501.046875 259.644531 Z M 501.046875 164.496094 " clip-rule="nonzero"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Barres verticales principales -->
+  <g clip-path="url(#3f01df4482)">
+    <path fill="#fff" d="M 0.582031 2.355469 L 91.417969 2.355469 L 91.417969 795.867188 L 0.582031 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <g clip-path="url(#da00dfe882)">
+    <path fill="#fff" d="M 668.582031 2.355469 L 759.417969 2.355469 L 759.417969 795.867188 L 668.582031 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <!-- Barres verticales intermédiaires -->
+  <g clip-path="url(#83851e68b5)">
+    <path fill="#fff" d="M 501.046875 326.316406 L 595.488281 326.316406 L 595.488281 795.867188 L 501.046875 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <g clip-path="url(#68c8f41c3e)">
+    <path fill="#fff" d="M 333.710938 434.496094 L 428.148438 434.496094 L 428.148438 795.867188 L 333.710938 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <g clip-path="url(#bfb980d5f6)">
+    <path fill="#fff" d="M 159.902344 543.402344 L 254.339844 543.402344 L 254.339844 795.867188 L 159.902344 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <!-- Barres horizontales du bas -->
+  <g clip-path="url(#754a65d15b)">
+    <path fill="#fff" d="M 1.871094 703.421875 L 254.332031 703.421875 L 254.332031 795.867188 L 1.871094 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <g clip-path="url(#8f4dc32995)">
+    <path fill="#fff" d="M 501.039062 703.421875 L 759.410156 703.421875 L 759.410156 795.867188 L 501.039062 795.867188 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <!-- Barre horizontale du haut -->
+  <g clip-path="url(#f377c8a800)">
+    <path fill="#fff" d="M 0.574219 0 L 759.347656 0 L 759.347656 92.449219 L 0.574219 92.449219 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <!-- Triangle en bas à droite -->
+  <g clip-path="url(#de39cde743)">
+    <path fill="#fff" d="M 501.042969 900.003906 L 501.042969 745.703125 L 662.199219 745.703125 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+  
+  <!-- Carré bleu (partie à modifier dynamiquement) -->
+  <g clip-path="url(#400d8e305a)">
+    <path fill="#2272ff" d="M 501.046875 164.496094 L 595.488281 164.496094 L 595.488281 259.644531 L 501.046875 259.644531 Z" fill-opacity="1" fill-rule="nonzero"/>
+  </g>
+</svg>

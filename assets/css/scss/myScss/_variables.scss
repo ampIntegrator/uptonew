@@ -1,0 +1,43 @@
+// Variables personnalisées (AVANT l'import Bootstrap)
+// $green: #C9F326;
+$green: #01FF88;
+$success: $green;
+
+$red: #FF0066;
+$danger: $red;
+
+// $primary: #4157D0;
+$blue: #04a8ff;
+$primary: $blue;
+
+// $yellow: #c8f31d;
+// $warning: $yellow;
+
+$info: #72d2c2;
+$light: #f1f3f5;
+// $dark: #1c1c1c;
+$dark: rgba(18, 27, 54, 1);
+
+$cubiTr: cubic-bezier(0.4, 0, 0.2, 1);
+$trans: .3s all $cubiTr;
+$body-color: rgb(252, 251, 248);
+$link-hover-color: $green;
+$borderU: rgba(255, 255, 255, 0.1);
+$font-family-base: 'Sen', sans-serif;
+$headings-font-family: 'dinBold', sans-serif;
+$headings-font-weight: normal;
+$btn-border-radius: 8px;
+$btn-border-radius-sm: 6px;
+
+// .card
+$card-border-width: 0px;
+$card-border-color: $borderU;
+$card-border-radius: 16px;
+
+//accordion
+$accordion-bg: black;
+$accordion-border-radius: 10px;
+
+//tabs
+$nav-tabs-border-radius: 0px;
+

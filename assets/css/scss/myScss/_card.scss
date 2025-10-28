@@ -1,0 +1,185 @@
+.card {
+    height: 100%;
+    position: relative;
+    opacity: 1;
+    &:after {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        content: "";
+        height: 150px;
+        transition: .3s all $cubiTr;
+    }
+
+    .card-thumbnail {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        height: 150px;
+    }
+
+    .card-header {
+        background-color: transparent;
+        .card-title{
+            min-height: 84px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        padding: 0;
+        border: 0;
+
+        * {
+            line-height: 1.2;
+            text-align: center;
+        }
+    }
+
+    .card-body {
+        background-color: $light;
+        transition: .3s all $cubiTr;
+
+        .pricing-card-title {
+            color: #428161 !important;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        p {
+            line-height: 1.3;
+            text-align: center;
+            color: $dark;
+            font-weight: 600;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 0 !important;
+
+            li {
+                color: $dark;
+                list-style: disc;
+            }
+        }
+    }
+
+    .card-footer {
+        border: 0;
+    }
+
+    &.cardSmall {
+        .card-body,
+        .card-footer {
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+        .card-header{
+            padding: 0 !important;
+            > div span{
+                font-size: 15px !important;
+            }
+        }
+        .card-title {
+            font-size: 20px !important;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+
+        .pricing-card-title {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        p,
+        li {
+            font-size: 14px;
+        }
+
+        .card-header {
+            height: auto;
+            min-height: 90px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+    }
+
+    // Map des couleurs
+    $card-colors: (
+        'Primary' : $primary,
+        'Danger'  : $danger,
+        'Orange'  : $orange,
+        'Purple'  : $purple,
+        'Warning' : $warning,
+        'Teal'    : $teal,
+        'Indigo'  : $indigo,
+        'Cyan'    : $cyan,
+        'Success' : $green,
+        'Info'    : $info
+    );
+    
+    // Boucle pour générer toutes les variantes
+    @each $name, $color in $card-colors {
+        &.color#{$name} {
+            transition: .3s all $cubiTr;
+            
+            // After avec couleur en transparence
+            &:after {
+                background-color: rgba($color, 0.3);
+            }
+            
+            // Titre en couleur
+            .textToAdjust {
+                color: $color !important;
+                transition: .3s all $cubiTr;
+            }
+            
+            // Bouton avec background
+            .bgToAdjust {
+                background-color: $color !important;
+                border-color: $color !important;
+                color: white !important;
+                transition: .3s all $cubiTr;
+            }
+            
+            // Effet hover
+            &:hover {
+                background-color: $color !important;
+                
+                .card-body {
+                    background-color: transparent !important;
+                }
+                
+                // Tous les textes en blanc par défaut
+                * {
+                    color: white !important;
+                }
+                
+                // Le bouton devient blanc avec texte de la couleur
+                .card-footer{
+                    .bgToAdjust {
+                        background-color: white !important;
+                        border-color: white !important;
+                        color: $color !important;
+                    }
+
+                }
+            }
+        }
+    }
+    
+    // Exception pour colorSuccess et colorWarning au hover : textes en dark
+    &.colorSuccess:hover,
+    &.colorWarning:hover {
+        * {
+            color: $dark !important;
+        }
+        
+        // Le bouton garde le texte en dark
+        .bgToAdjust {
+            color: $dark !important;
+        }
+    }
+}
