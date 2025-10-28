@@ -28,7 +28,7 @@
                 width: var(--circle-size);
                 height: var(--circle-size);
                 border-radius: 50%;
-                background-color: white;
+                background-color: $white;
                 margin: 0 auto 1rem;
                 font-weight: 600;
                 font-size: clamp(0.875rem, 3vw, 1.25rem);
@@ -43,7 +43,7 @@
                     width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
                     left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
                     height: 2px;
-                    background-color: white;
+                    background-color: $white;
                     order: -1;
                 }
             }
@@ -56,7 +56,7 @@
             }
 
             .stepperDesc {
-                color: white;
+                color: $white;
                 font-size: clamp(0.85rem, 2vw, 1rem);
                 padding-left: var(--spacing);
                 padding-right: var(--spacing);
@@ -64,7 +64,7 @@
 
             &.active {
                 &:before {
-                    color: white;
+                    color: $white;
                 }
 
                 .stepperDesc,
@@ -93,7 +93,7 @@
                         top: calc(var(--circle-size) + 4px); // Marge de 4px en haut
                         width: 2px;
                         height: calc(100% - 12px); // Réduit de 8px (4px haut + 4px bas)
-                        background-color: white;
+                        background-color: $white;
                         order: 0;
                     }
                 }
@@ -112,22 +112,8 @@
             }
         }
     }
-    // Map des couleurs
-    $card-colors: (
-        'Primary' : $primary,
-        'Danger' : $danger,
-        'Orange' : $orange,
-        'Purple' : $purple,
-        'Warning' : $warning,
-        'Teal' : $teal,
-        'Indigo' : $indigo,
-        'Cyan' : $cyan,
-        'Success' : $green,
-        'Info' : $info
-    );
-
     // Boucle pour générer toutes les variantes
-    @each $name, $color in $card-colors {
+    @each $name, $color in $theme-colors {
         &.color#{$name} {
             .stepperItem {
                 &:before {
@@ -142,15 +128,15 @@
                 &.active {
                     &:before {
                         background-color: $color;
-                        color: white !important
+                        color: $white !important
                     }
 
                     .stepperDesc{
-                        color: white
+                        color: $white
                     }
 
                     .stepperTitle {
-                        color: white;
+                        color: $white;
                     }
                 }
             }
