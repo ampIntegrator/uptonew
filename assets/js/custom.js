@@ -177,9 +177,41 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', () => {
     const sliderTrack = document.querySelector('.clientSlider .slider-track');
     const firstUl = sliderTrack.querySelector('ul');
-    
+
     // Cloner automatiquement le ul pour l'effet seamless
     const clone = firstUl.cloneNode(true);
     clone.setAttribute('aria-hidden', 'true');
     sliderTrack.appendChild(clone);
+});
+
+// Script pour activer automatiquement le menu selon la page actuelle
+document.addEventListener('DOMContentLoaded', function() {
+    // Récupérer le nom du fichier PHP actuel
+    const currentPage = window.location.pathname.split('/').pop();
+
+    // Mapper les pages avec leurs ID de menu correspondants
+    const pageToMenuId = {
+        'solutions.php': 'item002',
+        'troisieme.php': 'item003',
+        'quatrieme.php': 'item004',
+        'cinquieme.php': 'item005',
+        'blog.php': 'item006'
+    };
+
+    // Si la page actuelle existe dans le mapping
+    if (pageToMenuId[currentPage]) {
+        const menuItem = document.getElementById(pageToMenuId[currentPage]);
+        if (menuItem) {
+            menuItem.classList.add('active');
+        }
+    }
+
+    // Alternative : ajouter .active sur tous les liens qui correspondent à la page actuelle
+    const allNavLinks = document.querySelectorAll('header .nav-link, header .btn');
+    allNavLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href === currentPage) {
+            link.classList.add('active');
+        }
+    });
 });
