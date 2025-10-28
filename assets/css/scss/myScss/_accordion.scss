@@ -26,22 +26,8 @@
         }
     }
 
-    // Map des couleurs
-    $accordion-colors: (
-        'Primary': $primary,
-        'Danger': $danger,
-        'Orange': $orange,
-        'Purple': $purple,
-        'Warning': $warning,
-        'Teal': $teal,
-        'Indigo': $indigo,
-        'Cyan': $cyan,
-        'Success': $green,
-        'Info': $info
-    );
-
     // Boucle pour générer toutes les variantes
-    @each $name, $color in $accordion-colors {
+    @each $name, $color in $theme-colors {
         &.color#{$name} {
 
             // Border sur tous les headers sauf le premier
@@ -63,7 +49,7 @@
                 transition: .3s all $cubiTr;
                 
                 .textToAdjust {
-                    color: white !important;
+                    color: $white !important;
                     transition: .3s all $cubiTr;
                 }
 
@@ -86,10 +72,10 @@
 }
 
 .accordion-item:nth-child(2) .accordion-body {
-    background-color: white;
+    background-color: $white;
 }
 
 .accordion-item:nth-child(2) .accordion-body,
 .accordion-item:nth-child(2) .accordion-body * {
-    color: #212121 !important;
+    color: $text-dark !important;
 }

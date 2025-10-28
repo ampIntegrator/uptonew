@@ -1,6 +1,6 @@
 .blogPost{
-    background-color: black;
-    border-radius: 16px;
+    background-color: $black;
+    border-radius: $border-radius-lg;
     overflow: hidden;
     height: 100%;
     position: relative;
@@ -27,19 +27,19 @@
         }
     }
     &.light{
-        background-color: white ;
+        background-color: $white ;
         p, strong, small{
             color: $dark
         } 
         &.oneCol{
             &:hover{
-                background-color: white !important;
+                background-color: $white !important;
             }
         }
     }
     &.oneCol{
         height: 220px;
-        background-color: black;
+        background-color: $black;
 
         p{
             display: none;
@@ -106,34 +106,8 @@
 
 .blogPost,
 .blogPost.light{
-
-    // Map des couleurs
-    $tabs-colors: (
-        'Primary' : $primary,
-        'Danger'  : $danger,
-        'Orange'  : $orange,
-        'Purple'  : $purple,
-        'Warning' : $warning,
-        'Teal'    : $teal,
-        'Indigo'  : $indigo,
-        'Cyan'    : $cyan,
-        'Success' : $green,
-        'Info'    : $info
-    );
-    
-    // Boucle pour générer toutes les variantes
-    @each $name, $color in $tabs-colors {
-        &.color#{$name} {
-            .bgToAdjust {
-                background-color: $color !important;
-            }
-            
-            .textToAdjust {
-                color: $color !important;
-            }
-        }
-    }
-    
+    // Utilisation de la map globale
+    @include color-variants-simple($theme-colors);
 }
 
 .summaryBox{

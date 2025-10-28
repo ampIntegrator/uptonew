@@ -106,22 +106,8 @@
         }
     }
 
-    // Map des couleurs
-    $card-colors: (
-        'Primary' : $primary,
-        'Danger'  : $danger,
-        'Orange'  : $orange,
-        'Purple'  : $purple,
-        'Warning' : $warning,
-        'Teal'    : $teal,
-        'Indigo'  : $indigo,
-        'Cyan'    : $cyan,
-        'Success' : $green,
-        'Info'    : $info
-    );
-    
     // Boucle pour générer toutes les variantes
-    @each $name, $color in $card-colors {
+    @each $name, $color in $theme-colors {
         &.color#{$name} {
             transition: .3s all $cubiTr;
             
@@ -140,7 +126,7 @@
             .bgToAdjust {
                 background-color: $color !important;
                 border-color: $color !important;
-                color: white !important;
+                color: $white !important;
                 transition: .3s all $cubiTr;
             }
             
@@ -154,14 +140,14 @@
                 
                 // Tous les textes en blanc par défaut
                 * {
-                    color: white !important;
+                    color: $white !important;
                 }
                 
                 // Le bouton devient blanc avec texte de la couleur
                 .card-footer{
                     .bgToAdjust {
-                        background-color: white !important;
-                        border-color: white !important;
+                        background-color: $white !important;
+                        border-color: $white !important;
                         color: $color !important;
                     }
 

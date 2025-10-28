@@ -1,7 +1,7 @@
 .box {
     padding: 32px;
     border: 1px solid $borderU;
-    border-radius: 16px;
+    border-radius: $border-radius-lg;
     background-color: $dark;
 
     &.coloredGreen {
@@ -53,7 +53,7 @@
 
             * {
                 font-weight: 600;
-                color: white;
+                color: $white;
                 line-height: 1.25;
                 font-family: serif;
                 font-family: Sen;
@@ -68,64 +68,27 @@
 
 .box {
     &.withImage {
-        // Map des couleurs
-        $image-colors: (
-            'Primary': $primary,
-            'Danger': $danger,
-            'Orange': $orange,
-            'Purple': $purple,
-            'Warning': $warning,
-            'Teal': $teal,
-            'Indigo': $indigo,
-            'Cyan': $cyan,
-            'Success': $green,
-        );
-
-    // Boucle pour générer toutes les variantes
-    @each $name, $color in $image-colors {
-        &.image#{$name} {
-            &::after {
-                background-color: rgba($color, 0.2);
+        // Boucle pour générer toutes les variantes
+        @each $name, $color in $theme-colors {
+            &.image#{$name} {
+                &::after {
+                    background-color: rgba($color, 0.2);
+                }
             }
         }
     }
-}
 }
 
 .infraBox,
 .box {
-    // Map des couleurs
-    $box-colors: (
-        'Primary' : $primary,
-        'Danger'  : $danger,
-        'Orange'  : $orange,
-        'Purple'  : $purple,
-        'Warning' : $warning,
-        'Teal'    : $teal,
-        'Indigo'  : $indigo,
-        'Cyan'    : $cyan,
-        'Success' : $green,
-        'Info'    : $info
-    );
-    
-    // Boucle pour générer toutes les variantes
-    @each $name, $color in $box-colors {
-        &.color#{$name} {
-            .textToAdjust {
-                color: $color !important;
-            }
-            
-            .bgToAdjust {
-                background-color: $color !important;
-            }
-        }
-    }
+    // Utilisation de la map globale
+    @include color-variants-simple($theme-colors);
 }
 
 .infraBox {
     padding: 24px 16px;
-    border-radius: 16px;
-    background-color: black;
+    border-radius: $border-radius-lg;
+    background-color: $black;
     > *:last-child{
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
@@ -136,32 +99,18 @@
 
 
 .box{
-    // Map des couleurs
-    $box-colors: (
-        'Primary' : $primary,
-        'Danger'  : $danger,
-        'Orange'  : $orange,
-        'Purple'  : $purple,
-        'Warning' : $warning,
-        'Teal'    : $teal,
-        'Indigo'  : $indigo,
-        'Cyan'    : $cyan,
-        'Success' : $green,
-        'Info'    : $info
-    );
-    
-    // Boucle pour générer toutes les variantes
-    @each $name, $color in $box-colors {
+    // Variantes de couleur pour les tickets avec hover effect
+    @each $name, $color in $theme-colors {
         &.color#{$name} .ticket {
 
             &:hover{
                 background-color: $color !important;
                 .textToAdjust {
-                    color: white !important;
+                    color: $white !important;
                 }
-                
+
                 .bgToAdjust {
-                    background-color: white !important;
+                    background-color: $white !important;
                 }
                 .btn{
                     color: $color !important
