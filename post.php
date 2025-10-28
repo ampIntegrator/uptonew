@@ -46,7 +46,13 @@
                     <p>
                         This is an example blockquote in action:
                     </p>
-                    <blockquote class="blockquote">
+                    <blockquote class="">
+                        <p>
+                            Quoted text goes here.
+                        </p>
+                    </blockquote>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sapiente tempora quae, officia eius voluptatem ea minus beatae vel quam officiis, vitae nostrum, eveniet ducimus. Corporis quibusdam repellendus ullam, tenetur omnis ut laudantium atque tempore, voluptate nulla facere quo optio.</p>
+                    <blockquote class="colorSuccess">
                         <p>
                             Quoted text goes here.
                         </p>
@@ -57,6 +63,11 @@
                         repeat it often to keep the demonstration flowing, so be on the lookout for this exact same
                         string of text.
                     </p>
+                                                            <blockquote class=" colorDanger">
+                        <p>
+                            Quoted text goes here.
+                        </p>
+                    </blockquote>
                     <h2>Nanterre ca pue sa mère</h2>
                     <h3>Example lists</h3>
                     <p>
@@ -64,6 +75,7 @@
                         the other highly repetitive body text used throughout. This is an example unordered list:
                     </p>
                     <img class="w-100 mb-3" src="assets/img/adobe005.avif" alt="">
+
                     <ul>
                         <li>First list item</li>
                         <li>Second list item with a longer description</li>

@@ -1,32 +1,25 @@
 blockquote{
-    border-radius: $border-radius-md;
-    padding: 16px;
-    background-color: $primary;
-    color: $white !important;
+    border-radius: 0 !important;
+    padding: $border-radius-lg;
+    background-color: $black;
+    color: $primary !important;
     margin: 16px 0;
-    border-left: 4px solid rgba($white, 0.5);
-
+    border-left: 4px solid $primary;
+    p{
+        color: inherit;
+    }
+    *{
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
     // Boucle pour générer toutes les variantes de couleur
     @each $name, $color in $theme-colors {
         &.color#{$name} {
-            background-color: $color !important;
-            border-left-color: rgba($white, 0.5);
-            transition: $trans;
+            color: $color !important;
+            border-left-color: $color;
 
-            // Tous les éléments à l'intérieur en blanc par défaut
-            * {
-                color: $white !important;
-            }
         }
     }
 
-    // Exception pour Success et Warning : texte en dark au lieu de white
-    &.colorSuccess,
-    &.colorWarning {
-        * {
-            color: $dark !important;
-        }
-
-        border-left-color: rgba($dark, 0.3);
-    }
 }

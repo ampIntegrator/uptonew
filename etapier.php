@@ -18,30 +18,30 @@
             <div class="col-12">
                 <div class="box">
                     <div class="row g-4">
-                        <div class="col-12">
-                            <div class="stepper colorPrimary">
-                                <ol class="olStepper p-0 m-0">
+                        <div class="col-6">
+                            <div class="stepper">
+                                <h3 class="stepperTitle text-primary">Step 2 with dark background</h3>
+                                <ol class="olStepper p-0 my-3">
                                     <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 1</h3>
-                                        <p class="stepperDesc">Some desc text</p>
+                                        <span></span>
                                     </li>
                                     <li class="stepperItem active">
-                                        <h3 class="stepperTitle">Step 2</h3>
-                                        <p class="stepperDesc">Some desc text</p>
+                                        <span></span>
                                     </li>
                                     <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 3</h3>
-                                        <p class="stepperDesc">Some desc text</p>
+                                        <span></span>
+
                                     </li>
                                     <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 4</h3>
-                                        <p class="stepperDesc">Some desc text</p>
+                                        <span></span>
+
                                     </li>
                                     <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 5</h3>
-                                        <p class="stepperDesc">Convaincre Cyril et Julien de faire ce que je veux</p>
+                                        <span></span>
+
                                     </li>
                                 </ol>
+                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
                             </div>
                         </div>
                         <div class="col-12">

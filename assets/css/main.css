@@ -13007,6 +13007,27 @@ body.is-scrolled header nav > .container {
   --spacing: clamp(0.25rem, 2vw, 0.5rem);
 }
 
+.stepper {
+  border-radius: 16px;
+  padding: 16px;
+  display: inline-block;
+  background-color: #000000;
+}
+
+.stepper .stepperTitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #04a8ff;
+}
+
+.stepper .stepperDesc {
+  color: #ffffff;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
 .stepper .olStepper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13015,23 +13036,20 @@ body.is-scrolled header nav > .container {
 }
 
 .stepper .olStepper .stepperItem {
+  counter-increment: stepper-counter;
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  text-align: center;
-  counter-increment: stepper-counter;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .stepper .olStepper .stepperItem:before {
-  --size: 3rem;
-  content: counter(stepper-counter);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13041,49 +13059,73 @@ body.is-scrolled header nav > .container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: var(--circle-size);
-  height: var(--circle-size);
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background-color: #ffffff;
-  margin: 0 auto 1rem;
+  background-color: #04a8ff;
+  color: #ffffff;
+  margin: 0 auto;
   font-weight: 600;
-  font-size: clamp(0.875rem, 3vw, 1.25rem);
-  font-size: 20px;
+  font-size: 18px;
+  content: "\ea05";
+  font-family: Nucleo;
 }
 
 .stepper .olStepper .stepperItem:not(:last-child):after {
+  display: block;
   content: "";
-  position: relative;
-  top: calc(var(--circle-size) / 2);
-  width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
-  left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
   height: 2px;
-  background-color: #ffffff;
-  -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
+  min-width: 40px;
+  background-color: #04a8ff;
 }
 
-.stepper .olStepper .stepperItem .stepperTitle {
-  font-weight: 600;
-  font-size: 24px;
-  margin-bottom: 8px;
+.stepper .olStepper .stepperItem span {
+  display: none;
 }
 
-.stepper .olStepper .stepperItem .stepperDesc {
-  color: #ffffff;
-  font-size: clamp(0.85rem, 2vw, 1rem);
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
+.stepper .olStepper .stepperItem.active:before,
+.stepper .olStepper .stepperItem.active ~ .stepperItem:before {
+  content: counter(stepper-counter);
+  font-family: "Sen", sans-serif;
+}
+
+.stepper .olStepper .stepperItem.active {
+  position: relative;
 }
 
 .stepper .olStepper .stepperItem.active:before {
-  color: #ffffff;
+  color: #04a8ff;
+  position: relative;
+  z-index: 1;
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
 }
 
-.stepper .olStepper .stepperItem.active .stepperDesc,
-.stepper .olStepper .stepperItem.active .stepperTitle {
-  color: #04a8ff;
+.stepper .olStepper .stepperItem.active span {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #04a8ff;
+  background-color: #000000;
+  left: -7px;
+}
+
+.stepper .olStepper .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper .olStepper .stepperItem.active ~ .stepperItem:before {
+  background-color: #898989;
+  color: white;
+  font-weight: 400 !important;
+}
+
+.stepper .olStepper .stepperItem.active ~ .stepperItem:after {
+  background-color: #898989 !important;
 }
 
 .stepper.vertical .olStepper {
@@ -14303,6 +14345,63 @@ form.colorInfo input:checked + label.checkableLabel span {
   padding-left: 20px;
 }
 
+blockquote {
+  border-radius: 0 !important;
+  padding: 16px;
+  background-color: #000000;
+  color: #04a8ff !important;
+  margin: 16px 0;
+  border-left: 4px solid #04a8ff;
+}
+
+blockquote p {
+  color: inherit;
+}
+
+blockquote *:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.colorPrimary {
+  color: #04a8ff !important;
+  border-left-color: #04a8ff;
+}
+
+blockquote.colorDanger {
+  color: #FF0066 !important;
+  border-left-color: #FF0066;
+}
+
+blockquote.colorOrange {
+  color: #ffc107 !important;
+  border-left-color: #ffc107;
+}
+
+blockquote.colorPurple {
+  color: #6f42c1 !important;
+  border-left-color: #6f42c1;
+}
+
+blockquote.colorWarning {
+  color: #ffc107 !important;
+  border-left-color: #ffc107;
+}
+
+blockquote.colorTeal {
+  color: #20c997 !important;
+  border-left-color: #20c997;
+}
+
+blockquote.colorSuccess {
+  color: #01FF88 !important;
+  border-left-color: #01FF88;
+}
+
+blockquote.colorInfo {
+  color: #72d2c2 !important;
+  border-left-color: #72d2c2;
+}
+
 .text-orange {
   color: #ffc107 !important;
 }
@@ -14556,22 +14655,6 @@ p strong {
 
 .portfolioThumbnail.colorTeal.active:after, .portfolioThumbnail.colorTeal:hover:after {
   background-color: #20c997;
-}
-
-.portfolioThumbnail.colorIndigo.active *, .portfolioThumbnail.colorIndigo:hover * {
-  color: white;
-}
-
-.portfolioThumbnail.colorIndigo.active:after, .portfolioThumbnail.colorIndigo:hover:after {
-  background-color: #6610f2;
-}
-
-.portfolioThumbnail.colorCyan.active *, .portfolioThumbnail.colorCyan:hover * {
-  color: white;
-}
-
-.portfolioThumbnail.colorCyan.active:after, .portfolioThumbnail.colorCyan:hover:after {
-  background-color: #0dcaf0;
 }
 
 .portfolioThumbnail.colorSuccess.active *, .portfolioThumbnail.colorSuccess:hover * {
@@ -14840,7 +14923,7 @@ ul.withCaret li:before {
 
 pre {
   background-color: #000000;
-  border: 1px solid rgba(214, 51, 132, 0.4);
+  border: 1px solid #d63384;
   border-radius: 8px;
 }
 
@@ -14848,10 +14931,138 @@ pre * {
   color: white !important;
 }
 
-blockquote {
-  border-radius: 8px;
-  padding: 16px;
-  background-color: #04a8ff;
-  color: #ffffff !important;
+/*--------------------------------
+
+Nucleo icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Nucleo';
+  src: url("../fonts/Nucleo.woff2") format("woff2");
+}
+
+/* base class */
+.nicon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Nucleo';
+  color: inherit;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.nicon-sm {
+  font-size: 0.8em;
+}
+
+.nicon-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.nicon-16 {
+  font-size: 16px;
+}
+
+.nicon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.nicon-is-spinning {
+  -webkit-animation: icon-spin 1s infinite linear;
+          animation: icon-spin 1s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.nicon-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.nicon-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.nicon-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.nicon-flip-y {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
+.nicon-flip-x {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+/* icons */
+.nicon-check-9::before {
+  content: "\ea02";
+}
+
+.nicon-check-6::before {
+  content: "\ea03";
+}
+
+.nicon-check-5::before {
+  content: "\ea04";
+}
+
+.nicon-check-4::before {
+  content: "\ea05";
+}
+
+.nicon-check-3::before {
+  content: "\ea06";
+}
+
+.nicon-check-8::before {
+  content: "\ea07";
+}
+
+.nicon-check-7::before {
+  content: "\ea08";
+}
+
+.nicon-check-10::before {
+  content: "\ea09";
+}
+
+.nicon-check-2::before {
+  content: "\ea0a";
+}
+
+.nicon-check-1::before {
+  content: "\ea0b";
 }
 /*# sourceMappingURL=main.css.map */

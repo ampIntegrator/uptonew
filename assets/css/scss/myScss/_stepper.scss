@@ -7,85 +7,130 @@
 
 
 .stepper {
+    border-radius: $border-radius-lg;
+    padding: 16px;
+    display: inline-block;
+    background-color: $black;
 
-    .olStepper {
+    .stepperTitle {
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: 16px;
+        color: $primary;
+    }
+
+    .stepperDesc {
+        color: $white;
+        font-size: clamp(0.85rem, 2vw, 1rem);
+        padding-left: var(--spacing);
+        padding-right: var(--spacing);
+    }
+
+.olStepper {
+    display: flex;
+    counter-reset: stepper-counter;
+
+    .stepperItem {
+        counter-increment: stepper-counter;
+        list-style: none;
         display: flex;
-        counter-reset: stepper-counter; // Initialise le compteur
-
-        .stepperItem {
+        align-items: center;
+        justify-content: start;
+        &:before {
+            // Styles communs
             display: flex;
-            flex-direction: column;
-            flex: 1;
-            text-align: center;
-            counter-increment: stepper-counter; // Incrémente le compteur pour chaque item
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $primary;
+            color: $white;
+            margin: 0 auto ;
+            font-weight: 600;
+            font-size: 18px;
 
+            // PAR DÉFAUT = icône (pour les items AVANT .active)
+            content: "\ea05";
+            font-family: Nucleo;
+        }
+        &:not(:last-child){
+            &:after{
+                display: block;
+                content: "";
+                height: 2px;
+                min-width: 40px;
+                background-color: $primary;
+            }
+
+        }
+        span{
+            display: none;
+        }
+
+        // RESET pour .active et ceux APRÈS : ils reprennent le compteur
+        &.active:before,
+        &.active ~ .stepperItem:before {
+            content: counter(stepper-counter);
+            font-family: $font-family-base;
+            
+        }
+
+        // Style pour .active
+        &.active{
             &:before {
-                --size: 3rem;
-                content: counter(stepper-counter); // Affiche le numéro
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: var(--circle-size);
-                height: var(--circle-size);
-                border-radius: 50%;
+                color: $primary;
+                position: relative;
+                z-index: 1;
+                width: 26px;
+                height: 26px;
                 background-color: $white;
-                margin: 0 auto 1rem;
-                font-weight: 600;
-                font-size: clamp(0.875rem, 3vw, 1.25rem);
-                font-size: 20px;
             }
-
-            &:not(:last-child) {
-                &:after {
-                    content: "";
-                    position: relative;
-                    top: calc(var(--circle-size) / 2);
-                    width: calc(100% - var(--circle-size) - calc(var(--spacing) * 2));
-                    left: calc(50% + calc(var(--circle-size) / 2 + var(--spacing)));
-                    height: 2px;
-                    background-color: $white;
-                    order: -1;
-                }
+            position: relative;
+            span{
+                position: absolute;
+                z-index: 0;
+                display: block;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 2px solid $primary;
+                background-color: $black;
+                left: -7px;
             }
-
-            .stepperTitle {
-                font-weight: 600;
-                font-size: 24px;
-                margin-bottom: 8px;
-
+                        &:after{
+                background-color: $disabledColor !important;
             }
+        }
 
-            .stepperDesc {
-                color: $white;
-                font-size: clamp(0.85rem, 2vw, 1rem);
-                padding-left: var(--spacing);
-                padding-right: var(--spacing);
+        // Style pour APRÈS .active
+        &.active ~ .stepperItem{
+            &:before {
+                background-color: $disabledColor;
+                color: white;
+                font-weight: 400 !important;
             }
-
-            &.active {
-                &:before {
-                    color: $white;
-                }
-
-                .stepperDesc,
-                .stepperTitle {
-                    color: $primary;
-                }
+            &:after{
+                background-color: $disabledColor !important;
             }
         }
     }
+}
 
-    &.vertical{
-        .olStepper{
+    &.vertical {
+        .olStepper {
             display: block;
-            .stepperItem{
+
+            .stepperItem {
                 display: block;
                 position: relative;
                 padding-left: 62px;
                 text-align: left;
-                &:not(:last-child){
+
+                &:not(:last-child) {
                     margin-bottom: 40px;
-                                        // Barre verticale
+
+                    // Barre verticale
                     &:after {
                         content: "";
                         position: absolute;
@@ -97,21 +142,25 @@
                         order: 0;
                     }
                 }
-                &:before{
+
+                &:before {
                     position: absolute;
                     top: 0;
                     left: 0;
 
                 }
-                .stepperTitle{
+
+                .stepperTitle {
                     padding-top: 6px;
                 }
-                .stepperDesc{
+
+                .stepperDesc {
                     padding: 0;
                 }
             }
         }
     }
+
     // Boucle pour générer toutes les variantes
     @each $name, $color in $theme-colors {
         &.color#{$name} {
@@ -131,7 +180,7 @@
                         color: $white !important
                     }
 
-                    .stepperDesc{
+                    .stepperDesc {
                         color: $white
                     }
 
