@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 @import 'scss/myScss/variables';
+@import 'scss/myScss/mixins';
 @import 'scss/bootstrap/bootstrap';
 @import 'scss/myScss/box';
 @import 'scss/myScss/accordion';
@@ -21,6 +22,8 @@
 @import 'scss/myScss/form';
 @import 'scss/myScss/blog';
 @import 'scss/myScss/blockquote';
+
+
 
 // Vos styles personnalisés APRÈS Bootstrap
 .text-orange {
@@ -141,7 +144,7 @@ h2 {
 
     label {
         div {
-            transition: .3s all $cubiTr;
+            transition: $trans;
             border-radius: 16px;
             cursor: pointer;
         }
@@ -428,8 +431,6 @@ header {
     }
 }
 
-
-
 ul{
     &.withCaret{
         margin: 0;
@@ -454,4 +455,22 @@ ul{
             }
         }
     }
+}
+
+
+pre{
+    background-color: $black;
+    border: 1px solid rgba(#d63384, .4);
+    border-radius: $border-radius-md;
+    *{
+        color: white !important
+    }
+}
+
+blockquote{
+    border-radius: $border-radius-md;
+
+    padding: 16px;
+    background-color: $primary;
+    color: $white !important
 }

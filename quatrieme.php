@@ -298,8 +298,6 @@
 
 </body>
 <script src="assets/js/custom.js"></script>
-<script>
-    document.getElementById('item004').classList.add('active');
-</script>
+
 
 </html>

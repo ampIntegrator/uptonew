@@ -513,8 +513,6 @@
 
 </body>
 <script src="assets/js/custom.js"></script>
-<script>
-    document.getElementById('item002').classList.add('active');
-</script>
+
 
 </html>

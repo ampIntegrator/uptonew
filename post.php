@@ -5,7 +5,7 @@
     <?php include 'assets/include/head.php'; ?>
 </head>
 
-<body class="bg-black">
+<body class="is-post bg-black">
 
     <?php include 'assets/include/header.php'; ?>
 
@@ -14,6 +14,7 @@
             <aside class="col-md-3 col-lg-4">
                 <div class="position-sticky" style="top: 80px;">
                     <div class="box">
+                        <span class="text-primary fw-600 fs5 mb-2 d-block">Sommaire de l'article</span>
                         <div class="summaryBox">
 
                         </div>
@@ -24,8 +25,8 @@
                 <h1 class="fs-2 mb-1 text-white">Titre de l'article dans une balise h1 en haut de page</h1>
                 <small class="metadata d-block mb-3">Posté le <span>31 mai 2025</span></small>
                 <div class="badgeBox h5 mb-4">
-                    <a href="#" class="badge rounded-pill bg-primary">Danger</a>
-                    <a href="#" class="badge rounded-pill bg-danger">Technology</a>
+                    <span class="badge rounded-pill bg-primary">Danger</span>
+                    <span class="badge rounded-pill bg-danger">Technology</span>
                 </div>
                 <img src="assets/img/adobe007.avif" class="w-100 mb-4 roundedImg" alt="">
                 <div class="box postContent">
@@ -56,11 +57,13 @@
                         repeat it often to keep the demonstration flowing, so be on the lookout for this exact same
                         string of text.
                     </p>
+                    <h2>Nanterre ca pue sa mère</h2>
                     <h3>Example lists</h3>
                     <p>
                         This is some additional paragraph placeholder content. It's a slightly shorter version of
                         the other highly repetitive body text used throughout. This is an example unordered list:
                     </p>
+                    <img class="w-100 mb-3" src="assets/img/adobe005.avif" alt="">
                     <ul>
                         <li>First list item</li>
                         <li>Second list item with a longer description</li>
@@ -323,54 +326,8 @@
 
 </body>
 <script src="assets/js/custom.js"></script>
-<script>
-    document.getElementById('item006').classList.add('active');
-</script>
 
-<script>
-    // Fonction pour générer le sommaire
-function generateTableOfContents() {
-    const summaryBox = document.querySelector('.summaryBox');
-    const postContent = document.querySelector('.postContent');
-    
-    // Récupérer tous les headings (h2, h3, h4, h5, h6)
-    const headings = postContent.querySelectorAll('h2, h3, h4, h5, h6');
-    
-    if (headings.length === 0) return;
-    
-    // Créer la liste
-    const ul = document.createElement('ul');
-    ul.classList.add('summary-list');
-    
-    headings.forEach((heading, index) => {
-        // Ajouter un ID au heading si il n'en a pas
-        if (!heading.id) {
-            heading.id = `heading-${index}`;
-        }
-        
-        // Créer l'élément de liste
-        const li = document.createElement('li');
-        li.classList.add(heading.tagName.toLowerCase()); // Ajoute la classe h2, h3, h4, etc.
-        li.textContent = heading.textContent;
-        li.style.cursor = 'pointer';
-        
-        // Ajouter l'événement de clic
-        li.addEventListener('click', () => {
-            heading.scrollIntoView({ 
-                behavior: 'smooth',
-                block: 'start'
-            });
-        });
-        
-        ul.appendChild(li);
-    });
-    
-    summaryBox.appendChild(ul);
-}
 
-// Exécuter au chargement de la page
-document.addEventListener('DOMContentLoaded', generateTableOfContents);
-</script>
 
 </html>
 

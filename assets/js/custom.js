@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sélectionner le span et le path du SVG à modifier
-    const logoSpan = document.querySelector('.navbar-brand span');
+    const logoSpan = document.querySelector('.navbar-brand span span');
     const svgPath = document.querySelector('.navbar-brand svg path[fill="#01FF88"]');
     
     // Sélectionner toutes les sections
