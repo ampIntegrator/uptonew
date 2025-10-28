@@ -22,6 +22,7 @@
 @import 'scss/myScss/form';
 @import 'scss/myScss/blog';
 @import 'scss/myScss/blockquote';
+@import 'scss/myScss/sliderLogo';
 
 
 
@@ -334,101 +335,7 @@ header {
 }
 
 .fw-semibold{
-    font-weight: 600; 
-}
-
-
-.clientSlider {
-    overflow: hidden;
-    padding: 0px 0;
-    background: transparent; // Optionnel
-    position: relative;
-
-    // Gradient gauche
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 150px; // Largeur du fade
-        height: 100%;
-        background: linear-gradient(to right, #000 0%, transparent 100%);
-        z-index: 2;
-        pointer-events: none; // Pour garder les logos cliquables
-    }
-
-    // Gradient droite
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 150px; // Largeur du fade
-        height: 100%;
-        background: linear-gradient(to left, #000 0%, transparent 100%);
-        z-index: 2;
-        pointer-events: none;
-    }
-
-    ul {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        flex-shrink: 0; // Important pour éviter la compression
-    }
-
-    li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0 30px;
-        flex-shrink: 0;
-    }
-
-    img {
-        max-height: 44px;
-        width: auto;
-        height: auto;
-        object-fit: contain;
-        filter: brightness(0) invert(1);
-        transition: all 0.3s ease;
-    }
-}
-
-.box{
-    .clientSlider{
-            // Gradient gauche
-    &::before {
-        background: linear-gradient(to right, $dark 0%, transparent 100%);
-
-    }
-
-    // Gradient droite
-    &::after {
-
-        background: linear-gradient(to left, $dark 0%, transparent 100%);
-
-    }
-    }
-}
-
-.slider-track {
-    display: flex;
-    animation: scroll 30s linear infinite;
-
-    &:hover {
-        animation-play-state: paused; // Pause au survol
-    }
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%); // -50% car on a dupliqué le contenu
-    }
+    font-weight: 600;
 }
 
 ul{
