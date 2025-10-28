@@ -1,0 +1,117 @@
+/*--------------------------------
+
+Nucleo icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@font-face {
+    font-family: 'Nucleo';
+    src: url('../fonts/Nucleo.woff2') format('woff2'),
+
+}
+
+/* base class */
+.nicon {
+    display: inline-block;
+    font: normal normal normal 1em/1 'Nucleo';
+    color: inherit;
+    flex-shrink: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.nicon-sm {
+    font-size: 0.8em;
+}
+
+.nicon-lg {
+    font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.nicon-16 {
+    font-size: 16px;
+}
+
+.nicon-32 {
+    font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.nicon-is-spinning {
+    animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* transform */
+.nicon-rotate-90 {
+    transform: rotate(90deg);
+}
+
+.nicon-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.nicon-rotate-270 {
+    transform: rotate(270deg);
+}
+
+.nicon-flip-y {
+    transform: scaleY(-1);
+}
+
+.nicon-flip-x {
+    transform: scaleX(-1);
+}
+
+/* icons */
+.nicon-check-9::before {
+    content: "\ea02";
+}
+
+.nicon-check-6::before {
+    content: "\ea03";
+}
+
+.nicon-check-5::before {
+    content: "\ea04";
+}
+
+.nicon-check-4::before {
+    content: "\ea05";
+}
+
+.nicon-check-3::before {
+    content: "\ea06";
+}
+
+.nicon-check-8::before {
+    content: "\ea07";
+}
+
+.nicon-check-7::before {
+    content: "\ea08";
+}
+
+.nicon-check-10::before {
+    content: "\ea09";
+}
+
+.nicon-check-2::before {
+    content: "\ea0a";
+}
+
+.nicon-check-1::before {
+    content: "\ea0b";
+}

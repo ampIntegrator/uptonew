@@ -1,0 +1,101 @@
+// Vos styles personnalisés APRÈS Bootstrap
+.text-orange {
+    color: $orange !important
+}
+
+.bg-orange {
+    background-color: $orange !important
+}
+
+.text-purple {
+    color: $purple !important
+}
+
+.bg-purple {
+    background-color: $purple !important
+}
+
+.text-teal {
+    color: $teal !important
+}
+
+.bg-teal {
+    background-color: $teal !important
+}
+
+.btn {
+    flex-shrink: 0;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexCS {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.flexCC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCSB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fs-0 {
+    font-size: 72px;
+
+}
+
+p {
+    strong {
+        font-weight: 600;
+
+    }
+}
+
+.texture {
+    background-image: url(../img/mockup.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.bgi {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &.h160 {
+        height: 160px;
+
+    }
+}
+
+.badge {
+    text-decoration: none !important;
+}
+
+.roundedImg {
+    border-radius: 16px
+}
+
+.fw-semibold {
+    font-weight: 600;
+}

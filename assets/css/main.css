@@ -6,6 +6,255 @@
   src: local("DIN Alternate Bold"), url("../fonts/DINAlternate-Bold.woff") format("woff");
 }
 
+.text-orange {
+  color: #ffc107 !important;
+}
+
+.bg-orange {
+  background-color: #ffc107 !important;
+}
+
+.text-purple {
+  color: #6f42c1 !important;
+}
+
+.bg-purple {
+  background-color: #6f42c1 !important;
+}
+
+.text-teal {
+  color: #20c997 !important;
+}
+
+.bg-teal {
+  background-color: #20c997 !important;
+}
+
+.btn {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+.flexCS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.flexCC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexCSB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fs-0 {
+  font-size: 72px;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+.texture {
+  background-image: url(../img/mockup.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.bgi {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bgi.h160 {
+  height: 160px;
+}
+
+.badge {
+  text-decoration: none !important;
+}
+
+.roundedImg {
+  border-radius: 16px;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+/*--------------------------------
+
+Nucleo icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@font-face {
+  font-family: 'Nucleo';
+  src: url("../fonts/Nucleo.woff2") format("woff2");
+}
+
+/* base class */
+.nicon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Nucleo';
+  color: inherit;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.nicon-sm {
+  font-size: 0.8em;
+}
+
+.nicon-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.nicon-16 {
+  font-size: 16px;
+}
+
+.nicon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.nicon-is-spinning {
+  -webkit-animation: icon-spin 1s infinite linear;
+          animation: icon-spin 1s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.nicon-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.nicon-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.nicon-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.nicon-flip-y {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
+.nicon-flip-x {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+/* icons */
+.nicon-check-9::before {
+  content: "\ea02";
+}
+
+.nicon-check-6::before {
+  content: "\ea03";
+}
+
+.nicon-check-5::before {
+  content: "\ea04";
+}
+
+.nicon-check-4::before {
+  content: "\ea05";
+}
+
+.nicon-check-3::before {
+  content: "\ea06";
+}
+
+.nicon-check-8::before {
+  content: "\ea07";
+}
+
+.nicon-check-7::before {
+  content: "\ea08";
+}
+
+.nicon-check-10::before {
+  content: "\ea09";
+}
+
+.nicon-check-2::before {
+  content: "\ea0a";
+}
+
+.nicon-check-1::before {
+  content: "\ea0b";
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -12962,6 +13211,36 @@ header .navbar .nav-item .nav-link.active#item005 {
   color: #ffc107;
 }
 
+header .underMenu {
+  overflow: hidden;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header .underMenu > .row {
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .underMenu > .row > div {
+  border-top-width: 2px;
+  border-top-style: solid;
+  padding-top: 24px;
+}
+
+header .underMenu li:not(:last-child) {
+  margin-bottom: 12px;
+  line-height: 1.15;
+}
+
+.underMenu .rowSuccess,
+.underMenu .rowDanger,
+.underMenu .rowPrimary {
+  display: none;
+  padding-top: 16px;
+}
+
 body.is-scrolled header .navbar-brand {
   font-size: 26px !important;
 }
@@ -12991,6 +13270,18 @@ body.is-scrolled header nav > .container {
   border-radius: 0 0 8px 8px;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+#menuToggler {
+  background-color: transparent;
+  border: 1px solid rgba(1, 255, 136, 0.3);
+}
+
+#menuToggler > div {
+  width: 22px;
+  height: 2px;
+  margin: 4px 0;
+  border-radius: 1px;
 }
 
 .offcanvas.show {
@@ -14437,84 +14728,51 @@ blockquote.colorInfo {
   border-left-color: #72d2c2;
 }
 
-.text-orange {
-  color: #ffc107 !important;
+.clientSlider {
+  overflow: hidden;
+  padding: 0px 0;
+  background: transparent;
+  position: relative;
 }
 
-.bg-orange {
-  background-color: #ffc107 !important;
+.clientSlider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(transparent));
+  background: linear-gradient(to right, #000000 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
-.text-purple {
-  color: #6f42c1 !important;
+.clientSlider::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 100%;
+  background: -webkit-gradient(linear, right top, left top, from(#000000), to(transparent));
+  background: linear-gradient(to left, #000000 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
-.bg-purple {
-  background-color: #6f42c1 !important;
-}
-
-.text-teal {
-  color: #20c997 !important;
-}
-
-.bg-teal {
-  background-color: #20c997 !important;
-}
-
-.text-indigo {
-  color: #6610f2 !important;
-}
-
-.bg-indigo {
-  background-color: #6610f2 !important;
-}
-
-.text-cyan {
-  color: #0dcaf0 !important;
-}
-
-.bg-cyan {
-  background-color: #0dcaf0 !important;
-}
-
-.btn {
+.clientSlider ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 
-.fz14 {
-  font-size: 14px;
-}
-
-body {
-  padding-top: 105px;
-  background-color: black;
-}
-
-body ul {
-  list-style: none;
-}
-
-.separator {
-  display: block;
-  height: 6px;
-  width: 40px;
-  margin-bottom: 24px;
-}
-
-.flexCS {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.flexCC {
+.clientSlider li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14524,22 +14782,78 @@ body ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0 30px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
-.flexCSB {
+.clientSlider img {
+  max-height: 44px;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.box .clientSlider::before {
+  background: -webkit-gradient(linear, left top, right top, from(#121b36), to(transparent));
+  background: linear-gradient(to right, #121b36 0%, transparent 100%);
+}
+
+.box .clientSlider::after {
+  background: -webkit-gradient(linear, right top, left top, from(#121b36), to(transparent));
+  background: linear-gradient(to left, #121b36 0%, transparent 100%);
+}
+
+.slider-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-animation: scroll 30s linear infinite;
+          animation: scroll 30s linear infinite;
 }
 
-.fs-0 {
-  font-size: 72px;
+.slider-track:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+body {
+  padding-top: 105px;
+  background-color: black;
+}
+
+.separator {
+  display: block;
+  height: 6px;
+  width: 40px;
+  margin-bottom: 24px;
 }
 
 .headingWithIcon {
@@ -14561,10 +14875,6 @@ body ul {
   margin-right: 16px;
 }
 
-h3, .h3, h2, .h2 {
-  margin-bottom: 16px;
-}
-
 .radioZone .form-check {
   padding-left: 8px;
 }
@@ -14578,22 +14888,6 @@ h3, .h3, h2, .h2 {
 
 .radioZone input:checked + label .p-2 {
   width: 30px;
-}
-
-p strong {
-  font-weight: 600;
-}
-
-#menuToggler {
-  background-color: transparent;
-  border: 1px solid rgba(1, 255, 136, 0.3);
-}
-
-#menuToggler > div {
-  width: 22px;
-  height: 2px;
-  margin: 4px 0;
-  border-radius: 1px;
 }
 
 .portfolioThumbnail {
@@ -14713,65 +15007,10 @@ p strong {
   opacity: 1;
 }
 
-.texture {
-  background-image: url(../img/mockup.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 24px 16px;
-  border-radius: 16px;
-  overflow: hidden;
-  height: 400px;
-}
-
-header .underMenu {
-  overflow: hidden;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-header .underMenu > .row {
-  overflow: hidden;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-header .underMenu > .row > div {
-  border-top-width: 2px;
-  border-top-style: solid;
-  padding-top: 24px;
-}
-
-header .underMenu li:not(:last-child) {
-  margin-bottom: 12px;
-  line-height: 1.15;
-}
-
-.underMenu .rowSuccess,
-.underMenu .rowDanger,
-.underMenu .rowPrimary {
-  display: none;
-  padding-top: 16px;
-}
-
-.bgi {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.bgi.h160 {
-  height: 160px;
-}
-
 .subMenuTitle {
   font-size: 22px;
   font-weight: 600;
   line-height: 1.15;
-}
-
-.badge {
-  text-decoration: none !important;
 }
 
 .badgeBox {
@@ -14787,10 +15026,6 @@ header .underMenu li:not(:last-child) {
           margin-inline-end: 8px;
 }
 
-.roundedImg {
-  border-radius: 16px;
-}
-
 #topPage {
   height: 120px;
 }
@@ -14801,126 +15036,6 @@ header .underMenu li:not(:last-child) {
   color: white;
   line-height: 1.2;
   max-width: 700px;
-}
-
-.fw-semibold {
-  font-weight: 600;
-}
-
-.clientSlider {
-  overflow: hidden;
-  padding: 0px 0;
-  background: transparent;
-  position: relative;
-}
-
-.clientSlider::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 150px;
-  height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#000), to(transparent));
-  background: linear-gradient(to right, #000 0%, transparent 100%);
-  z-index: 2;
-  pointer-events: none;
-}
-
-.clientSlider::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 150px;
-  height: 100%;
-  background: -webkit-gradient(linear, right top, left top, from(#000), to(transparent));
-  background: linear-gradient(to left, #000 0%, transparent 100%);
-  z-index: 2;
-  pointer-events: none;
-}
-
-.clientSlider ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-.clientSlider li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0 30px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-.clientSlider img {
-  max-height: 44px;
-  width: auto;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.box .clientSlider::before {
-  background: -webkit-gradient(linear, left top, right top, from(#121b36), to(transparent));
-  background: linear-gradient(to right, #121b36 0%, transparent 100%);
-}
-
-.box .clientSlider::after {
-  background: -webkit-gradient(linear, right top, left top, from(#121b36), to(transparent));
-  background: linear-gradient(to left, #121b36 0%, transparent 100%);
-}
-
-.slider-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-animation: scroll 30s linear infinite;
-          animation: scroll 30s linear infinite;
-}
-
-.slider-track:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
 }
 
 ul.withCaret {
@@ -14964,140 +15079,5 @@ pre {
 
 pre * {
   color: white !important;
-}
-
-/*--------------------------------
-
-Nucleo icon font
-Generated using nucleoapp.com
-
--------------------------------- */
-@font-face {
-  font-family: 'Nucleo';
-  src: url("../fonts/Nucleo.woff2") format("woff2");
-}
-
-/* base class */
-.nicon {
-  display: inline-block;
-  font: normal normal normal 1em/1 'Nucleo';
-  color: inherit;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* size examples - relative units */
-.nicon-sm {
-  font-size: 0.8em;
-}
-
-.nicon-lg {
-  font-size: 1.2em;
-}
-
-/* size examples - absolute units */
-.nicon-16 {
-  font-size: 16px;
-}
-
-.nicon-32 {
-  font-size: 32px;
-}
-
-/* rotate the icon infinitely */
-.nicon-is-spinning {
-  -webkit-animation: icon-spin 1s infinite linear;
-          animation: icon-spin 1s infinite linear;
-}
-
-@-webkit-keyframes icon-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes icon-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-/* transform */
-.nicon-rotate-90 {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.nicon-rotate-180 {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.nicon-rotate-270 {
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-}
-
-.nicon-flip-y {
-  -webkit-transform: scaleY(-1);
-          transform: scaleY(-1);
-}
-
-.nicon-flip-x {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-}
-
-/* icons */
-.nicon-check-9::before {
-  content: "\ea02";
-}
-
-.nicon-check-6::before {
-  content: "\ea03";
-}
-
-.nicon-check-5::before {
-  content: "\ea04";
-}
-
-.nicon-check-4::before {
-  content: "\ea05";
-}
-
-.nicon-check-3::before {
-  content: "\ea06";
-}
-
-.nicon-check-8::before {
-  content: "\ea07";
-}
-
-.nicon-check-7::before {
-  content: "\ea08";
-}
-
-.nicon-check-10::before {
-  content: "\ea09";
-}
-
-.nicon-check-2::before {
-  content: "\ea0a";
-}
-
-.nicon-check-1::before {
-  content: "\ea0b";
 }
 /*# sourceMappingURL=main.css.map */
