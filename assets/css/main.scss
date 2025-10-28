@@ -20,6 +20,7 @@
 @import 'scss/myScss/footer';
 @import 'scss/myScss/form';
 @import 'scss/myScss/blog';
+@import 'scss/myScss/blockquote';
 
 // Vos styles personnalisés APRÈS Bootstrap
 .text-orange {
@@ -215,22 +216,8 @@ p {
         background-color: rgba(0, 0, 0, .25);
     }
 
-    // Map des couleurs
-    $portfolio-colors: (
-        'Primary' : $primary,
-        'Danger' : $danger,
-        'Orange' : $orange,
-        'Purple' : $purple,
-        'Warning' : $warning,
-        'Teal' : $teal,
-        'Indigo' : $indigo,
-        'Cyan' : $cyan,
-        'Success' : $green,
-        'Info' : $info
-    );
-
 // Boucle pour générer toutes les variantes
-@each $name, $color in $portfolio-colors {
+@each $name, $color in $theme-colors {
     &.color#{$name} {
 
         &.active,
