@@ -1,195 +1,198 @@
-:root {
-    --circle-size: 36px;
-    --spacing: clamp(0.25rem, 2vw, 0.5rem);
-}
-
-
-
-
 .stepper {
     border-radius: $border-radius-lg;
-    padding: 16px;
-    display: inline-block;
+    padding: 24px 16px;
+    display: block;
     background-color: $black;
+
+    &.transparent{
+        display: block;
+        padding: 0;
+        background-color: transparent;
+        width: 100%;
+        .olStepper{
+            .stepperItem{
+                &.active{
+                    span{
+                        background-color: $dark !important;
+
+                    }
+                }
+            }
+        }
+    }
+
+    &.center{
+
+        .stepperTitle{
+            text-align: center;
+        }
+        .olStepper{
+            justify-content: center;
+        }
+        .stepperDesc{
+            max-width: 640px;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center;
+        }
+    }
+    
+    > * {
+        margin: 0;
+        &:nth-child(n+2){
+            margin-top: 24px !important;
+        }
+    }
 
     .stepperTitle {
         font-weight: 600;
-        font-size: 24px;
-        margin-bottom: 16px;
-        color: $primary;
+        font-size: 26px;
+        color: $white;
     }
 
     .stepperDesc {
+        font-size: 18px;
+        margin-bottom: 0;
         color: $white;
-        font-size: clamp(0.85rem, 2vw, 1rem);
-        padding-left: var(--spacing);
-        padding-right: var(--spacing);
     }
 
-.olStepper {
-    display: flex;
-    counter-reset: stepper-counter;
-
-    .stepperItem {
-        counter-increment: stepper-counter;
-        list-style: none;
+    .olStepper {
         display: flex;
-        align-items: center;
-        justify-content: start;
-        &:before {
-            // Styles communs
+        counter-reset: stepper-counter;
+
+        .stepperItem {
+            counter-increment: stepper-counter;
+            list-style: none;
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: $primary;
-            color: $white;
-            margin: 0 auto ;
-            font-weight: 600;
-            font-size: 18px;
+            justify-content: start;
 
-            // PAR DÉFAUT = icône (pour les items AVANT .active)
-            content: "\ea05";
-            font-family: Nucleo;
-        }
-        &:not(:last-child){
-            &:after{
-                display: block;
-                content: "";
-                height: 2px;
-                min-width: 40px;
-                background-color: $primary;
-            }
-
-        }
-        span{
-            display: none;
-        }
-
-        // RESET pour .active et ceux APRÈS : ils reprennent le compteur
-        &.active:before,
-        &.active ~ .stepperItem:before {
-            content: counter(stepper-counter);
-            font-family: $font-family-base;
-            
-        }
-
-        // Style pour .active
-        &.active{
             &:before {
-                color: $primary;
-                position: relative;
-                z-index: 1;
-                width: 26px;
-                height: 26px;
-                background-color: $white;
-            }
-            position: relative;
-            span{
-                position: absolute;
-                z-index: 0;
-                display: block;
-                width: 40px;
-                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
                 border-radius: 50%;
-                border: 2px solid $primary;
-                background-color: $black;
-                left: -7px;
+                background-color: $white;
+                color: $dark;
+                margin: 0 auto;
+                font-weight: 600;
+                font-size: 18px;
+                content: "\ea05";
+                font-family: Nucleo;
             }
-                        &:after{
-                background-color: $disabledColor !important;
-            }
-        }
 
-        // Style pour APRÈS .active
-        &.active ~ .stepperItem{
-            &:before {
-                background-color: $disabledColor;
-                color: white;
-                font-weight: 400 !important;
-            }
-            &:after{
-                background-color: $disabledColor !important;
-            }
-        }
-    }
-}
-
-    &.vertical {
-        .olStepper {
-            display: block;
-
-            .stepperItem {
-                display: block;
-                position: relative;
-                padding-left: 62px;
-                text-align: left;
-
-                &:not(:last-child) {
-                    margin-bottom: 40px;
-
-                    // Barre verticale
-                    &:after {
-                        content: "";
-                        position: absolute;
-                        left: calc(var(--circle-size) / 2 - 1px);
-                        top: calc(var(--circle-size) + 4px); // Marge de 4px en haut
-                        width: 2px;
-                        height: calc(100% - 12px); // Réduit de 8px (4px haut + 4px bas)
-                        background-color: $white;
-                        order: 0;
-                    }
+            &:not(:last-child) {
+                &:after {
+                    display: block;
+                    content: "";
+                    height: 2px;
+                    min-width: 40px;
+                    background-color: $white;
                 }
+            }
 
+            span {
+                display: none;
+            }
+
+            &.active:before,
+            &.active ~ .stepperItem:before {
+                content: counter(stepper-counter);
+                font-family: $font-family-base;
+            }
+
+            &.active {
                 &:before {
+                    color: $dark;
+                    position: relative;
+                    z-index: 1;
+                    width: 26px;
+                    height: 26px;
+                    background-color: $white;
+                }
+
+                position: relative;
+
+                span {
                     position: absolute;
-                    top: 0;
-                    left: 0;
-
+                    z-index: 0;
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    border: 2px solid $white;
+                    background-color: $black;
+                    left: -7px;
                 }
 
-                .stepperTitle {
-                    padding-top: 6px;
+                &:after {
+                    background-color: $disabledColor !important;
+                }
+            }
+
+            &.active ~ .stepperItem {
+                &:before {
+                    background-color: $disabledColor;
+                    color: $white;
+                    font-weight: 400 !important;
                 }
 
-                .stepperDesc {
-                    padding: 0;
+                &:after {
+                    background-color: $disabledColor !important;
                 }
             }
         }
     }
 
-    // Boucle pour générer toutes les variantes
+    // Boucle des variantes de couleur
     @each $name, $color in $theme-colors {
         &.color#{$name} {
+
+            .stepperTitle {
+                color: $color;
+            }
+
             .stepperItem {
                 &:before {
-                    color: $color; // Couleur du texte
+                    background-color: $color;
+                    color: $white;
                 }
 
-                .stepperTitle {
-                    color: $color;
+                &:after {
+                    background-color: $color !important;
+                }
+            }
 
+            .stepperItem.active {
+                &:before {
+                    background-color: $white;
+                    color: $color !important;
                 }
 
-                &.active {
-                    &:before {
-                        background-color: $color;
-                        color: $white !important
-                    }
+                span {
+                    border-color: $color;
+                }
 
-                    .stepperDesc {
-                        color: $white
-                    }
-
-                    .stepperTitle {
-                        color: $white;
-                    }
+                &:after {
+                    background-color: $disabledColor !important;
                 }
             }
         }
     }
+    // Exception pour Success et Warning : texte en dark
+    &.colorOrange,
+    &.colorSuccess,
+    &.colorWarning {
+        // Items validés (avant .active) : icône/texte en dark
+        .stepperItem:before {
+            color: $dark !important;
+        }
 
+        // Item actif : texte en dark (au lieu de la couleur)
+        .stepperItem.active:before {
+            color: $dark !important;
+        }
+    }
 }

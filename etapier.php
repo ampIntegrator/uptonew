@@ -13,189 +13,234 @@
         <h1 class="text-center">Ceci est le titre de la page <br> pour les étapiers</h1>
     </div>
 
-    <section id="section01" class="container pb-5 mt-5">
-        <div class="row g-4">
-            <div class="col-12">
-                <div class="box">
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <div class="stepper">
-                                <h3 class="stepperTitle text-primary">Step 2 with dark background</h3>
-                                <ol class="olStepper p-0 my-3">
-                                    <li class="stepperItem">
-                                        <span></span>
-                                    </li>
-                                    <li class="stepperItem active">
-                                        <span></span>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <span></span>
+    <section id="section01" >
+        <div class="container pb-5 mt-5">
+            <div class="row g-4">
 
-                                    </li>
-                                    <li class="stepperItem">
-                                        <span></span>
-
-                                    </li>
-                                    <li class="stepperItem">
-                                        <span></span>
-
-                                    </li>
-                                </ol>
-                                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                <div class="col-12">
+                    <div class="box">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="stepper colorDanger">
+                                    <h3 class="stepperTitle">Step 3 La moula la moula</h3>
+                                    <ol class="olStepper colorDanger p-0">
+                                        <li class="stepperItem">
+                                            <span></span>
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+                                        </li>
+                                        <li class="stepperItem active">
+                                            <span></span>
+    
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+    
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+    
+                                        </li>
+                                    </ol>
+                                    <p class="stepperDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="infraBox">
-                                <div class="">
-                                    <div class="text-center my-5">
-                                        contenu des étapes
+                            <div class="col-6">
+                                <div class="stepper colorPrimary">
+                                    <ol class="olStepper p-0">
+                                        <li class="stepperItem">
+                                            <span></span>
+                                        </li>
+                                        <li class="stepperItem active">
+                                            <span></span>
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+    
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+    
+                                        </li>
+                                        <li class="stepperItem">
+                                            <span></span>
+    
+                                        </li>
+                                    </ol>
+                                    <h3 class="stepperTitle">Step 2 with dark background</h3>
+                                    <p class="stepperDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="infraBox">
+                                    <div class="">
+                                        <div class="text-center my-5">
+                                            contenu des étapes
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-    </section>
-
-    <div class="py-5">
-    </div>
-
-    <section id="section02" class="container pb-5 mt-5">
-        <div class="row g-4">
-            <div class="col-12">
-                <h2 class="text-white fw-semibold text-center mb-5">Etapier hors des .box, sur fond noir</h2>
-                                            <div class="stepper colorDanger">
-                                <ol class="olStepper p-0 m-0">
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 1</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem active">
-                                        <h3 class="stepperTitle">Step 2</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 3</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 4</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                </ol>
-                            </div>
-            </div>
-            <div class="col-12">
-                <div class="box">
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="text-center my-5">
-                                contenu des étapes
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <div class="py-5">
-    </div>
-
-    <section id="section03" class="container pb-5 mt-5">
-        <div class="row g-4">
-            <div class="col-12">
-                <h2 class="text-white fw-semibold text-center mb-5">Etapier hors des .box, sur fond noir</h2>
-                                            <div class="stepper colorOrange">
-                                <ol class="olStepper p-0 m-0">
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 1</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem active">
-                                        <h3 class="stepperTitle">Step 2</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 3</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 4</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                </ol>
-                            </div>
-            </div>
-            <div class="col-12">
-                <div class="box">
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="text-center my-5">
-                                contenu des étapes
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <div class="py-5"></div>
-
-    <section id="section04" class="container pb-5 mt-5">
-        <div class="row g-4">
-            <div class="col-12">
-                <div class="box">
-                    <div class="row g-4">
-                        <div class="col-4">
-                            <div class="stepper vertical colorPrimary">
-                                <ol class="olStepper p-0 m-0">
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 1</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem active">
-                                        <h3 class="stepperTitle">Step 2</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 3</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 4</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                    <li class="stepperItem">
-                                        <h3 class="stepperTitle">Step 5</h3>
-                                        <p class="stepperDesc">Some desc text</p>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <div class="infraBox h-100">
-                                <div class="">
-                                    <div class="text-center my-5">
-                                        contenu des étapes
+                <div class="col-12">
+                    <div class="box">
+                        <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="stepper transparent colorOrange">
+                                        <h3 class="stepperTitle">Step 2 : activate</h3>
+                                        <p class="stepperDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                                        <ol class="olStepper colorDanger p-0">
+                                            <li class="stepperItem">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem active">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                        </ol>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-6">
+                                    <div class="stepper transparent colorPurple">
+                                        <h3 class="stepperTitle">Step 3 La moula la moula</h3>
+                                        <ol class="olStepper colorDanger p-0">
+                                            <li class="stepperItem">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem active">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                        </ol>
+                                        <p class="stepperDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="infraBox">
+                                        <div class="">
+                                            <div class="text-center my-5">
+                                                contenu des étapes
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <div class="box">
+                        <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="stepper transparent center colorSuccess">
+                                        <h3 class="stepperTitle">Step 2 with dark background</h3>
+                                        <ol class="olStepper colorDanger p-0">
+                                            <li class="stepperItem">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem active">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="infraBox">
+                                        <div class="">
+                                            <div class="text-center my-5">
+                                                contenu des étapes
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="box">
+                        <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="stepper center colorDanger">
+                                        <h3 class="stepperTitle">Step 1 avant tous les autres</h3>
+                                        <p class="stepperDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis molestias impedit hic corporis.</p>
+                                        <ol class="olStepper colorDanger p-0">
+                                            <li class="stepperItem active">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                            <li class="stepperItem">
+                                                <span></span>
+        
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="infraBox">
+                                        <div class="">
+                                            <div class="text-center my-5">
+                                                contenu des étapes
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </section>
+
 
 </body>
 

@@ -13002,30 +13002,59 @@ body.is-scrolled header nav > .container {
   max-width: 440px;
 }
 
-:root {
-  --circle-size: 36px;
-  --spacing: clamp(0.25rem, 2vw, 0.5rem);
-}
-
 .stepper {
   border-radius: 16px;
-  padding: 16px;
-  display: inline-block;
+  padding: 24px 16px;
+  display: block;
   background-color: #000000;
+}
+
+.stepper.transparent {
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  width: 100%;
+}
+
+.stepper.transparent .olStepper .stepperItem.active span {
+  background-color: #121b36 !important;
+}
+
+.stepper.center .stepperTitle {
+  text-align: center;
+}
+
+.stepper.center .olStepper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.stepper.center .stepperDesc {
+  max-width: 640px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+.stepper > * {
+  margin: 0;
+}
+
+.stepper > *:nth-child(n+2) {
+  margin-top: 24px !important;
 }
 
 .stepper .stepperTitle {
   font-weight: 600;
-  font-size: 24px;
-  margin-bottom: 16px;
-  color: #04a8ff;
+  font-size: 26px;
+  color: #ffffff;
 }
 
 .stepper .stepperDesc {
+  font-size: 18px;
+  margin-bottom: 0;
   color: #ffffff;
-  font-size: clamp(0.85rem, 2vw, 1rem);
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
 }
 
 .stepper .olStepper {
@@ -13062,8 +13091,8 @@ body.is-scrolled header nav > .container {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #04a8ff;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #121b36;
   margin: 0 auto;
   font-weight: 600;
   font-size: 18px;
@@ -13076,7 +13105,7 @@ body.is-scrolled header nav > .container {
   content: "";
   height: 2px;
   min-width: 40px;
-  background-color: #04a8ff;
+  background-color: #ffffff;
 }
 
 .stepper .olStepper .stepperItem span {
@@ -13094,7 +13123,7 @@ body.is-scrolled header nav > .container {
 }
 
 .stepper .olStepper .stepperItem.active:before {
-  color: #04a8ff;
+  color: #121b36;
   position: relative;
   z-index: 1;
   width: 26px;
@@ -13109,7 +13138,7 @@ body.is-scrolled header nav > .container {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #04a8ff;
+  border: 2px solid #ffffff;
   background-color: #000000;
   left: -7px;
 }
@@ -13120,7 +13149,7 @@ body.is-scrolled header nav > .container {
 
 .stepper .olStepper .stepperItem.active ~ .stepperItem:before {
   background-color: #898989;
-  color: white;
+  color: #ffffff;
   font-weight: 400 !important;
 }
 
@@ -13128,214 +13157,220 @@ body.is-scrolled header nav > .container {
   background-color: #898989 !important;
 }
 
-.stepper.vertical .olStepper {
-  display: block;
-}
-
-.stepper.vertical .olStepper .stepperItem {
-  display: block;
-  position: relative;
-  padding-left: 62px;
-  text-align: left;
-}
-
-.stepper.vertical .olStepper .stepperItem:not(:last-child) {
-  margin-bottom: 40px;
-}
-
-.stepper.vertical .olStepper .stepperItem:not(:last-child):after {
-  content: "";
-  position: absolute;
-  left: calc(var(--circle-size) / 2 - 1px);
-  top: calc(var(--circle-size) + 4px);
-  width: 2px;
-  height: calc(100% - 12px);
-  background-color: #ffffff;
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-}
-
-.stepper.vertical .olStepper .stepperItem:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.stepper.vertical .olStepper .stepperItem .stepperTitle {
-  padding-top: 6px;
-}
-
-.stepper.vertical .olStepper .stepperItem .stepperDesc {
-  padding: 0;
+.stepper.colorPrimary .stepperTitle {
+  color: #04a8ff;
 }
 
 .stepper.colorPrimary .stepperItem:before {
-  color: #04a8ff;
+  background-color: #04a8ff;
+  color: #ffffff;
 }
 
-.stepper.colorPrimary .stepperItem .stepperTitle {
-  color: #04a8ff;
+.stepper.colorPrimary .stepperItem:after {
+  background-color: #04a8ff !important;
 }
 
 .stepper.colorPrimary .stepperItem.active:before {
-  background-color: #04a8ff;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #04a8ff !important;
 }
 
-.stepper.colorPrimary .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorPrimary .stepperItem.active span {
+  border-color: #04a8ff;
 }
 
-.stepper.colorPrimary .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorPrimary .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorDanger .stepperTitle {
+  color: #FF0066;
 }
 
 .stepper.colorDanger .stepperItem:before {
-  color: #FF0066;
+  background-color: #FF0066;
+  color: #ffffff;
 }
 
-.stepper.colorDanger .stepperItem .stepperTitle {
-  color: #FF0066;
+.stepper.colorDanger .stepperItem:after {
+  background-color: #FF0066 !important;
 }
 
 .stepper.colorDanger .stepperItem.active:before {
-  background-color: #FF0066;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #FF0066 !important;
 }
 
-.stepper.colorDanger .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorDanger .stepperItem.active span {
+  border-color: #FF0066;
 }
 
-.stepper.colorDanger .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorDanger .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorOrange .stepperTitle {
+  color: #ffc107;
 }
 
 .stepper.colorOrange .stepperItem:before {
-  color: #ffc107;
+  background-color: #ffc107;
+  color: #ffffff;
 }
 
-.stepper.colorOrange .stepperItem .stepperTitle {
-  color: #ffc107;
+.stepper.colorOrange .stepperItem:after {
+  background-color: #ffc107 !important;
 }
 
 .stepper.colorOrange .stepperItem.active:before {
-  background-color: #ffc107;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #ffc107 !important;
 }
 
-.stepper.colorOrange .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorOrange .stepperItem.active span {
+  border-color: #ffc107;
 }
 
-.stepper.colorOrange .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorOrange .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorPurple .stepperTitle {
+  color: #6f42c1;
 }
 
 .stepper.colorPurple .stepperItem:before {
-  color: #6f42c1;
+  background-color: #6f42c1;
+  color: #ffffff;
 }
 
-.stepper.colorPurple .stepperItem .stepperTitle {
-  color: #6f42c1;
+.stepper.colorPurple .stepperItem:after {
+  background-color: #6f42c1 !important;
 }
 
 .stepper.colorPurple .stepperItem.active:before {
-  background-color: #6f42c1;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #6f42c1 !important;
 }
 
-.stepper.colorPurple .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorPurple .stepperItem.active span {
+  border-color: #6f42c1;
 }
 
-.stepper.colorPurple .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorPurple .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorWarning .stepperTitle {
+  color: #ffc107;
 }
 
 .stepper.colorWarning .stepperItem:before {
-  color: #ffc107;
+  background-color: #ffc107;
+  color: #ffffff;
 }
 
-.stepper.colorWarning .stepperItem .stepperTitle {
-  color: #ffc107;
+.stepper.colorWarning .stepperItem:after {
+  background-color: #ffc107 !important;
 }
 
 .stepper.colorWarning .stepperItem.active:before {
-  background-color: #ffc107;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #ffc107 !important;
 }
 
-.stepper.colorWarning .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorWarning .stepperItem.active span {
+  border-color: #ffc107;
 }
 
-.stepper.colorWarning .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorWarning .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorTeal .stepperTitle {
+  color: #20c997;
 }
 
 .stepper.colorTeal .stepperItem:before {
-  color: #20c997;
+  background-color: #20c997;
+  color: #ffffff;
 }
 
-.stepper.colorTeal .stepperItem .stepperTitle {
-  color: #20c997;
+.stepper.colorTeal .stepperItem:after {
+  background-color: #20c997 !important;
 }
 
 .stepper.colorTeal .stepperItem.active:before {
-  background-color: #20c997;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #20c997 !important;
 }
 
-.stepper.colorTeal .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorTeal .stepperItem.active span {
+  border-color: #20c997;
 }
 
-.stepper.colorTeal .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorTeal .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorSuccess .stepperTitle {
+  color: #01FF88;
 }
 
 .stepper.colorSuccess .stepperItem:before {
-  color: #01FF88;
+  background-color: #01FF88;
+  color: #ffffff;
 }
 
-.stepper.colorSuccess .stepperItem .stepperTitle {
-  color: #01FF88;
+.stepper.colorSuccess .stepperItem:after {
+  background-color: #01FF88 !important;
 }
 
 .stepper.colorSuccess .stepperItem.active:before {
-  background-color: #01FF88;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #01FF88 !important;
 }
 
-.stepper.colorSuccess .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorSuccess .stepperItem.active span {
+  border-color: #01FF88;
 }
 
-.stepper.colorSuccess .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorSuccess .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorInfo .stepperTitle {
+  color: #72d2c2;
 }
 
 .stepper.colorInfo .stepperItem:before {
-  color: #72d2c2;
+  background-color: #72d2c2;
+  color: #ffffff;
 }
 
-.stepper.colorInfo .stepperItem .stepperTitle {
-  color: #72d2c2;
+.stepper.colorInfo .stepperItem:after {
+  background-color: #72d2c2 !important;
 }
 
 .stepper.colorInfo .stepperItem.active:before {
-  background-color: #72d2c2;
-  color: #ffffff !important;
+  background-color: #ffffff;
+  color: #72d2c2 !important;
 }
 
-.stepper.colorInfo .stepperItem.active .stepperDesc {
-  color: #ffffff;
+.stepper.colorInfo .stepperItem.active span {
+  border-color: #72d2c2;
 }
 
-.stepper.colorInfo .stepperItem.active .stepperTitle {
-  color: #ffffff;
+.stepper.colorInfo .stepperItem.active:after {
+  background-color: #898989 !important;
+}
+
+.stepper.colorOrange .stepperItem:before, .stepper.colorSuccess .stepperItem:before, .stepper.colorWarning .stepperItem:before {
+  color: #121b36 !important;
+}
+
+.stepper.colorOrange .stepperItem.active:before, .stepper.colorSuccess .stepperItem.active:before, .stepper.colorWarning .stepperItem.active:before {
+  color: #121b36 !important;
 }
 
 footer {
