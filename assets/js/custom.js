@@ -215,3 +215,52 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Fonction pour générer le sommaire (uniquement sur les pages blog)
+function generateTableOfContents() {
+    const summaryBox = document.querySelector('.summaryBox');
+    const postContent = document.querySelector('.postContent');
+
+    // Vérifier que les éléments existent (uniquement sur les pages blog)
+    if (!summaryBox || !postContent) return;
+
+    // Récupérer tous les headings (h2, h3, h4, h5, h6)
+    const headings = postContent.querySelectorAll('h2, h3, h4, h5, h6');
+
+    if (headings.length === 0) return;
+
+    // Créer la liste
+    const ul = document.createElement('ul');
+    ul.classList.add('summary-list');
+
+    headings.forEach((heading, index) => {
+        // Ajouter un ID au heading si il n'en a pas
+        if (!heading.id) {
+            heading.id = `heading-${index}`;
+        }
+
+        // Créer l'élément de liste
+        const li = document.createElement('li');
+        li.classList.add(heading.tagName.toLowerCase()); // Ajoute la classe h2, h3, h4, etc.
+        li.textContent = heading.textContent;
+        li.style.cursor = 'pointer';
+
+        // Ajouter l'événement de clic avec offset de 80px
+        li.addEventListener('click', () => {
+            const yOffset = -80; // Décalage de 80px vers le haut
+            const y = heading.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({
+                top: y,
+                behavior: 'smooth'
+            });
+        });
+
+        ul.appendChild(li);
+    });
+
+    summaryBox.appendChild(ul);
+}
+
+// Exécuter la génération du sommaire au chargement de la page
+document.addEventListener('DOMContentLoaded', generateTableOfContents);
