@@ -105,9 +105,46 @@
 }
 
 .blogPost,
-.blogPost.light{
-    // Utilisation de la map globale
-    @include color-variants-simple($theme-colors);
+.blogPost.light {
+    // Variantes de couleur
+    @each $name, $color in $theme-colors {
+        &.color#{$name} {
+
+            // Pour les blogPost normaux (sans .oneCol)
+            &:not(.oneCol) {
+                .postBlogTitle {
+                    color: $color;
+                }
+
+                .voirPlus {
+                    color: $color;
+                }
+            }
+
+            // Pour les blogPost.oneCol
+            &.oneCol {
+                background-color: $black;
+
+                strong, small, .voirPlus {
+                    color: $color;
+                }
+
+                .postBlogTitle {
+                    color: $white;
+                }
+
+                // Hover pour oneCol normal
+                &:hover {
+                    background-color: $black;
+                }
+
+                // Hover pour oneCol.light
+                &.light:hover {
+                    background-color: $white;
+                }
+            }
+        }
+    }
 }
 
 .summaryBox{
