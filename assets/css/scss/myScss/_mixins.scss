@@ -1,0 +1,33 @@
+// Mixin pour générer des variantes de couleur simples (textToAdjust, bgToAdjust)
+@mixin color-variants-simple($colors: $theme-colors) {
+    @each $name, $color in $colors {
+        &.color#{$name} {
+            .textToAdjust {
+                color: $color !important;
+            }
+
+            .bgToAdjust {
+                background-color: $color !important;
+            }
+        }
+    }
+}
+
+// Mixin pour générer des variantes de couleur avec border
+@mixin color-variants-with-border($colors: $theme-colors) {
+    @each $name, $color in $colors {
+        &.color#{$name} {
+            .textToAdjust {
+                color: $color !important;
+            }
+
+            .bgToAdjust {
+                background-color: $color !important;
+            }
+
+            .borderColorToAdjust {
+                border-color: $color !important;
+            }
+        }
+    }
+}

@@ -154,60 +154,52 @@ form {
 // Boucle pour générer toutes les variantes de couleurs
 form {
     @each $name, $color in $theme-colors {
-        &.color#{$name} {
+    &.color#{$name} {
 
-            // Titre de formulaire prend la couleur
-            h3, .formTitle {
-                color: $color !important;
-                transition: $trans;
+        // Texte à ajuster
+        .textToAdjust {
+            color: $color !important;
+            transition: $trans;
+        }
+
+        // Placeholder à ajuster
+        .placeholderToAdjust::placeholder {
+            color: $color !important;
+        }
+
+        // Border à ajuster
+        .borderColorToAdjust {
+            border-color: rgba($color, 0.3) !important;
+
+            &:focus-within {
+                border-color: $color !important;
             }
+        }
 
-            // Labels de radio/checkbox prennent la couleur
-            .inputRadioBox > span,
-            .inputCheckBox > span {
-                color: $color !important;
-            }
+        fieldset.borderColorToAdjust {
 
-            // Placeholder prend la couleur
-            input::placeholder,
-            textarea::placeholder {
-                color: $color !important;
-            }
+            input:not([type="radio"]):not([type="checkbox"]),
+            textarea {
+                border-bottom-color: rgba($color, 0.3);
 
-            // Bordures des fieldsets et inputs radio/checkbox
-            fieldset,
-            .inputRadioBox,
-            .inputCheckBox {
-                border-color: rgba($color, 0.3) !important;
-
-                &:focus-within {
-                    border-color: $color !important;
-                }
-            }
-
-            fieldset {
-                input:not([type="radio"]):not([type="checkbox"]),
-                textarea {
-                    border-bottom-color: rgba($color, 0.3);
-
-                    &:focus,
-                    &:active {
-                        border-color: $color;
-                    }
-                }
-            }
-
-            // SEULEMENT quand checked : le background devient coloré
-            input:checked+label.checkableLabel {
-                i {
-                    background-color: $color !important;
-                    color: $white !important;
-                }
-
-                span {
-                    color: $color !important;
+                &:focus,
+                &:active {
+                    border-color: $color;
                 }
             }
         }
+
+        // SEULEMENT quand checked : le background devient coloré
+        input:checked+label.checkableLabel {
+            i {
+                background-color: $color !important; // Couleur seulement si checked
+                color: $white !important;
+            }
+
+            span {
+                color: $color !important;
+            }
+        }
     }
+}
 }

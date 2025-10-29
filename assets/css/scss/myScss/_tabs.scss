@@ -42,32 +42,41 @@
         &.color#{$name} {
             .nav {
                 // Tabs non actifs : texte en couleur
-                .nav-link:not(.active) {
+                .nav-link:not(.active) .textToAdjust,
+                .nav-link.textToAdjust:not(.active) {
                     color: $color !important;
                     transition: $trans;
                 }
-
+                
                 // Tabs actifs : background en couleur, texte en blanc
                 .nav-link.active {
-                    background-color: $color !important;
-                    color: $white !important;
-                    transition: $trans;
+                    &.bgToAdjust {
+                        background-color: $color !important;
+                        transition: $trans;
+                    }
+                    
+                    &.textToAdjust {
+                        color: $white !important;
+                        transition: $trans;
+                    }
                 }
-
+                
                 // Border entre les items
-                .nav-item:not(:first-child) {
-                    border-left: 1px solid rgba($color, 0.4);
-                    transition: $trans;
+                .nav-item.borderColorToAdjust {
+                    &:not(:first-child) {
+                        border-left: 1px solid rgba($color, 0.4);
+                        transition: $trans;
+                    }
                 }
             }
         }
     }
-
+    
     // Exception pour colorSuccess et colorWarning : texte en dark quand actif
     &.colorSuccess,
     &.colorWarning {
         .nav {
-            .nav-link.active {
+            .nav-link.active.textToAdjust {
                 color: $dark !important;
             }
         }

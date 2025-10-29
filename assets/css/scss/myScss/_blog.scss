@@ -104,22 +104,10 @@
     }
 }
 
-// Variantes de couleur pour .blogPost
 .blogPost,
-.blogPost.light {
-    @each $name, $color in $theme-colors {
-        &.color#{$name} {
-            // Titre du blog prend la couleur
-            .postBlogTitle {
-                color: $color !important;
-            }
-
-            // Lien "Voir plus" prend la couleur
-            .voirPlus {
-                color: $color !important;
-            }
-        }
-    }
+.blogPost.light{
+    // Utilisation de la map globale
+    @include color-variants-simple($theme-colors);
 }
 
 .summaryBox{
