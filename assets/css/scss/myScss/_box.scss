@@ -138,9 +138,15 @@
         }
     }
 
-    // Exception pour colorSuccess et colorWarning : texte en dark au hover
+    // Exception pour colorSuccess et colorWarning : texte en dark
     &.colorSuccess,
     &.colorWarning {
+        // État normal : bouton avec texte dark
+        .btn {
+            color: $dark !important;
+        }
+
+        // État hover : tout en dark
         &:hover {
             i, div {
                 color: $dark !important;
