@@ -45,7 +45,7 @@
                 <div class="col-lg-9 col-xl-8">
                     <div class="box mt-4">
                         <h2 class="text-white mb-4">
-                            <a class="w-100 flexCSB" href="#">
+                            <a class="w-100 flexCSB text-decoration-none" href="#">
                                 <span class="fw-semibold text-primary">France Demeure</span>
                                 <i class="text-primary bi bi-box-arrow-up-right"></i>
                             </a>

@@ -42,58 +42,58 @@
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                         <div class="col-md-6">
-                            <div class="ticket infraBox p-3 flexCSB w-100">
+                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
-                            </div>
+                                <span class="btn btn-sm">En savoir plus</span>
+                            </a>
                         </div>
                     </div>
                 </div>

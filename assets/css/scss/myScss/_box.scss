@@ -92,40 +92,63 @@
     > *:last-child{
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
-        
+
     }
 }
 
+// Styles pour les tickets avec variantes de couleur
+.ticket {
+    cursor: pointer;
+    transition: $trans;
 
-
-.box{
-    // Variantes de couleur pour les tickets avec hover effect
+    // Variantes de couleur
     @each $name, $color in $theme-colors {
-        &.color#{$name} .ticket {
+        &.color#{$name} {
 
-            &:hover{
-                background-color: $color !important;
-                .textToAdjust {
-                    color: $white !important;
+            // État normal
+            i {
+                color: $color;
+                transition: $trans;
+            }
+
+            div {
+                color: $color;
+                transition: $trans;
+            }
+
+            .btn {
+                background-color: $color;
+                color: $white;
+                transition: $trans;
+            }
+
+            // État hover
+            &:hover {
+                background-color: $color;
+
+                i, div {
+                    color: $white;
                 }
 
-                .bgToAdjust {
-                    background-color: $white !important;
+                .btn {
+                    background-color: $white;
+                    color: $color;
                 }
-                .btn{
-                    color: $color !important
-                }
-
             }
         }
     }
-}
-.ticket{
-    cursor: pointer;
-}
-.textToAdjust,
-.bgToAdjust, 
-.box,
-.ticket{
-    transition: $trans;
+
+    // Exception pour colorSuccess et colorWarning : texte en dark au hover
+    &.colorSuccess,
+    &.colorWarning {
+        &:hover {
+            i, div {
+                color: $dark !important;
+            }
+
+            .btn {
+                color: $dark !important;
+            }
+        }
+    }
 }

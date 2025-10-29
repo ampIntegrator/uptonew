@@ -215,4 +215,12 @@ form {
             }
         }
     }
+
+    // Exception pour colorSuccess et colorWarning : texte en dark sur le bouton
+    &.colorSuccess,
+    &.colorWarning {
+        .btnSubmit {
+            color: $dark !important;
+        }
+    }
 }
