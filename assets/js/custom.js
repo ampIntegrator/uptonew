@@ -3,8 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const logoSpan = document.querySelector('.navbar-brand span span');
     const svgPath = document.querySelector('.navbar-brand svg path[fill="#01FF88"]');
     
-    // Sélectionner toutes les sections
-    const sections = document.querySelectorAll('section[id^="section"]');
+    // Appliquer les transitions CSS directement via JS
+    if (logoSpan) {
+        logoSpan.style.transition = 'color 3s ease-in-out';
+    }
+    if (svgPath) {
+        svgPath.style.transition = 'fill 3s ease-in-out';
+    }
     
     // Définir les classes de couleur et leurs valeurs hex correspondantes
     const colorData = [
@@ -14,6 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { class: 'text-warning', hex: '#ffc107' },
         { class: 'text-danger', hex: '#dc3545' }
     ];
+    
+    let currentIndex = 0;
     
     // Fonction pour changer les couleurs
     function updateColors(index) {
@@ -29,30 +36,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Créer l'Intersection Observer
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            // Quand une section entre dans la zone du haut
-            if (entry.isIntersecting) {
-                // Récupérer l'index de la section
-                const sectionIndex = Array.from(sections).indexOf(entry.target);
-                // Calculer l'index de couleur (boucle sur les couleurs avec modulo)
-                const colorIndex = sectionIndex % colorData.length;
-                // Mettre à jour les couleurs
-                updateColors(colorIndex);
-            }
-        });
-    }, {
-        // Déclenche exactement quand la section atteint le haut, sans marge
-        rootMargin: '0px 0px -90% 0px',
-        threshold: 0
-    });
-    
-    // Observer toutes les sections
-    sections.forEach(section => observer.observe(section));
-    
     // Appliquer les couleurs initiales
     updateColors(0);
+    
+    // Changer de couleur toutes les 8 secondes (5s stable + 3s transition)
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % colorData.length; // Boucle infinie
+        updateColors(currentIndex);
+    }, 8000); // 8000ms = 8 secondes
 });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -67,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// TO REMOVE? JUST FOR DEMO
 document.addEventListener('DOMContentLoaded', function() {
     // Liste des couleurs
     const colorNames = ['Primary', 'Success', 'Danger', 'Info', 'Orange', 'Purple', 'Warning', 'Teal', 'Indigo', 'Cyan'];
@@ -112,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// AJUSTEMENT COULEUR UNDERMENU HEADER
 document.addEventListener('DOMContentLoaded', function() {
     const liSuccess = document.querySelector('.liSuccess');
     const liDanger = document.querySelector('.liDanger');
@@ -174,6 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// SCRIPT POUR DEFILEMENT LOGO SLIDER 
 document.addEventListener('DOMContentLoaded', () => {
     const sliderTrack = document.querySelector('.clientSlider .slider-track');
     const firstUl = sliderTrack.querySelector('ul');

@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar fixed-top shadow-lg">
+    <nav class="navbar fixed-top">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center w-100">
                 <a class="navbar-brand text-white fw-bold h1 fs-1 m-0 p-0" href="index.php">
