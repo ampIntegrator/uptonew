@@ -16,7 +16,7 @@
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                         <div class="card-header">
                             <div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Technologie</span>
+                                <span class="fs-5">Technologie</span>
                             </div>
                             <h2 class="card-title px-3 my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -41,7 +41,7 @@
                         <div class="card-header">
 
                                                         <div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Business et développement</span>
+                                <span class="fs-5">Business et développement</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -66,7 +66,7 @@
                     <div class="card colorOrange overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Assurances</span>
+                                <span class="fs-5">Assurances</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -89,7 +89,7 @@
                     <div class="card colorPurple overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Moula moula baby</span>
+                                <span class="fs-5">Moula moula baby</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="card colorWarning overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Conseil</span>
+                                <span class="fs-5">Conseil</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -137,7 +137,7 @@
                     <div class="card colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Développement</span>
+                                <span class="fs-5">Développement</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -162,7 +162,7 @@
                     <div class="card colorIndigo overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Transformation</span>
+                                <span class="fs-5">Transformation</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -185,7 +185,7 @@
                     <div class="card colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Technologic</span>
+                                <span class="fs-5">Technologic</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -253,7 +253,7 @@
                     <div class="card cardSmall colorDanger overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Digitalisation</span>
+                                <span class="fs-5">Digitalisation</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -276,7 +276,7 @@
                     <div class="card cardSmall colorPurple overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">ROI & ISF</span>
+                                <span class="fs-5">ROI & ISF</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -301,7 +301,7 @@
                     <div class="card cardSmall colorWarning overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">David Hasselhoff</span>
+                                <span class="fs-5">David Hasselhoff</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -324,7 +324,7 @@
                     <div class="card cardSmall colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Stratégie</span>
+                                <span class="fs-5">Stratégie</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
@@ -349,7 +349,7 @@
                     <div class="card cardSmall colorIndigo overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Technologie</span>
+                                <span class="fs-5">Technologie</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
@@ -372,7 +372,7 @@
                     <div class="card cardSmall colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
                         <div class="card-header"><div class="text-center px-3 py-2 d-block w-100">
-                                <span class="text-white fs-5">Yeah yeah yeah</span>
+                                <span class="fs-5">Yeah yeah yeah</span>
                             </div>
                             <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
