@@ -12220,6 +12220,10 @@ fieldset:disabled .btn {
   color: #72d2c2;
 }
 
+.ticket.colorSuccess .btn, .ticket.colorWarning .btn {
+  color: #121b36 !important;
+}
+
 .ticket.colorSuccess:hover i, .ticket.colorSuccess:hover div, .ticket.colorWarning:hover i, .ticket.colorWarning:hover div {
   color: #121b36 !important;
 }
@@ -13065,207 +13069,159 @@ fieldset:disabled .btn {
   color: #121b36;
 }
 
-.tabs.colorPrimary .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorPrimary .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorPrimary .nav .nav-link:not(.active) {
   color: #04a8ff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorPrimary .nav .nav-link.active.bgToAdjust {
+.tabs.colorPrimary .nav .nav-link.active {
   background-color: #04a8ff !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorPrimary .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorPrimary .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorPrimary .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(4, 168, 255, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorDanger .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorDanger .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorDanger .nav .nav-link:not(.active) {
   color: #FF0066 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorDanger .nav .nav-link.active.bgToAdjust {
+.tabs.colorDanger .nav .nav-link.active {
   background-color: #FF0066 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorDanger .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorDanger .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorDanger .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(255, 0, 102, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorOrange .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorOrange .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorOrange .nav .nav-link:not(.active) {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorOrange .nav .nav-link.active.bgToAdjust {
+.tabs.colorOrange .nav .nav-link.active {
   background-color: #ffc107 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorOrange .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorOrange .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorOrange .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(255, 193, 7, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorPurple .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorPurple .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorPurple .nav .nav-link:not(.active) {
   color: #6f42c1 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorPurple .nav .nav-link.active.bgToAdjust {
+.tabs.colorPurple .nav .nav-link.active {
   background-color: #6f42c1 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorPurple .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorPurple .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorPurple .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(111, 66, 193, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorWarning .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorWarning .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorWarning .nav .nav-link:not(.active) {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorWarning .nav .nav-link.active.bgToAdjust {
+.tabs.colorWarning .nav .nav-link.active {
   background-color: #ffc107 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorWarning .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorWarning .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorWarning .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(255, 193, 7, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorTeal .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorTeal .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorTeal .nav .nav-link:not(.active) {
   color: #20c997 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorTeal .nav .nav-link.active.bgToAdjust {
+.tabs.colorTeal .nav .nav-link.active {
   background-color: #20c997 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorTeal .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorTeal .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorTeal .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(32, 201, 151, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorSuccess .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorSuccess .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorSuccess .nav .nav-link:not(.active) {
   color: #01FF88 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorSuccess .nav .nav-link.active.bgToAdjust {
+.tabs.colorSuccess .nav .nav-link.active {
   background-color: #01FF88 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorSuccess .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorSuccess .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorSuccess .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(1, 255, 136, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorInfo .nav .nav-link:not(.active) .textToAdjust,
-.tabs.colorInfo .nav .nav-link.textToAdjust:not(.active) {
+.tabs.colorInfo .nav .nav-link:not(.active) {
   color: #72d2c2 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorInfo .nav .nav-link.active.bgToAdjust {
+.tabs.colorInfo .nav .nav-link.active {
   background-color: #72d2c2 !important;
-  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tabs.colorInfo .nav .nav-link.active.textToAdjust {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorInfo .nav .nav-item.borderColorToAdjust:not(:first-child) {
+.tabs.colorInfo .nav .nav-item:not(:first-child) {
   border-left: 1px solid rgba(114, 210, 194, 0.4);
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tabs.colorSuccess .nav .nav-link.active.textToAdjust, .tabs.colorWarning .nav .nav-link.active.textToAdjust {
+.tabs.colorSuccess .nav .nav-link.active, .tabs.colorWarning .nav .nav-link.active {
   color: #121b36 !important;
 }
 
@@ -14871,84 +14827,348 @@ form.colorSuccess .btnSubmit, form.colorWarning .btnSubmit {
   color: inherit;
 }
 
-.blogPost.colorPrimary .textToAdjust,
-.blogPost.light.colorPrimary .textToAdjust {
-  color: #04a8ff !important;
+.blogPost.colorPrimary:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorPrimary:not(.oneCol) .postBlogTitle {
+  color: #04a8ff;
 }
 
-.blogPost.colorPrimary .bgToAdjust,
-.blogPost.light.colorPrimary .bgToAdjust {
-  background-color: #04a8ff !important;
+.blogPost.colorPrimary:not(.oneCol) .voirPlus,
+.blogPost.light.colorPrimary:not(.oneCol) .voirPlus {
+  color: #04a8ff;
 }
 
-.blogPost.colorDanger .textToAdjust,
-.blogPost.light.colorDanger .textToAdjust {
-  color: #FF0066 !important;
+.blogPost.colorPrimary.oneCol,
+.blogPost.light.colorPrimary.oneCol {
+  background-color: #000000;
 }
 
-.blogPost.colorDanger .bgToAdjust,
-.blogPost.light.colorDanger .bgToAdjust {
-  background-color: #FF0066 !important;
+.blogPost.colorPrimary.oneCol strong, .blogPost.colorPrimary.oneCol small, .blogPost.colorPrimary.oneCol .small, .blogPost.colorPrimary.oneCol .voirPlus,
+.blogPost.light.colorPrimary.oneCol strong,
+.blogPost.light.colorPrimary.oneCol small,
+.blogPost.light.colorPrimary.oneCol .small,
+.blogPost.light.colorPrimary.oneCol .voirPlus {
+  color: #04a8ff;
 }
 
-.blogPost.colorOrange .textToAdjust,
-.blogPost.light.colorOrange .textToAdjust {
-  color: #ffc107 !important;
+.blogPost.colorPrimary.oneCol .postBlogTitle,
+.blogPost.light.colorPrimary.oneCol .postBlogTitle {
+  color: #ffffff;
 }
 
-.blogPost.colorOrange .bgToAdjust,
-.blogPost.light.colorOrange .bgToAdjust {
-  background-color: #ffc107 !important;
+.blogPost.colorPrimary.oneCol:hover,
+.blogPost.light.colorPrimary.oneCol:hover {
+  background-color: #000000;
 }
 
-.blogPost.colorPurple .textToAdjust,
-.blogPost.light.colorPurple .textToAdjust {
-  color: #6f42c1 !important;
+.blogPost.colorPrimary.oneCol.light:hover,
+.blogPost.light.colorPrimary.oneCol.light:hover {
+  background-color: #ffffff;
 }
 
-.blogPost.colorPurple .bgToAdjust,
-.blogPost.light.colorPurple .bgToAdjust {
-  background-color: #6f42c1 !important;
+.blogPost.colorPrimary.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorPrimary.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
 }
 
-.blogPost.colorWarning .textToAdjust,
-.blogPost.light.colorWarning .textToAdjust {
-  color: #ffc107 !important;
+.blogPost.colorDanger:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorDanger:not(.oneCol) .postBlogTitle {
+  color: #FF0066;
 }
 
-.blogPost.colorWarning .bgToAdjust,
-.blogPost.light.colorWarning .bgToAdjust {
-  background-color: #ffc107 !important;
+.blogPost.colorDanger:not(.oneCol) .voirPlus,
+.blogPost.light.colorDanger:not(.oneCol) .voirPlus {
+  color: #FF0066;
 }
 
-.blogPost.colorTeal .textToAdjust,
-.blogPost.light.colorTeal .textToAdjust {
-  color: #20c997 !important;
+.blogPost.colorDanger.oneCol,
+.blogPost.light.colorDanger.oneCol {
+  background-color: #000000;
 }
 
-.blogPost.colorTeal .bgToAdjust,
-.blogPost.light.colorTeal .bgToAdjust {
-  background-color: #20c997 !important;
+.blogPost.colorDanger.oneCol strong, .blogPost.colorDanger.oneCol small, .blogPost.colorDanger.oneCol .small, .blogPost.colorDanger.oneCol .voirPlus,
+.blogPost.light.colorDanger.oneCol strong,
+.blogPost.light.colorDanger.oneCol small,
+.blogPost.light.colorDanger.oneCol .small,
+.blogPost.light.colorDanger.oneCol .voirPlus {
+  color: #FF0066;
 }
 
-.blogPost.colorSuccess .textToAdjust,
-.blogPost.light.colorSuccess .textToAdjust {
-  color: #01FF88 !important;
+.blogPost.colorDanger.oneCol .postBlogTitle,
+.blogPost.light.colorDanger.oneCol .postBlogTitle {
+  color: #ffffff;
 }
 
-.blogPost.colorSuccess .bgToAdjust,
-.blogPost.light.colorSuccess .bgToAdjust {
-  background-color: #01FF88 !important;
+.blogPost.colorDanger.oneCol:hover,
+.blogPost.light.colorDanger.oneCol:hover {
+  background-color: #000000;
 }
 
-.blogPost.colorInfo .textToAdjust,
-.blogPost.light.colorInfo .textToAdjust {
-  color: #72d2c2 !important;
+.blogPost.colorDanger.oneCol.light:hover,
+.blogPost.light.colorDanger.oneCol.light:hover {
+  background-color: #ffffff;
 }
 
-.blogPost.colorInfo .bgToAdjust,
-.blogPost.light.colorInfo .bgToAdjust {
-  background-color: #72d2c2 !important;
+.blogPost.colorDanger.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorDanger.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorOrange:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorOrange:not(.oneCol) .postBlogTitle {
+  color: #ffc107;
+}
+
+.blogPost.colorOrange:not(.oneCol) .voirPlus,
+.blogPost.light.colorOrange:not(.oneCol) .voirPlus {
+  color: #ffc107;
+}
+
+.blogPost.colorOrange.oneCol,
+.blogPost.light.colorOrange.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorOrange.oneCol strong, .blogPost.colorOrange.oneCol small, .blogPost.colorOrange.oneCol .small, .blogPost.colorOrange.oneCol .voirPlus,
+.blogPost.light.colorOrange.oneCol strong,
+.blogPost.light.colorOrange.oneCol small,
+.blogPost.light.colorOrange.oneCol .small,
+.blogPost.light.colorOrange.oneCol .voirPlus {
+  color: #ffc107;
+}
+
+.blogPost.colorOrange.oneCol .postBlogTitle,
+.blogPost.light.colorOrange.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorOrange.oneCol:hover,
+.blogPost.light.colorOrange.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorOrange.oneCol.light:hover,
+.blogPost.light.colorOrange.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorOrange.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorOrange.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorPurple:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorPurple:not(.oneCol) .postBlogTitle {
+  color: #6f42c1;
+}
+
+.blogPost.colorPurple:not(.oneCol) .voirPlus,
+.blogPost.light.colorPurple:not(.oneCol) .voirPlus {
+  color: #6f42c1;
+}
+
+.blogPost.colorPurple.oneCol,
+.blogPost.light.colorPurple.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorPurple.oneCol strong, .blogPost.colorPurple.oneCol small, .blogPost.colorPurple.oneCol .small, .blogPost.colorPurple.oneCol .voirPlus,
+.blogPost.light.colorPurple.oneCol strong,
+.blogPost.light.colorPurple.oneCol small,
+.blogPost.light.colorPurple.oneCol .small,
+.blogPost.light.colorPurple.oneCol .voirPlus {
+  color: #6f42c1;
+}
+
+.blogPost.colorPurple.oneCol .postBlogTitle,
+.blogPost.light.colorPurple.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorPurple.oneCol:hover,
+.blogPost.light.colorPurple.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorPurple.oneCol.light:hover,
+.blogPost.light.colorPurple.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorPurple.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorPurple.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorWarning:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorWarning:not(.oneCol) .postBlogTitle {
+  color: #ffc107;
+}
+
+.blogPost.colorWarning:not(.oneCol) .voirPlus,
+.blogPost.light.colorWarning:not(.oneCol) .voirPlus {
+  color: #ffc107;
+}
+
+.blogPost.colorWarning.oneCol,
+.blogPost.light.colorWarning.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorWarning.oneCol strong, .blogPost.colorWarning.oneCol small, .blogPost.colorWarning.oneCol .small, .blogPost.colorWarning.oneCol .voirPlus,
+.blogPost.light.colorWarning.oneCol strong,
+.blogPost.light.colorWarning.oneCol small,
+.blogPost.light.colorWarning.oneCol .small,
+.blogPost.light.colorWarning.oneCol .voirPlus {
+  color: #ffc107;
+}
+
+.blogPost.colorWarning.oneCol .postBlogTitle,
+.blogPost.light.colorWarning.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorWarning.oneCol:hover,
+.blogPost.light.colorWarning.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorWarning.oneCol.light:hover,
+.blogPost.light.colorWarning.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorWarning.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorWarning.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorTeal:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorTeal:not(.oneCol) .postBlogTitle {
+  color: #20c997;
+}
+
+.blogPost.colorTeal:not(.oneCol) .voirPlus,
+.blogPost.light.colorTeal:not(.oneCol) .voirPlus {
+  color: #20c997;
+}
+
+.blogPost.colorTeal.oneCol,
+.blogPost.light.colorTeal.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorTeal.oneCol strong, .blogPost.colorTeal.oneCol small, .blogPost.colorTeal.oneCol .small, .blogPost.colorTeal.oneCol .voirPlus,
+.blogPost.light.colorTeal.oneCol strong,
+.blogPost.light.colorTeal.oneCol small,
+.blogPost.light.colorTeal.oneCol .small,
+.blogPost.light.colorTeal.oneCol .voirPlus {
+  color: #20c997;
+}
+
+.blogPost.colorTeal.oneCol .postBlogTitle,
+.blogPost.light.colorTeal.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorTeal.oneCol:hover,
+.blogPost.light.colorTeal.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorTeal.oneCol.light:hover,
+.blogPost.light.colorTeal.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorTeal.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorTeal.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorSuccess:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorSuccess:not(.oneCol) .postBlogTitle {
+  color: #01FF88;
+}
+
+.blogPost.colorSuccess:not(.oneCol) .voirPlus,
+.blogPost.light.colorSuccess:not(.oneCol) .voirPlus {
+  color: #01FF88;
+}
+
+.blogPost.colorSuccess.oneCol,
+.blogPost.light.colorSuccess.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorSuccess.oneCol strong, .blogPost.colorSuccess.oneCol small, .blogPost.colorSuccess.oneCol .small, .blogPost.colorSuccess.oneCol .voirPlus,
+.blogPost.light.colorSuccess.oneCol strong,
+.blogPost.light.colorSuccess.oneCol small,
+.blogPost.light.colorSuccess.oneCol .small,
+.blogPost.light.colorSuccess.oneCol .voirPlus {
+  color: #01FF88;
+}
+
+.blogPost.colorSuccess.oneCol .postBlogTitle,
+.blogPost.light.colorSuccess.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorSuccess.oneCol:hover,
+.blogPost.light.colorSuccess.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorSuccess.oneCol.light:hover,
+.blogPost.light.colorSuccess.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorSuccess.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorSuccess.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
+}
+
+.blogPost.colorInfo:not(.oneCol) .postBlogTitle,
+.blogPost.light.colorInfo:not(.oneCol) .postBlogTitle {
+  color: #72d2c2;
+}
+
+.blogPost.colorInfo:not(.oneCol) .voirPlus,
+.blogPost.light.colorInfo:not(.oneCol) .voirPlus {
+  color: #72d2c2;
+}
+
+.blogPost.colorInfo.oneCol,
+.blogPost.light.colorInfo.oneCol {
+  background-color: #000000;
+}
+
+.blogPost.colorInfo.oneCol strong, .blogPost.colorInfo.oneCol small, .blogPost.colorInfo.oneCol .small, .blogPost.colorInfo.oneCol .voirPlus,
+.blogPost.light.colorInfo.oneCol strong,
+.blogPost.light.colorInfo.oneCol small,
+.blogPost.light.colorInfo.oneCol .small,
+.blogPost.light.colorInfo.oneCol .voirPlus {
+  color: #72d2c2;
+}
+
+.blogPost.colorInfo.oneCol .postBlogTitle,
+.blogPost.light.colorInfo.oneCol .postBlogTitle {
+  color: #ffffff;
+}
+
+.blogPost.colorInfo.oneCol:hover,
+.blogPost.light.colorInfo.oneCol:hover {
+  background-color: #000000;
+}
+
+.blogPost.colorInfo.oneCol.light:hover,
+.blogPost.light.colorInfo.oneCol.light:hover {
+  background-color: #ffffff;
+}
+
+.blogPost.colorInfo.oneCol.light:hover .postBlogTitle,
+.blogPost.light.colorInfo.oneCol.light:hover .postBlogTitle {
+  color: #121b36;
 }
 
 .summaryBox ul {

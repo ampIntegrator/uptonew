@@ -143,7 +143,7 @@
 
         <div class="col-lg-6">
             <div class="box h-100">
-                <div class="tabs colorCyan">
+                <div class="tabs colorTeal">
                     <ul class="nav nav-tabs nav-justified" id="myTab3" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="home-tab3" data-bs-toggle="tab"

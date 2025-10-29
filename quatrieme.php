@@ -223,7 +223,7 @@
 
         <div class="col-lg-6">
             <div class="box h-100 degradeStrong">
-                <div class="accordion colorCyan" id="accordionExample004">
+                <div class="accordion colorTeal" id="accordionExample004">
                     <div class="accordion-item">
                         <h2 class="accordion-header borderColorToAdjust">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"

@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="box colorCyan">
+                    <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-12">
                                 <h2 class="textToAdjust">Gestion SEA - Publicité numérique</h2>
@@ -347,7 +347,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="box colorCyan">
+                    <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-9">
                                 <h2 class="textToAdjust">Gestion SEA - Publicité numérique</h2>
