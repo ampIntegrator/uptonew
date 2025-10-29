@@ -138,9 +138,13 @@
                     background-color: $black;
                 }
 
-                // Hover pour oneCol.light
+                // Hover pour oneCol.light : fond blanc + titre dark
                 &.light:hover {
                     background-color: $white;
+
+                    .postBlogTitle {
+                        color: $dark;
+                    }
                 }
             }
         }
