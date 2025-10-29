@@ -15,7 +15,7 @@
     <div class="row g-4">
         <div class="col-lg-6">
             <div class="box h-100 degradeStrong">
-                <div class="accordion colorSuccess" id="accordionExample001">
+                <div class="accordion colorWarning" id="accordionExample001">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"

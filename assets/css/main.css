@@ -12260,11 +12260,11 @@ fieldset:disabled .btn {
   outline: none !important;
 }
 
-.accordion.colorPrimary .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorPrimary .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(4, 168, 255, 0.4);
 }
 
-.accordion.colorPrimary .accordion-button.collapsed .textToAdjust {
+.accordion.colorPrimary .accordion-button.collapsed span, .accordion.colorPrimary .accordion-button.collapsed i {
   color: #04a8ff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12276,22 +12276,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorPrimary .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorPrimary .accordion-button:not(.collapsed) span, .accordion.colorPrimary .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorPrimary .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorPrimary .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorDanger .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorDanger .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(255, 0, 102, 0.4);
 }
 
-.accordion.colorDanger .accordion-button.collapsed .textToAdjust {
+.accordion.colorDanger .accordion-button.collapsed span, .accordion.colorDanger .accordion-button.collapsed i {
   color: #FF0066 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12303,22 +12303,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorDanger .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorDanger .accordion-button:not(.collapsed) span, .accordion.colorDanger .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorDanger .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorDanger .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorOrange .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorOrange .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(255, 193, 7, 0.4);
 }
 
-.accordion.colorOrange .accordion-button.collapsed .textToAdjust {
+.accordion.colorOrange .accordion-button.collapsed span, .accordion.colorOrange .accordion-button.collapsed i {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12330,22 +12330,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorOrange .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorOrange .accordion-button:not(.collapsed) span, .accordion.colorOrange .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorOrange .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorOrange .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorPurple .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorPurple .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(111, 66, 193, 0.4);
 }
 
-.accordion.colorPurple .accordion-button.collapsed .textToAdjust {
+.accordion.colorPurple .accordion-button.collapsed span, .accordion.colorPurple .accordion-button.collapsed i {
   color: #6f42c1 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12357,22 +12357,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorPurple .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorPurple .accordion-button:not(.collapsed) span, .accordion.colorPurple .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorPurple .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorPurple .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorWarning .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorWarning .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(255, 193, 7, 0.4);
 }
 
-.accordion.colorWarning .accordion-button.collapsed .textToAdjust {
+.accordion.colorWarning .accordion-button.collapsed span, .accordion.colorWarning .accordion-button.collapsed i {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12384,22 +12384,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorWarning .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorWarning .accordion-button:not(.collapsed) span, .accordion.colorWarning .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorWarning .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorWarning .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorTeal .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorTeal .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(32, 201, 151, 0.4);
 }
 
-.accordion.colorTeal .accordion-button.collapsed .textToAdjust {
+.accordion.colorTeal .accordion-button.collapsed span, .accordion.colorTeal .accordion-button.collapsed i {
   color: #20c997 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12411,22 +12411,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorTeal .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorTeal .accordion-button:not(.collapsed) span, .accordion.colorTeal .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorTeal .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorTeal .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorSuccess .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorSuccess .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(1, 255, 136, 0.4);
 }
 
-.accordion.colorSuccess .accordion-button.collapsed .textToAdjust {
+.accordion.colorSuccess .accordion-button.collapsed span, .accordion.colorSuccess .accordion-button.collapsed i {
   color: #01FF88 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12438,22 +12438,22 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorSuccess .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorSuccess .accordion-button:not(.collapsed) span, .accordion.colorSuccess .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorSuccess .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorSuccess .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorInfo .accordion-item:not(:first-child) .borderColorToAdjust {
+.accordion.colorInfo .accordion-item:not(:first-child) .accordion-header {
   border-top: 1px solid rgba(114, 210, 194, 0.4);
 }
 
-.accordion.colorInfo .accordion-button.collapsed .textToAdjust {
+.accordion.colorInfo .accordion-button.collapsed span, .accordion.colorInfo .accordion-button.collapsed i {
   color: #72d2c2 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
@@ -12465,18 +12465,18 @@ fieldset:disabled .btn {
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorInfo .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorInfo .accordion-button:not(.collapsed) span, .accordion.colorInfo .accordion-button:not(.collapsed) i {
   color: #ffffff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion.colorInfo .accordion-button:not(.collapsed) i.textToAdjust {
+.accordion.colorInfo .accordion-button:not(.collapsed) i {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
 
-.accordion.colorSuccess .accordion-button:not(.collapsed) .textToAdjust, .accordion.colorWarning .accordion-button:not(.collapsed) .textToAdjust {
+.accordion.colorSuccess .accordion-button:not(.collapsed) span, .accordion.colorSuccess .accordion-button:not(.collapsed) i, .accordion.colorWarning .accordion-button:not(.collapsed) span, .accordion.colorWarning .accordion-button:not(.collapsed) i {
   color: #121b36 !important;
 }
 
