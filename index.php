@@ -503,7 +503,10 @@
                             </div>
 
 
-                        </form>
+                                                        <div class="formFooter">
+                                    <button class="btn btnSubmit">Valider</button>
+                                </div>
+                            </form>
                     </div>
                     <div class="col-lg-6">
                         <p class="fs-5 text-primary">Nos derniers articles</p>

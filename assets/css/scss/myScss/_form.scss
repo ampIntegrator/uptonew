@@ -140,6 +140,13 @@ form {
     border-radius: 3px;
 }
 
+// Form footer avec bouton de soumission
+.formFooter {
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+}
+
 // Boucle pour générer toutes les variantes de couleurs
 form {
     @each $name, $color in $theme-colors {
@@ -193,6 +200,17 @@ form {
 
                 span {
                     color: $color !important;
+                }
+            }
+
+            // Bouton submit prend le background de la couleur
+            .btnSubmit {
+                background-color: $color !important;
+                color: $white !important;
+                transition: $trans;
+
+                &:hover {
+                    opacity: 0.8;
                 }
             }
         }
