@@ -137,4 +137,18 @@
             }
         }
     }
+
+    // Exception pour colorSuccess et colorWarning : texte en dark au hover
+    &.colorSuccess,
+    &.colorWarning {
+        &:hover {
+            i, div {
+                color: $dark !important;
+            }
+
+            .btn {
+                color: $dark !important;
+            }
+        }
+    }
 }
