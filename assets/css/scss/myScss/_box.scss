@@ -81,8 +81,25 @@
 
 .infraBox,
 .box {
-    // Utilisation de la map globale
-    @include color-variants-simple($theme-colors);
+    // Variantes de couleur
+    @each $name, $color in $theme-colors {
+        &.color#{$name} {
+            // Titres prennent la couleur
+            h2, h3 {
+                color: $color !important;
+            }
+
+            // Icônes prennent la couleur
+            i {
+                color: $color !important;
+            }
+
+            // Séparateurs prennent la couleur en background
+            .separator {
+                background-color: $color !important;
+            }
+        }
+    }
 }
 
 .infraBox {
@@ -92,11 +109,8 @@
     > *:last-child{
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
-        
     }
 }
-
-
 
 .box{
     // Variantes de couleur pour les tickets avec hover effect
@@ -105,26 +119,26 @@
 
             &:hover{
                 background-color: $color !important;
-                .textToAdjust {
+
+                // Tous les éléments en blanc au hover
+                * {
                     color: $white !important;
                 }
 
-                .bgToAdjust {
-                    background-color: $white !important;
-                }
+                // Bouton inverse
                 .btn{
-                    color: $color !important
+                    background-color: $white !important;
+                    color: $color !important;
                 }
-
             }
         }
     }
 }
+
 .ticket{
     cursor: pointer;
 }
-.textToAdjust,
-.bgToAdjust, 
+
 .box,
 .ticket{
     transition: $trans;
