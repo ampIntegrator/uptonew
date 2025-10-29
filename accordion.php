@@ -300,7 +300,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <h3 >Suivre et améliorer vos performances</h3>
+                                    <h3 class="">Suivre et améliorer vos performances</h3>
                                     <div class="separator bg-info"></div>
                                     <p>Fini les décisions à l’aveugle. Nous mettons en place un tracking fiable et complet, puis nous centralisons vos données dans des dashboards clairs et simples à lire. Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu’il faut ajuster pour améliorer vos résultats mois après mois.</p>
                                 </div>

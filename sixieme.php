@@ -33,7 +33,7 @@
 
                         </div>
                         <div class="col-md-8">
-                            <h2>Vos objectifs business</h2>
+                            <h2 class="textToAdjust">Vos objectifs business</h2>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
                                 amet! Quae suscipit obcaecati porro sunt voluptate rerum,
@@ -43,56 +43,56 @@
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-bell-fill fs-2"></i>
+                                <i class="bi bi-bell-fill textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-brilliance fs-2"></i>
+                                <i class="bi bi-brilliance textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-bell-fill fs-2"></i>
+                                <i class="bi bi-bell-fill textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-brilliance fs-2"></i>
+                                <i class="bi bi-brilliance textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-bell-fill fs-2"></i>
+                                <i class="bi bi-bell-fill textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="ticket infraBox p-3 flexCSB w-100">
-                                <i class="bi bi-brilliance fs-2"></i>
+                                <i class="bi bi-brilliance textToAdjust fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
                                 </div>
-                                <a href="" class="btn btn-sm">En savoir plus</a>
+                                <a href="" class="btn bgToAdjust btn-sm">En savoir plus</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-6">
                 <form class="box colorPrimary" action="">
-                    <h3 class="formTitle">
+                    <h3 class="formTitle textToAdjust">
                         Ceci est un formulaire de formulation
                     </h3>
                     <p>
@@ -108,18 +108,18 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
-                        <fieldset>
-                            <input type="text" placeholder="Votre nom" />
+                        <fieldset class="borderColorToAdjust">
+                            <input type="text" placeholder="Votre nom" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <input type="email" placeholder="Votre courriel" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <textarea name="" id="" placeholder="Votre message" class="placeholderToAdjust"></textarea>
                         </fieldset>
                         <fieldset>
-                            <input type="email" placeholder="Votre courriel" />
-                        </fieldset>
-                        <fieldset>
-                            <textarea name="" id="" placeholder="Votre message"></textarea>
-                        </fieldset>
-                        <fieldset>
-                            <div class="inputRadioBox">
-                                <span>Radio inline</span>
+                            <div class="inputRadioBox borderColorToAdjust">
+                                <span class="textToAdjust">Radio inline</span>
                                 <input type="radio" name="radioDisplay" id="radioDisplay001" />
                                 <label for="radioDisplay001" class="checkableLabel">
                                     <i class="bi bi-check"></i>
@@ -138,8 +138,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputRadioBox d-block">
-                                <span>Radio not inline</span>
+                            <div class="inputRadioBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Radio not inline</span>
                                 <div>
                                     <input type="radio" name="radioDisplayAaa" id="radioDisplay001aaa" />
                                     <label for="radioDisplay001aaa" class="checkableLabel">
@@ -164,8 +164,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox">
-                                <span>Checkbox inline</span>
+                            <div class="inputCheckBox borderColorToAdjust">
+                                <span class="textToAdjust">Checkbox inline</span>
                                 <div>
                                     <input type="checkbox" id="checkbox001" />
                                     <label for="checkbox001" class="checkableLabel">
@@ -190,8 +190,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox d-block">
-                                <span>Checkbox not inline</span>
+                            <div class="inputCheckBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Checkbox not inline</span>
                                 <div>
                                     <input type="checkbox" id="checkbox001aaa" />
                                     <label for="checkbox001aaa" class="checkableLabel">
@@ -220,7 +220,7 @@
             </div>
             <div class="col-lg-6">
                 <form class="box colorSuccess" action="">
-                    <h3 class="formTitle">
+                    <h3 class="formTitle textToAdjust">
                         Ceci est un formulaire de formulation
                     </h3>
                     <p>
@@ -228,18 +228,18 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
-                        <fieldset>
-                            <input type="text" placeholder="Votre nom" />
+                        <fieldset class="borderColorToAdjust">
+                            <input type="text" placeholder="Votre nom" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <input type="email" placeholder="Votre courriel" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <textarea name="" id="" placeholder="Votre message" class="placeholderToAdjust"></textarea>
                         </fieldset>
                         <fieldset>
-                            <input type="email" placeholder="Votre courriel" />
-                        </fieldset>
-                        <fieldset>
-                            <textarea name="" id="" placeholder="Votre message"></textarea>
-                        </fieldset>
-                        <fieldset>
-                            <div class="inputRadioBox">
-                                <span>Radio inline</span>
+                            <div class="inputRadioBox borderColorToAdjust">
+                                <span class="textToAdjust">Radio inline</span>
                                 <input type="radio" name="radioDisplayB" id="radioDisplayB001" />
                                 <label for="radioDisplayB001" class="checkableLabel">
                                     <i class="bi bi-check"></i>
@@ -258,8 +258,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputRadioBox d-block">
-                                <span>Radio not inline</span>
+                            <div class="inputRadioBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Radio not inline</span>
                                 <div>
                                     <input type="radio" name="radioDisplayBbb" id="radioDisplayB001bbb" />
                                     <label for="radioDisplayB001bbb" class="checkableLabel">
@@ -284,8 +284,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox">
-                                <span>Checkbox inline</span>
+                            <div class="inputCheckBox borderColorToAdjust">
+                                <span class="textToAdjust">Checkbox inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxB001" />
                                     <label for="checkboxB001" class="checkableLabel">
@@ -310,8 +310,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox d-block">
-                                <span>Checkbox not inline</span>
+                            <div class="inputCheckBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Checkbox not inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxB001bbb" />
                                     <label for="checkboxB001bbb" class="checkableLabel">
@@ -340,7 +340,7 @@
             </div>
             <div class="col-lg-6">
                 <form class="box colorDanger" action="">
-                    <h3 class="formTitle">
+                    <h3 class="formTitle textToAdjust">
                         Ceci est un formulaire de formulation
                     </h3>
                     <p>
@@ -348,18 +348,18 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
-                        <fieldset>
-                            <input type="text" placeholder="Votre nom" />
+                        <fieldset class="borderColorToAdjust">
+                            <input type="text" placeholder="Votre nom" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <input type="email" placeholder="Votre courriel" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <textarea name="" id="" placeholder="Votre message" class="placeholderToAdjust"></textarea>
                         </fieldset>
                         <fieldset>
-                            <input type="email" placeholder="Votre courriel" />
-                        </fieldset>
-                        <fieldset>
-                            <textarea name="" id="" placeholder="Votre message"></textarea>
-                        </fieldset>
-                        <fieldset>
-                            <div class="inputRadioBox">
-                                <span>Radio inline</span>
+                            <div class="inputRadioBox borderColorToAdjust">
+                                <span class="textToAdjust">Radio inline</span>
                                 <input type="radio" name="radioDisplayC" id="radioDisplayC001" />
                                 <label for="radioDisplayC001" class="checkableLabel">
                                     <i class="bi bi-check"></i>
@@ -378,8 +378,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputRadioBox d-block">
-                                <span>Radio not inline</span>
+                            <div class="inputRadioBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Radio not inline</span>
                                 <div>
                                     <input type="radio" name="radioDisplayCcc" id="radioDisplayC001ccc" />
                                     <label for="radioDisplayC001ccc" class="checkableLabel">
@@ -404,8 +404,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox">
-                                <span>Checkbox inline</span>
+                            <div class="inputCheckBox borderColorToAdjust">
+                                <span class="textToAdjust">Checkbox inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxC001" />
                                     <label for="checkboxC001" class="checkableLabel">
@@ -430,8 +430,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox d-block">
-                                <span>Checkbox not inline</span>
+                            <div class="inputCheckBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Checkbox not inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxC001ccc" />
                                     <label for="checkboxC001ccc" class="checkableLabel">
@@ -461,7 +461,7 @@
 
             <div class="col-lg-6">
                 <form class="box colorWarning" action="">
-                    <h3 class="formTitle">
+                    <h3 class="formTitle textToAdjust">
                         Ceci est un formulaire de formulation
                     </h3>
                     <p>
@@ -469,18 +469,18 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
-                        <fieldset>
-                            <input type="text" placeholder="Votre nom" />
+                        <fieldset class="borderColorToAdjust">
+                            <input type="text" placeholder="Votre nom" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <input type="email" placeholder="Votre courriel" class="placeholderToAdjust" />
+                        </fieldset>
+                        <fieldset class="borderColorToAdjust">
+                            <textarea name="" id="" placeholder="Votre message" class="placeholderToAdjust"></textarea>
                         </fieldset>
                         <fieldset>
-                            <input type="email" placeholder="Votre courriel" />
-                        </fieldset>
-                        <fieldset>
-                            <textarea name="" id="" placeholder="Votre message"></textarea>
-                        </fieldset>
-                        <fieldset>
-                            <div class="inputRadioBox">
-                                <span>Radio inline</span>
+                            <div class="inputRadioBox borderColorToAdjust">
+                                <span class="textToAdjust">Radio inline</span>
                                 <input type="radio" name="radioDisplayD" id="radioDisplayD001" />
                                 <label for="radioDisplayD001" class="checkableLabel">
                                     <i class="bi bi-check"></i>
@@ -499,8 +499,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputRadioBox d-block">
-                                <span>Radio not inline</span>
+                            <div class="inputRadioBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Radio not inline</span>
                                 <div>
                                     <input type="radio" name="radioDisplayDdd" id="radioDisplayD001ddd" />
                                     <label for="radioDisplayD001ddd" class="checkableLabel">
@@ -525,8 +525,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox">
-                                <span>Checkbox inline</span>
+                            <div class="inputCheckBox borderColorToAdjust">
+                                <span class="textToAdjust">Checkbox inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxD001" />
                                     <label for="checkboxD001" class="checkableLabel">
@@ -551,8 +551,8 @@
                             </div>
                         </fieldset>
                         <fieldset>
-                            <div class="inputCheckBox d-block">
-                                <span>Checkbox not inline</span>
+                            <div class="inputCheckBox borderColorToAdjust d-block">
+                                <span class="textToAdjust">Checkbox not inline</span>
                                 <div>
                                     <input type="checkbox" id="checkboxD001ddd" />
                                     <label for="checkboxD001ddd" class="checkableLabel">

@@ -17,29 +17,29 @@
             <div class="box h-100">
                 <div class="tabs colorPrimary">
                     <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link active textToAdjust bgToAdjust" id="home-tab" data-bs-toggle="tab"
                                 data-bs-target="#home-tab-pane" type="button" role="tab"
                                 aria-controls="home-tab-pane" aria-selected="true">
                                 Home
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="profile-tab" data-bs-toggle="tab"
                                 data-bs-target="#profile-tab-pane" type="button" role="tab"
                                 aria-controls="profile-tab-pane" aria-selected="false">
                                 Profile
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="contact-tab" data-bs-toggle="tab"
                                 data-bs-target="#contact-tab-pane" type="button" role="tab"
                                 aria-controls="contact-tab-pane" aria-selected="false">
                                 Contact
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="disabled-tab" data-bs-toggle="tab"
                                 data-bs-target="#disabled-tab-pane" type="button" role="tab"
                                 aria-controls="disabled-tab-pane" aria-selected="false">
                                 Big Bazar
@@ -86,29 +86,29 @@
             <div class="box h-100">
                 <div class="tabs colorWarning">
                     <ul class="nav nav-tabs nav-justified" id="myTab2" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab2" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link active textToAdjust bgToAdjust" id="home-tab2" data-bs-toggle="tab"
                                 data-bs-target="#home-tab-pane2" type="button" role="tab"
                                 aria-controls="home-tab-pane2" aria-selected="true">
                                 Home
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab2" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="profile-tab2" data-bs-toggle="tab"
                                 data-bs-target="#profile-tab-pane2" type="button" role="tab"
                                 aria-controls="profile-tab-pane2" aria-selected="false">
                                 Profile
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab2" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="contact-tab2" data-bs-toggle="tab"
                                 data-bs-target="#contact-tab-pane2" type="button" role="tab"
                                 aria-controls="contact-tab-pane2" aria-selected="false">
                                 Contact
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="disabled-tab2" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="disabled-tab2" data-bs-toggle="tab"
                                 data-bs-target="#disabled-tab-pane2" type="button" role="tab"
                                 aria-controls="disabled-tab-pane2" aria-selected="false">
                                 Big Bazar
@@ -145,29 +145,29 @@
             <div class="box h-100">
                 <div class="tabs colorCyan">
                     <ul class="nav nav-tabs nav-justified" id="myTab3" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab3" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link active textToAdjust bgToAdjust" id="home-tab3" data-bs-toggle="tab"
                                 data-bs-target="#home-tab-pane3" type="button" role="tab"
                                 aria-controls="home-tab-pane3" aria-selected="true">
                                 Home
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab3" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="profile-tab3" data-bs-toggle="tab"
                                 data-bs-target="#profile-tab-pane3" type="button" role="tab"
                                 aria-controls="profile-tab-pane3" aria-selected="false">
                                 Profile
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab3" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="contact-tab3" data-bs-toggle="tab"
                                 data-bs-target="#contact-tab-pane3" type="button" role="tab"
                                 aria-controls="contact-tab-pane3" aria-selected="false">
                                 Contact
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="disabled-tab3" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="disabled-tab3" data-bs-toggle="tab"
                                 data-bs-target="#disabled-tab-pane3" type="button" role="tab"
                                 aria-controls="disabled-tab-pane3" aria-selected="false">
                                 Big Bazar
@@ -216,29 +216,29 @@
             <div class="box h-100 degradeStrong">
                 <div class="tabs colorDanger">
                     <ul class="nav nav-tabs nav-justified" id="myTab4" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab4" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link active textToAdjust bgToAdjust" id="home-tab4" data-bs-toggle="tab"
                                 data-bs-target="#home-tab-pane4" type="button" role="tab"
                                 aria-controls="home-tab-pane4" aria-selected="true">
                                 Home
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab4" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="profile-tab4" data-bs-toggle="tab"
                                 data-bs-target="#profile-tab-pane4" type="button" role="tab"
                                 aria-controls="profile-tab-pane4" aria-selected="false">
                                 Profile
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab4" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="contact-tab4" data-bs-toggle="tab"
                                 data-bs-target="#contact-tab-pane4" type="button" role="tab"
                                 aria-controls="contact-tab-pane4" aria-selected="false">
                                 Contact
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="disabled-tab4" data-bs-toggle="tab"
+                        <li class="nav-item borderColorToAdjust" role="presentation">
+                            <button class="nav-link textToAdjust bgToAdjust" id="disabled-tab4" data-bs-toggle="tab"
                                 data-bs-target="#disabled-tab-pane4" type="button" role="tab"
                                 aria-controls="disabled-tab-pane4" aria-selected="false">
                                 Big Bazar
