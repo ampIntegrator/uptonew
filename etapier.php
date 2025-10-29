@@ -5,7 +5,7 @@
     <?php include 'assets/include/head.php'; ?>
 </head>
 
-<body >
+<body class="">
 
     <?php include 'assets/include/header.php'; ?>
 
@@ -75,7 +75,7 @@
 
                             <div class="col-12">
                                 <div class="infraBox">
-                                    <div >
+                                    <div class="">
                                         <div class="text-center my-5">
                                             contenu des étapes
                                         </div>
@@ -143,7 +143,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="infraBox">
-                                        <div >
+                                        <div class="">
                                             <div class="text-center my-5">
                                                 contenu des étapes
                                             </div>
@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="infraBox">
-                                        <div >
+                                        <div class="">
                                             <div class="text-center my-5">
                                                 contenu des étapes
                                             </div>
@@ -226,7 +226,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="infraBox">
-                                        <div >
+                                        <div class="">
                                             <div class="text-center my-5">
                                                 contenu des étapes
                                             </div>

@@ -133,7 +133,7 @@
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-basket-fill fs-2"></i>
+                                <i class="bi bi-basket-fill textToAdjust fs-2"></i>
                                 <h3 class="mt-3 fs-4">Marc Mouly King</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="ccol-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-chat-square-dots-fill fs-2"></i>
+                                <i class="bi bi-chat-square-dots-fill textToAdjust fs-2"></i>
                                 <h3 class="mt-3 fs-4">La dinguerie grave !</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-cake-fill fs-2"></i>
+                                <i class="bi bi-cake-fill textToAdjust fs-2"></i>
                                 <h3 class="mt-3 fs-4">Non mais allo quoi !</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-bar-chart-fill fs-2"></i>
+                                <i class="bi bi-bar-chart-fill textToAdjust fs-2"></i>
                                 <h3 class="mt-3 fs-4">Poutine is a huge turd</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -176,7 +176,7 @@
                     <div class="row g-4">
 
                         <div class="col-md-8">
-                            <h2>Vos objectifs business</h2>
+                            <h2 class="textToAdjust">Vos objectifs business</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, amet! Quae suscipit
                                 obcaecati porro sunt voluptate rerum, nesciunt ipsum veritatis alias temporibus ipsa,
                                 aliquid cumque? Beatae error autem fugit ad.</p>
@@ -257,8 +257,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 >Générer plus de leads qualifiés</h3>
-                                <div class="separator"></div>
+                                <h3 class="">Générer plus de leads qualifiés</h3>
+                                <div class="separator bgToAdjust"></div>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
                                     intelligente de SEO et SEA. Mais nous allons plus loin : nous optimisons vos pages
                                     clés et vos tunnels de conversion pour capter des prospects réellement intéressés
@@ -268,8 +268,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 >Suivre et améliorer vos performances</h3>
-                                <div class="separator"></div>
+                                <h3 class="">Suivre et améliorer vos performances</h3>
+                                <div class="separator bgToAdjust"></div>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
                                     puis nous centralisons vos données dans des dashboards clairs et simples à lire.
                                     Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
@@ -278,8 +278,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 >Générer plus de leads qualifiés</h3>
-                                <div class="separator"></div>
+                                <h3 class="">Générer plus de leads qualifiés</h3>
+                                <div class="separator bgToAdjust"></div>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
                                     intelligente de SEO et SEA. Mais nous allons plus loin : nous optimisons vos pages
                                     clés et vos tunnels de conversion pour capter des prospects réellement intéressés
@@ -289,8 +289,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 >Suivre et améliorer vos performances</h3>
-                                <div class="separator"></div>
+                                <h3 class="">Suivre et améliorer vos performances</h3>
+                                <div class="separator bgToAdjust"></div>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
                                     puis nous centralisons vos données dans des dashboards clairs et simples à lire.
                                     Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
@@ -328,7 +328,7 @@
                 <div class="box colorPrimary">
                     <div class="row g-4">
                         <div class="col-md-8">
-                            <h2>À chaque secteur, ses solutions digitales sur-mesure i</h2>
+                            <h2 class="textToAdjust">À chaque secteur, ses solutions digitales sur-mesure i</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, amet! Quae suscipit
                                 obcaecati porro sunt voluptate rerum, nesciunt ipsum veritatis alias temporibus ipsa,
                                 aliquid cumque? Beatae error autem fugit ad.</p>
@@ -410,7 +410,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-easel2-fill"></i>
+                                    <i class="bi bi-easel2-fill textToAdjust"></i>
                                     Ceci est un titre iconisé
                                 </h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
@@ -423,7 +423,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-fan"></i>
+                                    <i class="bi bi-fan textToAdjust"></i>
                                     Ceci est une icone de ventilateur
                                 </h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
@@ -435,7 +435,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-bag-heart-fill"></i>
+                                    <i class="bi bi-bag-heart-fill textToAdjust"></i>
                                     Du ROI pour les rois et les reines du Biz'
                                 </h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
@@ -448,7 +448,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-bag-heart-fill"></i>
+                                    <i class="bi bi-bag-heart-fill textToAdjust"></i>
                                     SEO, SEA, on s'enf fout, on veut votre moula, votre femme et vos enfants.
                                 </h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
@@ -495,8 +495,8 @@
                                 Inscrivez vous à notre newsletter!
                             </p>
                             <div class="d-flex">
-                                <fieldset class=" flex-grow-1 m-0">
-                                    <input type="email" placeholder="Votre courriel">
+                                <fieldset class="borderColorToAdjust flex-grow-1 m-0">
+                                    <input type="email" placeholder="Votre courriel" class="placeholderToAdjust">
                                 </fieldset>
                                 <button class="ms-4 btn btn-outline-primary rounded-0 flex-shrink-0">S'inscrire</button>
 
