@@ -127,15 +127,19 @@
                 background-color: rgba($color, 0.3);
             }
 
+            // Badge header : background coloré, span blanc par défaut
+            .card-header > div {
+                background-color: $color !important;
+                transition: $trans;
+
+                span {
+                    color: $white !important;
+                }
+            }
+
             // Titre h2 en couleur
             .card-header .card-title {
                 color: $color !important;
-                transition: $trans;
-            }
-
-            // Badge header avec background
-            .card-header > div {
-                background-color: $color !important;
                 transition: $trans;
             }
 
@@ -158,6 +162,10 @@
                         span {
                             color: $color !important;
                         }
+                    }
+
+                    .card-title {
+                        color: $white !important;
                     }
                 }
 
@@ -183,15 +191,21 @@
         }
     }
 
-    // Exception pour colorSuccess et colorWarning : bouton avec texte dark
+    // Exception pour colorSuccess et colorWarning
     &.colorSuccess,
     &.colorWarning {
+        // Badge header : span en dark au lieu de white
+        .card-header > div span {
+            color: $dark !important;
+        }
+
+        // Bouton footer : texte en dark
         .card-footer .btn,
         .card-footer button {
             color: $dark !important;
         }
 
-        // Au hover aussi
+        // Au hover : tous les textes en dark
         &:hover {
             * {
                 color: $dark !important;
