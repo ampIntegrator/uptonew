@@ -121,71 +121,86 @@
     @each $name, $color in $theme-colors {
         &.color#{$name} {
             transition: $trans;
-            
+
             // After avec couleur en transparence
             &:after {
                 background-color: rgba($color, 0.3);
             }
-            
-            // Titre en couleur
-            .textToAdjust {
+
+            // Titre h2 en couleur
+            .card-header .card-title {
                 color: $color !important;
                 transition: $trans;
             }
-            
-            // Bouton avec background
-            .bgToAdjust {
+
+            // Badge header avec background
+            .card-header > div {
+                background-color: $color !important;
+                transition: $trans;
+            }
+
+            // Bouton footer avec background
+            .card-footer .btn,
+            .card-footer button {
                 background-color: $color !important;
                 border-color: $color !important;
                 color: $white !important;
                 transition: $trans;
             }
-            
+
             // Effet hover
             &:hover {
                 background-color: $color !important;
 
-                .card-header{
-                    > div{
-                        background-color: white !important;
-                        span{
-                            color: $color !important
+                .card-header {
+                    > div {
+                        background-color: $white !important;
+                        span {
+                            color: $color !important;
                         }
                     }
                 }
-                
+
                 .card-body {
                     background-color: transparent !important;
                 }
-                
+
                 // Tous les textes en blanc par défaut
                 * {
                     color: $white !important;
                 }
-                
+
                 // Le bouton devient blanc avec texte de la couleur
-                .card-footer{
-                    .bgToAdjust {
+                .card-footer {
+                    .btn,
+                    button {
                         background-color: $white !important;
                         border-color: $white !important;
                         color: $color !important;
                     }
-
                 }
             }
         }
     }
-    
-    // Exception pour colorSuccess et colorWarning au hover : textes en dark
-    &.colorSuccess:hover,
-    &.colorWarning:hover {
-        * {
+
+    // Exception pour colorSuccess et colorWarning : bouton avec texte dark
+    &.colorSuccess,
+    &.colorWarning {
+        .card-footer .btn,
+        .card-footer button {
             color: $dark !important;
         }
-        
-        // Le bouton garde le texte en dark
-        .bgToAdjust {
-            color: $dark !important;
+
+        // Au hover aussi
+        &:hover {
+            * {
+                color: $dark !important;
+            }
+
+            .card-footer .btn,
+            .card-footer button {
+                color: $dark !important;
+            }
         }
     }
 }
