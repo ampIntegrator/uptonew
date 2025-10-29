@@ -13,7 +13,7 @@
     <section id="section01" class="container pb-5 mt-5">
         <div class="row g-4">
             <div class="col-12">
-                <div class="box colorDanger">
+                <div class="box">
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="clientSlider mb-5">
@@ -42,7 +42,7 @@
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorDanger">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
@@ -51,7 +51,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorPrimary">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
@@ -60,7 +60,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorWarning">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
@@ -69,7 +69,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorSuccess">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.
@@ -78,7 +78,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorPurple">
                                 <i class="bi bi-bell-fill fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit.
@@ -87,7 +87,7 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="ticket infraBox p-3 flexCSB w-100 colorDanger">
+                            <a href="#" class="ticket p-3 flexCSB w-100 colorTeal">
                                 <i class="bi bi-brilliance fs-2"></i>
                                 <div class="flex-grow-1 px-3 text-left">
                                     Lorem ipsum dolor sit avec pour voir.

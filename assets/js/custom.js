@@ -1,3 +1,4 @@
+//HEADER LOGO COLOR CHANGE
 document.addEventListener('DOMContentLoaded', function() {
     // Sélectionner le span et le path du SVG à modifier
     const logoSpan = document.querySelector('.navbar-brand span span');
@@ -46,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 8000); // 8000ms = 8 secondes
 });
 
+// ADD CLASS WHEN SCROLL - TRIGER STICKY MENU
 document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
@@ -58,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// TO REMOVE? JUST FOR DEMO
+// TO REMOVE - JUST FOR DEMO
 document.addEventListener('DOMContentLoaded', function() {
     // Liste des couleurs
     const colorNames = ['Primary', 'Success', 'Danger', 'Info', 'Orange', 'Purple', 'Warning', 'Teal', 'Indigo', 'Cyan'];

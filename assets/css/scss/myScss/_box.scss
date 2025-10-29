@@ -100,7 +100,10 @@
 .ticket {
     cursor: pointer;
     transition: $trans;
-
+    text-decoration: none;
+    padding: 24px 16px;
+    border-radius: $border-radius-lg;
+    background-color: $black;
     // Variantes de couleur
     @each $name, $color in $theme-colors {
         &.color#{$name} {
@@ -112,7 +115,7 @@
             }
 
             div {
-                color: $color;
+                color: $white;
                 transition: $trans;
             }
 

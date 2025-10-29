@@ -11954,144 +11954,278 @@ fieldset:disabled .btn {
   padding-bottom: 0 !important;
 }
 
-.box.colorPrimary .ticket:hover {
-  background-color: #04a8ff !important;
-}
-
-.box.colorPrimary .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorPrimary .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorPrimary .ticket:hover .btn {
-  color: #04a8ff !important;
-}
-
-.box.colorDanger .ticket:hover {
-  background-color: #FF0066 !important;
-}
-
-.box.colorDanger .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorDanger .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorDanger .ticket:hover .btn {
-  color: #FF0066 !important;
-}
-
-.box.colorOrange .ticket:hover {
-  background-color: #ffc107 !important;
-}
-
-.box.colorOrange .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorOrange .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorOrange .ticket:hover .btn {
-  color: #ffc107 !important;
-}
-
-.box.colorPurple .ticket:hover {
-  background-color: #6f42c1 !important;
-}
-
-.box.colorPurple .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorPurple .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorPurple .ticket:hover .btn {
-  color: #6f42c1 !important;
-}
-
-.box.colorWarning .ticket:hover {
-  background-color: #ffc107 !important;
-}
-
-.box.colorWarning .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorWarning .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorWarning .ticket:hover .btn {
-  color: #ffc107 !important;
-}
-
-.box.colorTeal .ticket:hover {
-  background-color: #20c997 !important;
-}
-
-.box.colorTeal .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorTeal .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorTeal .ticket:hover .btn {
-  color: #20c997 !important;
-}
-
-.box.colorSuccess .ticket:hover {
-  background-color: #01FF88 !important;
-}
-
-.box.colorSuccess .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorSuccess .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorSuccess .ticket:hover .btn {
-  color: #01FF88 !important;
-}
-
-.box.colorInfo .ticket:hover {
-  background-color: #72d2c2 !important;
-}
-
-.box.colorInfo .ticket:hover .textToAdjust {
-  color: #ffffff !important;
-}
-
-.box.colorInfo .ticket:hover .bgToAdjust {
-  background-color: #ffffff !important;
-}
-
-.box.colorInfo .ticket:hover .btn {
-  color: #72d2c2 !important;
-}
-
 .ticket {
   cursor: pointer;
-}
-
-.textToAdjust,
-.bgToAdjust,
-.box,
-.ticket {
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  padding: 24px 16px;
+  border-radius: 16px;
+  background-color: #000000;
+}
+
+.ticket.colorPrimary i {
+  color: #04a8ff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPrimary div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPrimary .btn {
+  background-color: #04a8ff;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPrimary:hover {
+  background-color: #04a8ff;
+}
+
+.ticket.colorPrimary:hover i, .ticket.colorPrimary:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorPrimary:hover .btn {
+  background-color: #ffffff;
+  color: #04a8ff;
+}
+
+.ticket.colorDanger i {
+  color: #FF0066;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorDanger div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorDanger .btn {
+  background-color: #FF0066;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorDanger:hover {
+  background-color: #FF0066;
+}
+
+.ticket.colorDanger:hover i, .ticket.colorDanger:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorDanger:hover .btn {
+  background-color: #ffffff;
+  color: #FF0066;
+}
+
+.ticket.colorOrange i {
+  color: #ffc107;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorOrange div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorOrange .btn {
+  background-color: #ffc107;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorOrange:hover {
+  background-color: #ffc107;
+}
+
+.ticket.colorOrange:hover i, .ticket.colorOrange:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorOrange:hover .btn {
+  background-color: #ffffff;
+  color: #ffc107;
+}
+
+.ticket.colorPurple i {
+  color: #6f42c1;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPurple div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPurple .btn {
+  background-color: #6f42c1;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorPurple:hover {
+  background-color: #6f42c1;
+}
+
+.ticket.colorPurple:hover i, .ticket.colorPurple:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorPurple:hover .btn {
+  background-color: #ffffff;
+  color: #6f42c1;
+}
+
+.ticket.colorWarning i {
+  color: #ffc107;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorWarning div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorWarning .btn {
+  background-color: #ffc107;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorWarning:hover {
+  background-color: #ffc107;
+}
+
+.ticket.colorWarning:hover i, .ticket.colorWarning:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorWarning:hover .btn {
+  background-color: #ffffff;
+  color: #ffc107;
+}
+
+.ticket.colorTeal i {
+  color: #20c997;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorTeal div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorTeal .btn {
+  background-color: #20c997;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorTeal:hover {
+  background-color: #20c997;
+}
+
+.ticket.colorTeal:hover i, .ticket.colorTeal:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorTeal:hover .btn {
+  background-color: #ffffff;
+  color: #20c997;
+}
+
+.ticket.colorSuccess i {
+  color: #01FF88;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorSuccess div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorSuccess .btn {
+  background-color: #01FF88;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorSuccess:hover {
+  background-color: #01FF88;
+}
+
+.ticket.colorSuccess:hover i, .ticket.colorSuccess:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorSuccess:hover .btn {
+  background-color: #ffffff;
+  color: #01FF88;
+}
+
+.ticket.colorInfo i {
+  color: #72d2c2;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorInfo div {
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorInfo .btn {
+  background-color: #72d2c2;
+  color: #ffffff;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ticket.colorInfo:hover {
+  background-color: #72d2c2;
+}
+
+.ticket.colorInfo:hover i, .ticket.colorInfo:hover div {
+  color: #ffffff;
+}
+
+.ticket.colorInfo:hover .btn {
+  background-color: #ffffff;
+  color: #72d2c2;
+}
+
+.ticket.colorSuccess:hover i, .ticket.colorSuccess:hover div, .ticket.colorWarning:hover i, .ticket.colorWarning:hover div {
+  color: #121b36 !important;
+}
+
+.ticket.colorSuccess:hover .btn, .ticket.colorWarning:hover .btn {
+  color: #121b36 !important;
 }
 
 .accordion .accordion-item {
@@ -13252,7 +13386,7 @@ body.is-scrolled header .navbar-brand svg {
 
 body.is-scrolled header nav {
   padding-top: 0px;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
   background-color: transparent !important;
 }
 
@@ -13934,12 +14068,6 @@ form fieldset textarea:focus::placeholder, form fieldset textarea:active::placeh
   top: 0;
 }
 
-form fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form fieldset.borderColorToAdjust textarea {
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-
 .inputRadioBox,
 .inputCheckBox {
   display: -webkit-box;
@@ -13954,8 +14082,6 @@ form fieldset.borderColorToAdjust textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border: 0;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
   padding: 8px;
   background-color: #000000;
 }
@@ -14025,45 +14151,66 @@ form fieldset.borderColorToAdjust textarea {
   border-radius: 3px;
 }
 
-form.colorPrimary .textToAdjust {
+.formFooter {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+form.colorPrimary h3, form.colorPrimary .h3, form.colorPrimary .formTitle {
   color: #04a8ff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorPrimary .placeholderToAdjust::-webkit-input-placeholder {
+form.colorPrimary input::-webkit-input-placeholder,
+form.colorPrimary textarea::-webkit-input-placeholder {
   color: #04a8ff !important;
 }
 
-form.colorPrimary .placeholderToAdjust:-ms-input-placeholder {
+form.colorPrimary input:-ms-input-placeholder,
+form.colorPrimary textarea:-ms-input-placeholder {
   color: #04a8ff !important;
 }
 
-form.colorPrimary .placeholderToAdjust::-ms-input-placeholder {
+form.colorPrimary input::-ms-input-placeholder,
+form.colorPrimary textarea::-ms-input-placeholder {
   color: #04a8ff !important;
 }
 
-form.colorPrimary .placeholderToAdjust::placeholder {
+form.colorPrimary input::placeholder,
+form.colorPrimary textarea::placeholder {
   color: #04a8ff !important;
 }
 
-form.colorPrimary .borderColorToAdjust {
-  border-color: rgba(4, 168, 255, 0.3) !important;
+form.colorPrimary fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorPrimary fieldset textarea {
+  border-bottom: 2px solid rgba(4, 168, 255, 0.4);
 }
 
-form.colorPrimary .borderColorToAdjust:focus-within {
-  border-color: #04a8ff !important;
+form.colorPrimary fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorPrimary fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorPrimary fieldset textarea:focus,
+form.colorPrimary fieldset textarea:active {
+  border-bottom-color: #04a8ff;
 }
 
-form.colorPrimary fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorPrimary fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(4, 168, 255, 0.3);
+form.colorPrimary .inputRadioBox,
+form.colorPrimary .inputCheckBox {
+  border-bottom: 2px solid rgba(4, 168, 255, 0.3);
 }
 
-form.colorPrimary fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorPrimary fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorPrimary fieldset.borderColorToAdjust textarea:focus,
-form.colorPrimary fieldset.borderColorToAdjust textarea:active {
-  border-color: #04a8ff;
+form.colorPrimary .inputRadioBox:focus-within,
+form.colorPrimary .inputCheckBox:focus-within {
+  border-bottom-color: #04a8ff;
+}
+
+form.colorPrimary .inputRadioBox > span,
+form.colorPrimary .inputCheckBox > span {
+  color: #04a8ff !important;
 }
 
 form.colorPrimary input:checked + label.checkableLabel i {
@@ -14075,45 +14222,67 @@ form.colorPrimary input:checked + label.checkableLabel span {
   color: #04a8ff !important;
 }
 
-form.colorDanger .textToAdjust {
+form.colorPrimary .btnSubmit {
+  background-color: #04a8ff !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorPrimary .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorDanger h3, form.colorDanger .h3, form.colorDanger .formTitle {
   color: #FF0066 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorDanger .placeholderToAdjust::-webkit-input-placeholder {
+form.colorDanger input::-webkit-input-placeholder,
+form.colorDanger textarea::-webkit-input-placeholder {
   color: #FF0066 !important;
 }
 
-form.colorDanger .placeholderToAdjust:-ms-input-placeholder {
+form.colorDanger input:-ms-input-placeholder,
+form.colorDanger textarea:-ms-input-placeholder {
   color: #FF0066 !important;
 }
 
-form.colorDanger .placeholderToAdjust::-ms-input-placeholder {
+form.colorDanger input::-ms-input-placeholder,
+form.colorDanger textarea::-ms-input-placeholder {
   color: #FF0066 !important;
 }
 
-form.colorDanger .placeholderToAdjust::placeholder {
+form.colorDanger input::placeholder,
+form.colorDanger textarea::placeholder {
   color: #FF0066 !important;
 }
 
-form.colorDanger .borderColorToAdjust {
-  border-color: rgba(255, 0, 102, 0.3) !important;
+form.colorDanger fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorDanger fieldset textarea {
+  border-bottom: 2px solid rgba(255, 0, 102, 0.4);
 }
 
-form.colorDanger .borderColorToAdjust:focus-within {
-  border-color: #FF0066 !important;
+form.colorDanger fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorDanger fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorDanger fieldset textarea:focus,
+form.colorDanger fieldset textarea:active {
+  border-bottom-color: #ff0066;
 }
 
-form.colorDanger fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorDanger fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(255, 0, 102, 0.3);
+form.colorDanger .inputRadioBox,
+form.colorDanger .inputCheckBox {
+  border-bottom: 2px solid rgba(255, 0, 102, 0.3);
 }
 
-form.colorDanger fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorDanger fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorDanger fieldset.borderColorToAdjust textarea:focus,
-form.colorDanger fieldset.borderColorToAdjust textarea:active {
-  border-color: #FF0066;
+form.colorDanger .inputRadioBox:focus-within,
+form.colorDanger .inputCheckBox:focus-within {
+  border-bottom-color: #FF0066;
+}
+
+form.colorDanger .inputRadioBox > span,
+form.colorDanger .inputCheckBox > span {
+  color: #FF0066 !important;
 }
 
 form.colorDanger input:checked + label.checkableLabel i {
@@ -14125,45 +14294,67 @@ form.colorDanger input:checked + label.checkableLabel span {
   color: #FF0066 !important;
 }
 
-form.colorOrange .textToAdjust {
+form.colorDanger .btnSubmit {
+  background-color: #FF0066 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorDanger .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorOrange h3, form.colorOrange .h3, form.colorOrange .formTitle {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorOrange .placeholderToAdjust::-webkit-input-placeholder {
+form.colorOrange input::-webkit-input-placeholder,
+form.colorOrange textarea::-webkit-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorOrange .placeholderToAdjust:-ms-input-placeholder {
+form.colorOrange input:-ms-input-placeholder,
+form.colorOrange textarea:-ms-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorOrange .placeholderToAdjust::-ms-input-placeholder {
+form.colorOrange input::-ms-input-placeholder,
+form.colorOrange textarea::-ms-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorOrange .placeholderToAdjust::placeholder {
+form.colorOrange input::placeholder,
+form.colorOrange textarea::placeholder {
   color: #ffc107 !important;
 }
 
-form.colorOrange .borderColorToAdjust {
-  border-color: rgba(255, 193, 7, 0.3) !important;
+form.colorOrange fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorOrange fieldset textarea {
+  border-bottom: 2px solid rgba(255, 193, 7, 0.4);
 }
 
-form.colorOrange .borderColorToAdjust:focus-within {
-  border-color: #ffc107 !important;
+form.colorOrange fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorOrange fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorOrange fieldset textarea:focus,
+form.colorOrange fieldset textarea:active {
+  border-bottom-color: #ffc107;
 }
 
-form.colorOrange fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorOrange fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(255, 193, 7, 0.3);
+form.colorOrange .inputRadioBox,
+form.colorOrange .inputCheckBox {
+  border-bottom: 2px solid rgba(255, 193, 7, 0.3);
 }
 
-form.colorOrange fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorOrange fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorOrange fieldset.borderColorToAdjust textarea:focus,
-form.colorOrange fieldset.borderColorToAdjust textarea:active {
-  border-color: #ffc107;
+form.colorOrange .inputRadioBox:focus-within,
+form.colorOrange .inputCheckBox:focus-within {
+  border-bottom-color: #ffc107;
+}
+
+form.colorOrange .inputRadioBox > span,
+form.colorOrange .inputCheckBox > span {
+  color: #ffc107 !important;
 }
 
 form.colorOrange input:checked + label.checkableLabel i {
@@ -14175,45 +14366,67 @@ form.colorOrange input:checked + label.checkableLabel span {
   color: #ffc107 !important;
 }
 
-form.colorPurple .textToAdjust {
+form.colorOrange .btnSubmit {
+  background-color: #ffc107 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorOrange .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorPurple h3, form.colorPurple .h3, form.colorPurple .formTitle {
   color: #6f42c1 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorPurple .placeholderToAdjust::-webkit-input-placeholder {
+form.colorPurple input::-webkit-input-placeholder,
+form.colorPurple textarea::-webkit-input-placeholder {
   color: #6f42c1 !important;
 }
 
-form.colorPurple .placeholderToAdjust:-ms-input-placeholder {
+form.colorPurple input:-ms-input-placeholder,
+form.colorPurple textarea:-ms-input-placeholder {
   color: #6f42c1 !important;
 }
 
-form.colorPurple .placeholderToAdjust::-ms-input-placeholder {
+form.colorPurple input::-ms-input-placeholder,
+form.colorPurple textarea::-ms-input-placeholder {
   color: #6f42c1 !important;
 }
 
-form.colorPurple .placeholderToAdjust::placeholder {
+form.colorPurple input::placeholder,
+form.colorPurple textarea::placeholder {
   color: #6f42c1 !important;
 }
 
-form.colorPurple .borderColorToAdjust {
-  border-color: rgba(111, 66, 193, 0.3) !important;
+form.colorPurple fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorPurple fieldset textarea {
+  border-bottom: 2px solid rgba(111, 66, 193, 0.4);
 }
 
-form.colorPurple .borderColorToAdjust:focus-within {
-  border-color: #6f42c1 !important;
+form.colorPurple fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorPurple fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorPurple fieldset textarea:focus,
+form.colorPurple fieldset textarea:active {
+  border-bottom-color: #6f42c1;
 }
 
-form.colorPurple fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorPurple fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(111, 66, 193, 0.3);
+form.colorPurple .inputRadioBox,
+form.colorPurple .inputCheckBox {
+  border-bottom: 2px solid rgba(111, 66, 193, 0.3);
 }
 
-form.colorPurple fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorPurple fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorPurple fieldset.borderColorToAdjust textarea:focus,
-form.colorPurple fieldset.borderColorToAdjust textarea:active {
-  border-color: #6f42c1;
+form.colorPurple .inputRadioBox:focus-within,
+form.colorPurple .inputCheckBox:focus-within {
+  border-bottom-color: #6f42c1;
+}
+
+form.colorPurple .inputRadioBox > span,
+form.colorPurple .inputCheckBox > span {
+  color: #6f42c1 !important;
 }
 
 form.colorPurple input:checked + label.checkableLabel i {
@@ -14225,45 +14438,67 @@ form.colorPurple input:checked + label.checkableLabel span {
   color: #6f42c1 !important;
 }
 
-form.colorWarning .textToAdjust {
+form.colorPurple .btnSubmit {
+  background-color: #6f42c1 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorPurple .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorWarning h3, form.colorWarning .h3, form.colorWarning .formTitle {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorWarning .placeholderToAdjust::-webkit-input-placeholder {
+form.colorWarning input::-webkit-input-placeholder,
+form.colorWarning textarea::-webkit-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorWarning .placeholderToAdjust:-ms-input-placeholder {
+form.colorWarning input:-ms-input-placeholder,
+form.colorWarning textarea:-ms-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorWarning .placeholderToAdjust::-ms-input-placeholder {
+form.colorWarning input::-ms-input-placeholder,
+form.colorWarning textarea::-ms-input-placeholder {
   color: #ffc107 !important;
 }
 
-form.colorWarning .placeholderToAdjust::placeholder {
+form.colorWarning input::placeholder,
+form.colorWarning textarea::placeholder {
   color: #ffc107 !important;
 }
 
-form.colorWarning .borderColorToAdjust {
-  border-color: rgba(255, 193, 7, 0.3) !important;
+form.colorWarning fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorWarning fieldset textarea {
+  border-bottom: 2px solid rgba(255, 193, 7, 0.4);
 }
 
-form.colorWarning .borderColorToAdjust:focus-within {
-  border-color: #ffc107 !important;
+form.colorWarning fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorWarning fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorWarning fieldset textarea:focus,
+form.colorWarning fieldset textarea:active {
+  border-bottom-color: #ffc107;
 }
 
-form.colorWarning fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorWarning fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(255, 193, 7, 0.3);
+form.colorWarning .inputRadioBox,
+form.colorWarning .inputCheckBox {
+  border-bottom: 2px solid rgba(255, 193, 7, 0.3);
 }
 
-form.colorWarning fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorWarning fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorWarning fieldset.borderColorToAdjust textarea:focus,
-form.colorWarning fieldset.borderColorToAdjust textarea:active {
-  border-color: #ffc107;
+form.colorWarning .inputRadioBox:focus-within,
+form.colorWarning .inputCheckBox:focus-within {
+  border-bottom-color: #ffc107;
+}
+
+form.colorWarning .inputRadioBox > span,
+form.colorWarning .inputCheckBox > span {
+  color: #ffc107 !important;
 }
 
 form.colorWarning input:checked + label.checkableLabel i {
@@ -14275,45 +14510,67 @@ form.colorWarning input:checked + label.checkableLabel span {
   color: #ffc107 !important;
 }
 
-form.colorTeal .textToAdjust {
+form.colorWarning .btnSubmit {
+  background-color: #ffc107 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorWarning .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorTeal h3, form.colorTeal .h3, form.colorTeal .formTitle {
   color: #20c997 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorTeal .placeholderToAdjust::-webkit-input-placeholder {
+form.colorTeal input::-webkit-input-placeholder,
+form.colorTeal textarea::-webkit-input-placeholder {
   color: #20c997 !important;
 }
 
-form.colorTeal .placeholderToAdjust:-ms-input-placeholder {
+form.colorTeal input:-ms-input-placeholder,
+form.colorTeal textarea:-ms-input-placeholder {
   color: #20c997 !important;
 }
 
-form.colorTeal .placeholderToAdjust::-ms-input-placeholder {
+form.colorTeal input::-ms-input-placeholder,
+form.colorTeal textarea::-ms-input-placeholder {
   color: #20c997 !important;
 }
 
-form.colorTeal .placeholderToAdjust::placeholder {
+form.colorTeal input::placeholder,
+form.colorTeal textarea::placeholder {
   color: #20c997 !important;
 }
 
-form.colorTeal .borderColorToAdjust {
-  border-color: rgba(32, 201, 151, 0.3) !important;
+form.colorTeal fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorTeal fieldset textarea {
+  border-bottom: 2px solid rgba(32, 201, 151, 0.4);
 }
 
-form.colorTeal .borderColorToAdjust:focus-within {
-  border-color: #20c997 !important;
+form.colorTeal fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorTeal fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorTeal fieldset textarea:focus,
+form.colorTeal fieldset textarea:active {
+  border-bottom-color: #20c997;
 }
 
-form.colorTeal fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorTeal fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(32, 201, 151, 0.3);
+form.colorTeal .inputRadioBox,
+form.colorTeal .inputCheckBox {
+  border-bottom: 2px solid rgba(32, 201, 151, 0.3);
 }
 
-form.colorTeal fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorTeal fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorTeal fieldset.borderColorToAdjust textarea:focus,
-form.colorTeal fieldset.borderColorToAdjust textarea:active {
-  border-color: #20c997;
+form.colorTeal .inputRadioBox:focus-within,
+form.colorTeal .inputCheckBox:focus-within {
+  border-bottom-color: #20c997;
+}
+
+form.colorTeal .inputRadioBox > span,
+form.colorTeal .inputCheckBox > span {
+  color: #20c997 !important;
 }
 
 form.colorTeal input:checked + label.checkableLabel i {
@@ -14325,45 +14582,67 @@ form.colorTeal input:checked + label.checkableLabel span {
   color: #20c997 !important;
 }
 
-form.colorSuccess .textToAdjust {
+form.colorTeal .btnSubmit {
+  background-color: #20c997 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorTeal .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorSuccess h3, form.colorSuccess .h3, form.colorSuccess .formTitle {
   color: #01FF88 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorSuccess .placeholderToAdjust::-webkit-input-placeholder {
+form.colorSuccess input::-webkit-input-placeholder,
+form.colorSuccess textarea::-webkit-input-placeholder {
   color: #01FF88 !important;
 }
 
-form.colorSuccess .placeholderToAdjust:-ms-input-placeholder {
+form.colorSuccess input:-ms-input-placeholder,
+form.colorSuccess textarea:-ms-input-placeholder {
   color: #01FF88 !important;
 }
 
-form.colorSuccess .placeholderToAdjust::-ms-input-placeholder {
+form.colorSuccess input::-ms-input-placeholder,
+form.colorSuccess textarea::-ms-input-placeholder {
   color: #01FF88 !important;
 }
 
-form.colorSuccess .placeholderToAdjust::placeholder {
+form.colorSuccess input::placeholder,
+form.colorSuccess textarea::placeholder {
   color: #01FF88 !important;
 }
 
-form.colorSuccess .borderColorToAdjust {
-  border-color: rgba(1, 255, 136, 0.3) !important;
+form.colorSuccess fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorSuccess fieldset textarea {
+  border-bottom: 2px solid rgba(1, 255, 136, 0.4);
 }
 
-form.colorSuccess .borderColorToAdjust:focus-within {
-  border-color: #01FF88 !important;
+form.colorSuccess fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorSuccess fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorSuccess fieldset textarea:focus,
+form.colorSuccess fieldset textarea:active {
+  border-bottom-color: #01ff88;
 }
 
-form.colorSuccess fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorSuccess fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(1, 255, 136, 0.3);
+form.colorSuccess .inputRadioBox,
+form.colorSuccess .inputCheckBox {
+  border-bottom: 2px solid rgba(1, 255, 136, 0.3);
 }
 
-form.colorSuccess fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorSuccess fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorSuccess fieldset.borderColorToAdjust textarea:focus,
-form.colorSuccess fieldset.borderColorToAdjust textarea:active {
-  border-color: #01FF88;
+form.colorSuccess .inputRadioBox:focus-within,
+form.colorSuccess .inputCheckBox:focus-within {
+  border-bottom-color: #01FF88;
+}
+
+form.colorSuccess .inputRadioBox > span,
+form.colorSuccess .inputCheckBox > span {
+  color: #01FF88 !important;
 }
 
 form.colorSuccess input:checked + label.checkableLabel i {
@@ -14375,45 +14654,67 @@ form.colorSuccess input:checked + label.checkableLabel span {
   color: #01FF88 !important;
 }
 
-form.colorInfo .textToAdjust {
+form.colorSuccess .btnSubmit {
+  background-color: #01FF88 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorSuccess .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorInfo h3, form.colorInfo .h3, form.colorInfo .formTitle {
   color: #72d2c2 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form.colorInfo .placeholderToAdjust::-webkit-input-placeholder {
+form.colorInfo input::-webkit-input-placeholder,
+form.colorInfo textarea::-webkit-input-placeholder {
   color: #72d2c2 !important;
 }
 
-form.colorInfo .placeholderToAdjust:-ms-input-placeholder {
+form.colorInfo input:-ms-input-placeholder,
+form.colorInfo textarea:-ms-input-placeholder {
   color: #72d2c2 !important;
 }
 
-form.colorInfo .placeholderToAdjust::-ms-input-placeholder {
+form.colorInfo input::-ms-input-placeholder,
+form.colorInfo textarea::-ms-input-placeholder {
   color: #72d2c2 !important;
 }
 
-form.colorInfo .placeholderToAdjust::placeholder {
+form.colorInfo input::placeholder,
+form.colorInfo textarea::placeholder {
   color: #72d2c2 !important;
 }
 
-form.colorInfo .borderColorToAdjust {
-  border-color: rgba(114, 210, 194, 0.3) !important;
+form.colorInfo fieldset input:not([type="radio"]):not([type="checkbox"]),
+form.colorInfo fieldset textarea {
+  border-bottom: 2px solid rgba(114, 210, 194, 0.4);
 }
 
-form.colorInfo .borderColorToAdjust:focus-within {
-  border-color: #72d2c2 !important;
+form.colorInfo fieldset input:not([type="radio"]):not([type="checkbox"]):focus, form.colorInfo fieldset input:not([type="radio"]):not([type="checkbox"]):active,
+form.colorInfo fieldset textarea:focus,
+form.colorInfo fieldset textarea:active {
+  border-bottom-color: #72d2c2;
 }
 
-form.colorInfo fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]),
-form.colorInfo fieldset.borderColorToAdjust textarea {
-  border-bottom-color: rgba(114, 210, 194, 0.3);
+form.colorInfo .inputRadioBox,
+form.colorInfo .inputCheckBox {
+  border-bottom: 2px solid rgba(114, 210, 194, 0.3);
 }
 
-form.colorInfo fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):focus, form.colorInfo fieldset.borderColorToAdjust input:not([type="radio"]):not([type="checkbox"]):active,
-form.colorInfo fieldset.borderColorToAdjust textarea:focus,
-form.colorInfo fieldset.borderColorToAdjust textarea:active {
-  border-color: #72d2c2;
+form.colorInfo .inputRadioBox:focus-within,
+form.colorInfo .inputCheckBox:focus-within {
+  border-bottom-color: #72d2c2;
+}
+
+form.colorInfo .inputRadioBox > span,
+form.colorInfo .inputCheckBox > span {
+  color: #72d2c2 !important;
 }
 
 form.colorInfo input:checked + label.checkableLabel i {
@@ -14423,6 +14724,21 @@ form.colorInfo input:checked + label.checkableLabel i {
 
 form.colorInfo input:checked + label.checkableLabel span {
   color: #72d2c2 !important;
+}
+
+form.colorInfo .btnSubmit {
+  background-color: #72d2c2 !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+form.colorInfo .btnSubmit:hover {
+  opacity: 0.8;
+}
+
+form.colorSuccess .btnSubmit, form.colorWarning .btnSubmit {
+  color: #121b36 !important;
 }
 
 .blogPost {
