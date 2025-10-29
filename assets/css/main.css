@@ -12634,13 +12634,24 @@ fieldset:disabled .btn {
   background-color: rgba(4, 168, 255, 0.3);
 }
 
-.card.colorPrimary .textToAdjust {
+.card.colorPrimary .card-header > div {
+  background-color: #04a8ff !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorPrimary .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorPrimary .card-header .card-title {
   color: #04a8ff !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorPrimary .bgToAdjust {
+.card.colorPrimary .card-footer .btn,
+.card.colorPrimary .card-footer button {
   background-color: #04a8ff !important;
   border-color: #04a8ff !important;
   color: #ffffff !important;
@@ -12653,11 +12664,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorPrimary:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorPrimary:hover .card-header > div span {
   color: #04a8ff !important;
+}
+
+.card.colorPrimary:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorPrimary:hover .card-body {
@@ -12668,7 +12683,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorPrimary:hover .card-footer .bgToAdjust {
+.card.colorPrimary:hover .card-footer .btn,
+.card.colorPrimary:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #04a8ff !important;
@@ -12683,13 +12699,24 @@ fieldset:disabled .btn {
   background-color: rgba(255, 0, 102, 0.3);
 }
 
-.card.colorDanger .textToAdjust {
+.card.colorDanger .card-header > div {
+  background-color: #FF0066 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorDanger .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorDanger .card-header .card-title {
   color: #FF0066 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorDanger .bgToAdjust {
+.card.colorDanger .card-footer .btn,
+.card.colorDanger .card-footer button {
   background-color: #FF0066 !important;
   border-color: #FF0066 !important;
   color: #ffffff !important;
@@ -12702,11 +12729,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorDanger:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorDanger:hover .card-header > div span {
   color: #FF0066 !important;
+}
+
+.card.colorDanger:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorDanger:hover .card-body {
@@ -12717,7 +12748,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorDanger:hover .card-footer .bgToAdjust {
+.card.colorDanger:hover .card-footer .btn,
+.card.colorDanger:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #FF0066 !important;
@@ -12732,13 +12764,24 @@ fieldset:disabled .btn {
   background-color: rgba(255, 193, 7, 0.3);
 }
 
-.card.colorOrange .textToAdjust {
+.card.colorOrange .card-header > div {
+  background-color: #ffc107 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorOrange .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorOrange .card-header .card-title {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorOrange .bgToAdjust {
+.card.colorOrange .card-footer .btn,
+.card.colorOrange .card-footer button {
   background-color: #ffc107 !important;
   border-color: #ffc107 !important;
   color: #ffffff !important;
@@ -12751,11 +12794,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorOrange:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorOrange:hover .card-header > div span {
   color: #ffc107 !important;
+}
+
+.card.colorOrange:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorOrange:hover .card-body {
@@ -12766,7 +12813,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorOrange:hover .card-footer .bgToAdjust {
+.card.colorOrange:hover .card-footer .btn,
+.card.colorOrange:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #ffc107 !important;
@@ -12781,13 +12829,24 @@ fieldset:disabled .btn {
   background-color: rgba(111, 66, 193, 0.3);
 }
 
-.card.colorPurple .textToAdjust {
+.card.colorPurple .card-header > div {
+  background-color: #6f42c1 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorPurple .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorPurple .card-header .card-title {
   color: #6f42c1 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorPurple .bgToAdjust {
+.card.colorPurple .card-footer .btn,
+.card.colorPurple .card-footer button {
   background-color: #6f42c1 !important;
   border-color: #6f42c1 !important;
   color: #ffffff !important;
@@ -12800,11 +12859,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorPurple:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorPurple:hover .card-header > div span {
   color: #6f42c1 !important;
+}
+
+.card.colorPurple:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorPurple:hover .card-body {
@@ -12815,7 +12878,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorPurple:hover .card-footer .bgToAdjust {
+.card.colorPurple:hover .card-footer .btn,
+.card.colorPurple:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #6f42c1 !important;
@@ -12830,13 +12894,24 @@ fieldset:disabled .btn {
   background-color: rgba(255, 193, 7, 0.3);
 }
 
-.card.colorWarning .textToAdjust {
+.card.colorWarning .card-header > div {
+  background-color: #ffc107 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorWarning .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorWarning .card-header .card-title {
   color: #ffc107 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorWarning .bgToAdjust {
+.card.colorWarning .card-footer .btn,
+.card.colorWarning .card-footer button {
   background-color: #ffc107 !important;
   border-color: #ffc107 !important;
   color: #ffffff !important;
@@ -12849,11 +12924,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorWarning:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorWarning:hover .card-header > div span {
   color: #ffc107 !important;
+}
+
+.card.colorWarning:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorWarning:hover .card-body {
@@ -12864,7 +12943,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorWarning:hover .card-footer .bgToAdjust {
+.card.colorWarning:hover .card-footer .btn,
+.card.colorWarning:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #ffc107 !important;
@@ -12879,13 +12959,24 @@ fieldset:disabled .btn {
   background-color: rgba(32, 201, 151, 0.3);
 }
 
-.card.colorTeal .textToAdjust {
+.card.colorTeal .card-header > div {
+  background-color: #20c997 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorTeal .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorTeal .card-header .card-title {
   color: #20c997 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorTeal .bgToAdjust {
+.card.colorTeal .card-footer .btn,
+.card.colorTeal .card-footer button {
   background-color: #20c997 !important;
   border-color: #20c997 !important;
   color: #ffffff !important;
@@ -12898,11 +12989,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorTeal:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorTeal:hover .card-header > div span {
   color: #20c997 !important;
+}
+
+.card.colorTeal:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorTeal:hover .card-body {
@@ -12913,7 +13008,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorTeal:hover .card-footer .bgToAdjust {
+.card.colorTeal:hover .card-footer .btn,
+.card.colorTeal:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #20c997 !important;
@@ -12928,13 +13024,24 @@ fieldset:disabled .btn {
   background-color: rgba(1, 255, 136, 0.3);
 }
 
-.card.colorSuccess .textToAdjust {
+.card.colorSuccess .card-header > div {
+  background-color: #01FF88 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorSuccess .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorSuccess .card-header .card-title {
   color: #01FF88 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorSuccess .bgToAdjust {
+.card.colorSuccess .card-footer .btn,
+.card.colorSuccess .card-footer button {
   background-color: #01FF88 !important;
   border-color: #01FF88 !important;
   color: #ffffff !important;
@@ -12947,11 +13054,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorSuccess:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorSuccess:hover .card-header > div span {
   color: #01FF88 !important;
+}
+
+.card.colorSuccess:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorSuccess:hover .card-body {
@@ -12962,7 +13073,8 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorSuccess:hover .card-footer .bgToAdjust {
+.card.colorSuccess:hover .card-footer .btn,
+.card.colorSuccess:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #01FF88 !important;
@@ -12977,13 +13089,24 @@ fieldset:disabled .btn {
   background-color: rgba(114, 210, 194, 0.3);
 }
 
-.card.colorInfo .textToAdjust {
+.card.colorInfo .card-header > div {
+  background-color: #72d2c2 !important;
+  -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.colorInfo .card-header > div span {
+  color: #ffffff !important;
+}
+
+.card.colorInfo .card-header .card-title {
   color: #72d2c2 !important;
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card.colorInfo .bgToAdjust {
+.card.colorInfo .card-footer .btn,
+.card.colorInfo .card-footer button {
   background-color: #72d2c2 !important;
   border-color: #72d2c2 !important;
   color: #ffffff !important;
@@ -12996,11 +13119,15 @@ fieldset:disabled .btn {
 }
 
 .card.colorInfo:hover .card-header > div {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .card.colorInfo:hover .card-header > div span {
   color: #72d2c2 !important;
+}
+
+.card.colorInfo:hover .card-header .card-title {
+  color: #ffffff !important;
 }
 
 .card.colorInfo:hover .card-body {
@@ -13011,17 +13138,30 @@ fieldset:disabled .btn {
   color: #ffffff !important;
 }
 
-.card.colorInfo:hover .card-footer .bgToAdjust {
+.card.colorInfo:hover .card-footer .btn,
+.card.colorInfo:hover .card-footer button {
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   color: #72d2c2 !important;
+}
+
+.card.colorSuccess .card-header > div span, .card.colorWarning .card-header > div span {
+  color: #121b36 !important;
+}
+
+.card.colorSuccess .card-footer .btn,
+.card.colorSuccess .card-footer button, .card.colorWarning .card-footer .btn,
+.card.colorWarning .card-footer button {
+  color: #121b36 !important;
 }
 
 .card.colorSuccess:hover *, .card.colorWarning:hover * {
   color: #121b36 !important;
 }
 
-.card.colorSuccess:hover .bgToAdjust, .card.colorWarning:hover .bgToAdjust {
+.card.colorSuccess:hover .card-footer .btn,
+.card.colorSuccess:hover .card-footer button, .card.colorWarning:hover .card-footer .btn,
+.card.colorWarning:hover .card-footer button {
   color: #121b36 !important;
 }
 
