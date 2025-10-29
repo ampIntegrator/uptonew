@@ -21,7 +21,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne001" aria-expanded="true"
                                 aria-controls="collapseOne001">
-                                < span>Accordion Item #1</span>
+                                <span>Accordion Item #1</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -42,7 +42,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo001" aria-expanded="false"
                                 aria-controls="collapseTwo001">
-                                < span>Accordion Item #2</span>
+                                <span>Accordion Item #2</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -63,7 +63,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree001" aria-expanded="false"
                                 aria-controls="collapseThree001">
-                                < span>Accordion Item #3</span>
+                                <span>Accordion Item #3</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -90,7 +90,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne002" aria-expanded="true"
                                 aria-controls="collapseOne002">
-                                < span>Accordion Item #1</span>
+                                <span>Accordion Item #1</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -111,7 +111,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo002" aria-expanded="false"
                                 aria-controls="collapseTwo002">
-                                < span>Accordion Item #2</span>
+                                <span>Accordion Item #2</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -132,7 +132,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree002" aria-expanded="false"
                                 aria-controls="collapseThree002">
-                                < span>Accordion Item #3</span>
+                                <span>Accordion Item #3</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -159,7 +159,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne003" aria-expanded="true"
                                 aria-controls="collapseOne003">
-                                < span>Accordion Item #1</span>
+                                <span>Accordion Item #1</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -180,7 +180,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo003" aria-expanded="false"
                                 aria-controls="collapseTwo003">
-                                < span>Accordion Item #2</span>
+                                <span>Accordion Item #2</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -201,7 +201,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree003" aria-expanded="false"
                                 aria-controls="collapseThree003">
-                                < span>Accordion Item #3</span>
+                                <span>Accordion Item #3</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -229,7 +229,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne004" aria-expanded="true"
                                 aria-controls="collapseOne004">
-                                < span>Accordion Item #1</span>
+                                <span>Accordion Item #1</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -250,7 +250,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo004" aria-expanded="false"
                                 aria-controls="collapseTwo004">
-                                < span>Accordion Item #2</span>
+                                <span>Accordion Item #2</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
@@ -271,7 +271,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree004" aria-expanded="false"
                                 aria-controls="collapseThree004">
-                                < span>Accordion Item #3</span>
+                                <span>Accordion Item #3</span>
                                 <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
