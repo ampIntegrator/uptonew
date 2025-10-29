@@ -31,13 +31,13 @@
         &.color#{$name} {
 
             // Border sur tous les headers sauf le premier
-            .accordion-item:not(:first-child) .borderColorToAdjust {
+            .accordion-item:not(:first-child) .accordion-header {
                 border-top: 1px solid rgba($color, 0.4);
             }
 
             // Accordion FERMÉ : titre et icône en couleur
             .accordion-button.collapsed {
-                .textToAdjust {
+                span, i {
                     color: $color !important;
                     transition: $trans;
                 }
@@ -47,13 +47,13 @@
             .accordion-button:not(.collapsed) {
                 background-color: $color !important;
                 transition: $trans;
-                
-                .textToAdjust {
+
+                span, i {
                     color: $white !important;
                     transition: $trans;
                 }
 
-                i.textToAdjust {
+                i {
                     transform: translateY(-50%) rotate(180deg);
                 }
             }
@@ -64,7 +64,7 @@
     &.colorSuccess,
     &.colorWarning {
         .accordion-button:not(.collapsed) {
-            .textToAdjust {
+            span, i {
                 color: $dark !important;
             }
         }
