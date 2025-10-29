@@ -15,10 +15,10 @@
                     <div class="card colorPrimary overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                         <div class="card-header">
-                            <div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                            <div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Technologie</span>
                             </div>
-                            <h2 class="card-title textToAdjust px-3 my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title px-3 my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -31,7 +31,7 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
@@ -40,10 +40,10 @@
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
                         <div class="card-header">
 
-                                                        <div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                                                        <div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Business et développement</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -58,17 +58,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card colorOrange overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Assurances</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -81,17 +81,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card colorPurple overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Moula moula baby</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -106,17 +106,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card colorWarning overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Conseil</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -129,17 +129,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Développement</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -154,17 +154,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card colorIndigo overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Transformation</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -177,17 +177,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="card colorCyan overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Technologic</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -202,7 +202,7 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
@@ -252,10 +252,10 @@
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorDanger overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Digitalisation</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -268,17 +268,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorPurple overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">ROI & ISF</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -293,17 +293,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorWarning overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">David Hasselhoff</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -316,17 +316,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorTeal overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Stratégie</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -341,17 +341,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorIndigo overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Technologie</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                            <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -364,17 +364,17 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-2">
                     <div class="card cardSmall colorCyan overflow-hidden">
                         <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
-                        <div class="card-header"><div class="bgToAdjust text-center px-3 py-2 d-block w-100">
+                        <div class="card-header"><div class=" text-center px-3 py-2 d-block w-100">
                                 <span class="text-white fs-5">Yeah yeah yeah</span>
                             </div>
-                            <h2 class="card-title textToAdjust my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                            <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
                         </div>
                         <div class="card-body">
                             <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -389,7 +389,7 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn bgToAdjust w-100">Sign up for free</button>
+                            <button type="button" class="btn w-100">Sign up for free</button>
                         </div>
                     </div>
                 </div>
