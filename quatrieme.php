@@ -17,12 +17,12 @@
             <div class="box h-100 degradeStrong">
                 <div class="accordion colorSuccess" id="accordionExample001">
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne001" aria-expanded="true"
                                 aria-controls="collapseOne001">
-                                <span class="textToAdjust">Accordion Item #1</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #1</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseOne001" class="accordion-collapse collapse show"
@@ -38,12 +38,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo001" aria-expanded="false"
                                 aria-controls="collapseTwo001">
-                                <span class="textToAdjust">Accordion Item #2</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #2</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseTwo001" class="accordion-collapse collapse"
@@ -59,12 +59,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree001" aria-expanded="false"
                                 aria-controls="collapseThree001">
-                                <span class="textToAdjust">Accordion Item #3</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #3</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseThree001" class="accordion-collapse collapse"
@@ -86,12 +86,12 @@
             <div class="box h-100 degradeStrong">
                 <div class="accordion colorDanger" id="accordionExample002">
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne002" aria-expanded="true"
                                 aria-controls="collapseOne002">
-                                <span class="textToAdjust">Accordion Item #1</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #1</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseOne002" class="accordion-collapse collapse show"
@@ -107,12 +107,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo002" aria-expanded="false"
                                 aria-controls="collapseTwo002">
-                                <span class="textToAdjust">Accordion Item #2</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #2</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseTwo002" class="accordion-collapse collapse"
@@ -128,12 +128,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree002" aria-expanded="false"
                                 aria-controls="collapseThree002">
-                                <span class="textToAdjust">Accordion Item #3</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #3</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseThree002" class="accordion-collapse collapse"
@@ -155,12 +155,12 @@
             <div class="box h-100 degradeStrong">
                 <div class="accordion colorPrimary" id="accordionExample003">
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne003" aria-expanded="true"
                                 aria-controls="collapseOne003">
-                                <span class="textToAdjust">Accordion Item #1</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #1</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseOne003" class="accordion-collapse collapse show"
@@ -176,12 +176,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo003" aria-expanded="false"
                                 aria-controls="collapseTwo003">
-                                <span class="textToAdjust">Accordion Item #2</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #2</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseTwo003" class="accordion-collapse collapse"
@@ -197,12 +197,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree003" aria-expanded="false"
                                 aria-controls="collapseThree003">
-                                <span class="textToAdjust">Accordion Item #3</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #3</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseThree003" class="accordion-collapse collapse"
@@ -225,12 +225,12 @@
             <div class="box h-100 degradeStrong">
                 <div class="accordion colorCyan" id="accordionExample004">
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne004" aria-expanded="true"
                                 aria-controls="collapseOne004">
-                                <span class="textToAdjust">Accordion Item #1</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #1</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseOne004" class="accordion-collapse collapse show"
@@ -246,12 +246,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo004" aria-expanded="false"
                                 aria-controls="collapseTwo004">
-                                <span class="textToAdjust">Accordion Item #2</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #2</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseTwo004" class="accordion-collapse collapse"
@@ -267,12 +267,12 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header borderColorToAdjust">
+                        <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree004" aria-expanded="false"
                                 aria-controls="collapseThree004">
-                                <span class="textToAdjust">Accordion Item #3</span>
-                                <i class="bi bi-chevron-down textToAdjust"></i>
+                                < span>Accordion Item #3</span>
+                                <i class="bi bi-chevron-down"></i>
                             </button>
                         </h2>
                         <div id="collapseThree004" class="accordion-collapse collapse"
