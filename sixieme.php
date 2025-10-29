@@ -216,6 +216,9 @@
                             </div>
                         </fieldset>
                     </div>
+                                    <div class="formFooter">
+                        <button class="btn btnSubmit">Valider</button>
+                    </div>
                 </form>
             </div>
             <div class="col-lg-6">
@@ -335,6 +338,9 @@
                                 </div>
                             </div>
                         </fieldset>
+                    </div>
+                                    <div class="formFooter">
+                        <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
             </div>
@@ -456,6 +462,9 @@
                             </div>
                         </fieldset>
                     </div>
+                                    <div class="formFooter">
+                        <button class="btn btnSubmit">Valider</button>
+                    </div>
                 </form>
             </div>
 
@@ -576,6 +585,9 @@
                                 </div>
                             </div>
                         </fieldset>
+                    </div>
+                                    <div class="formFooter">
+                        <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
             </div>
