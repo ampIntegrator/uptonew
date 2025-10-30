@@ -35,7 +35,7 @@ form {
         }
 
         input:not([type="radio"]):not([type="checkbox"]) {
-            height: 45px;
+            height: 46px;
             line-height: 44px;
 
             &::placeholder {
@@ -155,9 +155,11 @@ form {
         &.color#{$name} {
 
             // Titres de formulaire prennent la couleur
-            h3, .formTitle {
+            .formTitle {
                 color: $color !important;
                 transition: $trans;
+                font-size: 24px;
+                margin-bottom: 16px;
             }
 
             // Placeholders prennent la couleur
