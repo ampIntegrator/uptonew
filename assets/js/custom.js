@@ -214,3 +214,11 @@ function generateTableOfContents() {
 
 // Exécuter la génération du sommaire au chargement de la page
 document.addEventListener('DOMContentLoaded', generateTableOfContents);
+
+// select2
+$(document).ready(function() {
+    $('.basicSelect').select2({
+        placeholder: "Choisir une option",
+        allowClear: true,
+    });
+});

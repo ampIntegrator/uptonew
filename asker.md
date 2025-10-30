@@ -1,66 +1,49 @@
-<div class="infraBox">
-    <div id="001" class="flexCS">
-        <span class="fs-0 text-success me-2 fw-bold">
-            01
-        </span>
-        <h4 class="fw-bold flexCS m-0">
-            Stratégie business <br>
-            &amp; plan d'actions trimestriel
-        </h4>
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est a eaque
-        temporibus vero animi exercitationem dignissimos, doloribus aliquid alias!</p>
-</div>
-
-ET
-
-<div class="infraBox">
-    <h3 id="003">Suivre et améliorer vos performances</h3>
-    <div class="separator"></div>
-    <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
-        puis nous centralisons vos données dans des dashboards clairs et simples à lire.
-        Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
-        ajuster pour améliorer vos résultats mois après mois.</p>
-</div>
-
-ET
-<div class="infraBox">
-    <h3 id="003" class="headingWithIcon">
-        <i class="icon icon-gear-2"></i>
-        Ceci est une icone de ventilateur
-    </h3>
-    <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
-        puis nous centralisons vos données dans des dashboards clairs et simples à lire.
-        Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
-        ajuster pour améliorer vos résultats mois après mois.</p>
-</div>                                
+TU vas voir dans iconsBox et modifier les icons, on a 4 fois la même série... J'en veux 16 différentes, depuis icons.css... idéalement, si tu peux prendre des icones pleines, fill, solid ? 
 
 
+Ensuite, il faut mettre à jour solutions.php avec des .iconsBox
+Sur cette page, on a cela plusieurs fois : 
+<div class="box colorOrange">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <h2 class="textToAdjust">Stratégie marketing digital 360°</h2>
+                                <p><strong>Pilotez votre croissance avec une vision globale et orientée ROI</strong></p>
+                                <p class="mb-0">Avec notre approche 360°, nous alignons vos objectifs business avec les bons leviers digitaux : SEO, SEA, contenu, data, IA et automatisation. Pas de plan figé ni de théorie inutile, mais une stratégie claire, priorisée et actionnable pour générer des résultats concrets.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="infraBox">
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
+                                    <h3 class="mt-3 fs-4">Audit initial</h3>
+                                    <p>Audit complet de votre marché, de vos concurrents et de vos leviers existants</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="infraBox">
+                                    <i class="icon icon-crosshairs textToAdjust fs-2"></i>
+                                    <h3 class="mt-3 fs-4">Clarté de l'objectif</h3>
+                                    <p>Nous vous aidons à définir clairement vos objectifs business et les indicateurs
+                                        clés de réussite</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="infraBox">
+                                    <i class="icon icon-target textToAdjust fs-2"></i>
+                                    <h3 class="mt-3 fs-4">Une action tout terrain</h3>
+                                    <p>Nous agissons à 360 dégrés. SEO, SEA, réseaux sociaux, contenus, IA, tracking...
+                                        You name it</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="infraBox">
+                                    <i class="icon icon-map textToAdjust fs-2"></i>
+                                    <h3 class="mt-3 fs-4">Roadmap priorisée</h3>
+                                    <p>Nous établissons avec vous une roadmap claire, avec des pdes quick wins et une
+                                        vision à long terme</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-J'aimerais gérer les 3 id de la même façon, c'est à dire les trois boites de titres, avec, pour #002, la prise en compte du .Separator, que l'on va transformer en :after. 
+                    les .col-md-6 sont à wrapper dans un .iconsBox, à encadre dans un .col-12
 
-
-L'idée serait d'avoir la même présentation, par exemple : 
-
-<h3 class="blocTitle withFigure">
- ici, on a comme id=001 : un chiffre, dans une balise span 
-</h3>
-
-<h3 class="blocTitle withSeparator">
- ici, on a comme id=002 : un separator en :after qui reprend .separator
-</h3>
-
-<h3 class="blocTitle withIcon">
- ici, on a comme id=003 : une icone. 
-</h3>
-
-On peut ajouter .colorXXX à .blocTitle. 
-
-Dans le cas de .withFigure : c'est le chiffre dans le span qui sera text: $color.
-Dans le cas de .withSeparator, c'est le :after qui a le background de la $color. 
-Dans le cas de .withIcon, c'est l'icone qui sera text: $color.
-
-Le font-size est le même partou, à gérer depuis .blocTitle, avec font-size: 28px;
-
-As-tu des questions ? Est-ce clair ? Tu répondes avant de te lancer.
-J'ai mis à jour main 
+                    Est-ce clair ? 

@@ -109,6 +109,16 @@
                     </p>
                     <div class="innerForm">
                         <fieldset>
+                            <select class="basicSelect" name="state">
+                                <option value="AL">Alabama</option>
+                                <option value="WY">Wyoming</option>
+                                <option value="AL">Lorraine</option>
+                                <option value="WY">Aquitaine</option>
+                                <option value="AL">Normandie</option>
+                                <option value="WY">Guadeloupe</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
                         <fieldset>
