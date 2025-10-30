@@ -26,14 +26,14 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit initial</h3>
                                     <p>Audit complet de votre marché, de vos concurrents et de vos leviers existants</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-crosshair2 textToAdjust fs-2"></i>
+                                    <i class="icon icon-crosshairs textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Clarté de l'objectif</h3>
                                     <p>Nous vous aidons à définir clairement vos objectifs business et les indicateurs
                                         clés de réussite</p>
@@ -41,7 +41,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-bullseye textToAdjust fs-2"></i>
+                                    <i class="icon icon-target textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Une action tout terrain</h3>
                                     <p>Nous agissons à 360 dégrés. SEO, SEA, réseaux sociaux, contenus, IA, tracking...
                                         You name it</p>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-map-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-map textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Roadmap priorisée</h3>
                                     <p>Nous établissons avec vous une roadmap claire, avec des pdes quick wins et une
                                         vision à long terme</p>
@@ -68,28 +68,28 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit technique</h3>
                                     <p>Audit technique et recommandations priorisées – on identifie les freins SEO et ont les corrige rapidement.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Optimisation contenu</h3>
                                     <p>Optimisation du contenu et des mots-clés – titres, textes, maillage interne, pages stratégiques.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-calendar-date-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-calendar-days textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Suivi mensuel</h3>
                                     <p>Suivi mensuel des performances – positions, trafic, conversions, avec un reporting simple.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Veille technologique</h3>
                                     <p>Veille et ajustements continus – adaptation aux mises à jour Google et à vos objectifs business.</p>
                                 </div>
@@ -107,28 +107,28 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Gestion des campagnes</h3>
                                     <p>Création et paramétrage complet des campagnes – Google Ads, Meta Ads, LinkedIn, selon vos objectifs.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Optimisation contenu</h3>
                                     <p>Optimisation continue des annonces et audiences – pour maximiser le taux de clic et la conversion.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Suivi continu</h3>
                                     <p>Suivi des performances et analyse des résultats – un reporting clair, orienté chiffre d’affaires.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité</h3>
                                     <p>Ajustements budgétaires et A/B testing – on teste, on mesure, on garde ce qui fonctionne le mieux.</p>
                                 </div>
@@ -146,28 +146,28 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit des processus automatisables – on détecte où l’IA peut réellement vous apporter du ROI.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Déploiement des meilleures IA – ChatGPT, Claude, outils no-code ou modèles spécialisés - selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement sécurisé sur vos serveurs internes : contrôle des données sensibles et conformité RGPD.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Suivi, optimisation et montée en puissance – des ajustements réguliers pour maximiser la valeur créée.</p>
                                 </div>
@@ -185,28 +185,28 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit complet du tracking existant – vérification des événements clés, tunnels et points de fuite.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Mise en place ou migration d’outils analytics – Matomo, Looker Studio, GA4, configurés selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement interne sécurisé – possibilité de déployer Matomo ou autres solutions sur vos serveurs pour un contrôle total.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Tableaux de bord sur-mesure – visualisez vos KPIs business en temps réel avec un reporting simple et exploitable.</p>
                                 </div>
@@ -224,28 +224,28 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit complet du tracking existant – vérification des événements clés, tunnels et points de fuite.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Mise en place ou migration d’outils analytics – Matomo, Looker Studio, GA4, configurés selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement interne sécurisé – possibilité de déployer Matomo ou autres solutions sur vos serveurs pour un contrôle total.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Tableaux de bord sur-mesure – visualisez vos KPIs business en temps réel avec un reporting simple et exploitable.</p>
                                 </div>
@@ -274,14 +274,14 @@
                             <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit initial</h3>
                                     <p>Audit complet de votre marché, de vos concurrents et de vos leviers existants</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-crosshair2 textToAdjust fs-2"></i>
+                                    <i class="icon icon-crosshairs textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Clarté de l'objectif</h3>
                                     <p>Nous vous aidons à définir clairement vos objectifs business et les indicateurs
                                         clés de réussite</p>
@@ -289,7 +289,7 @@
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-bullseye textToAdjust fs-2"></i>
+                                    <i class="icon icon-target textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Une action tout terrain</h3>
                                     <p>Nous agissons à 360 dégrés. SEO, SEA, réseaux sociaux, contenus, IA, tracking...
                                         You name it</p>
@@ -297,7 +297,7 @@
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-map-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-map textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Roadmap priorisée</h3>
                                     <p>Nous établissons avec vous une roadmap claire, avec des pdes quick wins et une
                                         vision à long terme</p>
@@ -317,28 +317,28 @@
                                                         <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit technique</h3>
                                     <p>Audit technique et recommandations priorisées – on identifie les freins SEO et ont les corrige rapidement.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Optimisation contenu</h3>
                                     <p>Optimisation du contenu et des mots-clés – titres, textes, maillage interne, pages stratégiques.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-calendar-date-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-calendar-days textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Suivi mensuel</h3>
                                     <p>Suivi mensuel des performances – positions, trafic, conversions, avec un reporting simple.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Veille technologique</h3>
                                     <p>Veille et ajustements continus – adaptation aux mises à jour Google et à vos objectifs business.</p>
                                 </div>
@@ -357,28 +357,28 @@
                                                         <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Gestion des campagnes</h3>
                                     <p>Création et paramétrage complet des campagnes – Google Ads, Meta Ads, LinkedIn, selon vos objectifs.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Optimisation contenu</h3>
                                     <p>Optimisation continue des annonces et audiences – pour maximiser le taux de clic et la conversion.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Suivi continu</h3>
                                     <p>Suivi des performances et analyse des résultats – un reporting clair, orienté chiffre d’affaires.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité</h3>
                                     <p>Ajustements budgétaires et A/B testing – on teste, on mesure, on garde ce qui fonctionne le mieux.</p>
                                 </div>
@@ -397,28 +397,28 @@
                                                         <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit des processus automatisables – on détecte où l’IA peut réellement vous apporter du ROI.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Déploiement des meilleures IA – ChatGPT, Claude, outils no-code ou modèles spécialisés - selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement sécurisé sur vos serveurs internes : contrôle des données sensibles et conformité RGPD.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Suivi, optimisation et montée en puissance – des ajustements réguliers pour maximiser la valeur créée.</p>
                                 </div>
@@ -437,28 +437,28 @@
                                                         <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit complet du tracking existant – vérification des événements clés, tunnels et points de fuite.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Mise en place ou migration d’outils analytics – Matomo, Looker Studio, GA4, configurés selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement interne sécurisé – possibilité de déployer Matomo ou autres solutions sur vos serveurs pour un contrôle total.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Tableaux de bord sur-mesure – visualisez vos KPIs business en temps réel avec un reporting simple et exploitable.</p>
                                 </div>
@@ -477,28 +477,28 @@
                                                         <div class="col-3"></div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-binoculars-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-magnifier textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Audit performance</h3>
                                     <p>Audit complet du tracking existant – vérification des événements clés, tunnels et points de fuite.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-capslock-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-keyboard textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Selon vos besoins</h3>
                                     <p>Mise en place ou migration d’outils analytics – Matomo, Looker Studio, GA4, configurés selon vos besoins.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-easel-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-presentation-screen textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Conformité RGPD</h3>
                                     <p>Hébergement interne sécurisé – possibilité de déployer Matomo ou autres solutions sur vos serveurs pour un contrôle total.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-backpack3-fill textToAdjust fs-2"></i>
+                                    <i class="icon icon-suitcase-3 textToAdjust fs-2"></i>
                                     <h3 class="mt-3 fs-4">Réactivité </h3>
                                     <p>Tableaux de bord sur-mesure – visualisez vos KPIs business en temps réel avec un reporting simple et exploitable.</p>
                                 </div>

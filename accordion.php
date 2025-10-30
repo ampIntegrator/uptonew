@@ -51,7 +51,7 @@
 				</div>
                 <div class="col-md-6 col-lg-3">
                     <div class="boxInverse">
-                        <i class="bi bi-basket-fill text-success fs-2"></i>
+                        <i class="icon icon-basket-shopping text-success fs-2"></i>
                         <h3 class="mt-3 fs-4">Titre de bloc icone</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                     </div>
@@ -61,21 +61,21 @@
                         <div class="row g-4">
                             <div class="col-4">
                                 <div class="d-block">
-                                    <i class="bi bi-basket-fill text-success fs-2"></i>
+                                    <i class="icon icon-basket-shopping text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Titre de bloc icone</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="d-block">
-                                    <i class="bi bi-basket-fill text-success fs-2"></i>
+                                    <i class="icon icon-basket-shopping text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Titre de bloc icone</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="d-block">
-                                    <i class="bi bi-basket-fill text-success fs-2"></i>
+                                    <i class="icon icon-basket-shopping text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Titre de bloc icone</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
@@ -251,28 +251,28 @@
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-basket-fill text-success fs-2"></i>
+                                    <i class="icon icon-basket-shopping text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Marc Mouly King</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
                             </div>
                             <div class="ccol-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-chat-square-dots-fill text-success fs-2"></i>
+                                    <i class="icon icon-msgs text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">La dinguerie grave !</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-cake-fill text-success fs-2"></i>
+                                    <i class="icon icon-gift text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Non mais allo quoi !</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3">
                                 <div class="infraBox">
-                                    <i class="bi bi-bar-chart-fill text-success fs-2"></i>
+                                    <i class="icon icon-chart-bar-trend-up text-success fs-2"></i>
                                     <h3 class="mt-3 fs-4">Poutine is a huge turd</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                 </div>
@@ -337,7 +337,7 @@
                             <div class="col-md-6">
                                 <div class="infraBox">
                                     <h3 class="headingWithIcon">
-                                        <i class="bi bi-easel2-fill"></i>
+                                        <i class="icon icon-presentation-screen"></i>
                                         Ceci est un titre iconisé
                                     </h3>
 
@@ -347,7 +347,7 @@
                             <div class="col-md-6">
                                 <div class="infraBox">
                                     <h3 class="headingWithIcon">
-                                        <i class="bi bi-fan"></i>
+                                        <i class="icon icon-gear-2"></i>
                                         Ceci est une icone de ventilateur
                                     </h3>
                                     <p>Fini les décisions à l’aveugle. Nous mettons en place un tracking fiable et complet, puis nous centralisons vos données dans des dashboards clairs et simples à lire. Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu’il faut ajuster pour améliorer vos résultats mois après mois.</p>
@@ -356,7 +356,7 @@
                             <div class="col-md-6">
                                 <div class="infraBox">
                                     <h3 class="headingWithIcon">
-                                        <i class="bi bi-bag-heart-fill"></i>
+                                        <i class="icon icon-heart-hand"></i>
                                         Du ROI pour les rois et les reines du Biz'
                                     </h3>
                                     <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison intelligente de SEO et SEA. Mais nous allons plus loin : nous optimisons vos pages clés et vos tunnels de conversion pour capter des prospects réellement intéressés par vos services. Résultat : plus de contacts, mieux qualifiés, avec une stratégie mesurable et orientée ROI.</p>
@@ -365,7 +365,7 @@
                             <div class="col-md-6">
                                 <div class="infraBox">
                                     <h3 class="headingWithIcon">
-                                        <i class="bi bi-bag-heart-fill"></i>
+                                        <i class="icon icon-heart-hand"></i>
                                         SEO, SEA, on s'enf fout, on veut votre moula, votre femme et vos enfants.
                                     </h3>
                                     <p>Fini les décisions à l’aveugle. Nous mettons en place un tracking fiable et complet, puis nous centralisons vos données dans des dashboards clairs et simples à lire. Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu’il faut ajuster pour améliorer vos résultats mois après mois.</p>

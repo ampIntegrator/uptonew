@@ -133,7 +133,7 @@
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-basket-fill fs-2"></i>
+                                <i class="icon icon-basket-shopping fs-2"></i>
                                 <h3 class="mt-3 fs-4">Marc Mouly King</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="ccol-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-chat-square-dots-fill fs-2"></i>
+                                <i class="icon icon-msgs fs-2"></i>
                                 <h3 class="mt-3 fs-4">La dinguerie grave !</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-cake-fill fs-2"></i>
+                                <i class="icon icon-gift fs-2"></i>
                                 <h3 class="mt-3 fs-4">Non mais allo quoi !</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="infraBox">
-                                <i class="bi bi-bar-chart-fill fs-2"></i>
+                                <i class="icon icon-chart-bar-trend-up fs-2"></i>
                                 <h3 class="mt-3 fs-4">Poutine is a huge turd</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -410,7 +410,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-easel2-fill"></i>
+                                    <i class="icon icon-presentation-screen"></i>
                                     Ceci est un titre iconisé
                                 </h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
@@ -423,7 +423,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-fan"></i>
+                                    <i class="icon icon-gear-2"></i>
                                     Ceci est une icone de ventilateur
                                 </h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
@@ -435,7 +435,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-bag-heart-fill"></i>
+                                    <i class="icon icon-heart-hand"></i>
                                     Du ROI pour les rois et les reines du Biz'
                                 </h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
@@ -448,7 +448,7 @@
                         <div class="col-md-6">
                             <div class="infraBox">
                                 <h3 class="headingWithIcon">
-                                    <i class="bi bi-bag-heart-fill"></i>
+                                    <i class="icon icon-heart-hand"></i>
                                     SEO, SEA, on s'enf fout, on veut votre moula, votre femme et vos enfants.
                                 </h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
@@ -537,10 +537,10 @@
                             <li>12345 Boulbi</li>
                         </ul>
                         <ul class="social p-0">
-                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
-                            <li><a href="#"><i class="bi bi-discord"></i></a></li>
+                            <li><a href="#"><i class="icon icon-link"></i></a></li>
+                            <li><a href="#"><i class="icon icon-video"></i></a></li>
+                            <li><a href="#"><i class="icon icon-feather"></i></a></li>
+                            <li><a href="#"><i class="icon icon-msgs"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-lg-9">

@@ -16,7 +16,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-12">
                     <div class="flexCSB">
-                        <i class="bi bi-chevron-left fs-1"></i>
+                        <i class="icon icon-chevron-left fs-1"></i>
                         <div class="row g-4">
                                             <div class="col-lg-3">
                     <div class="portfolioThumbnail colorPrimary" style="background-image: url(assets/img/img004.jpg);">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                         </div>
-                        <i class="bi bi-chevron-right fs-1"></i>
+                        <i class="icon icon-chevron-right fs-1"></i>
                     </div>
                 </div>
                 <div class="col-lg-9 col-xl-8">
