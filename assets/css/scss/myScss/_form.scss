@@ -112,7 +112,7 @@ form {
         transition: $trans;
 
         &::before {
-            content: "\eac9";
+            content: "\eacd";
             font-family: 'Nucleo';
             display: flex;
             align-items: center;
@@ -124,7 +124,7 @@ form {
             background-color: $white !important;
             color: $white;
             transition: $trans;
-            font-size: 20px;
+            font-size: 12px;
         }
     }
 
@@ -224,5 +224,10 @@ form {
         .btnSubmit {
             color: $dark !important;
         }
+            input:checked+label.checkableLabel {
+        &::before {
+            color: $dark !important;
+        }
+    }
     }
 }

@@ -54,28 +54,6 @@ body {
     margin-bottom: 24px;
 }
 
-.radioZone {
-    .form-check {
-        padding-left: 8px;
-    }
-
-    label {
-        div {
-            transition: $trans;
-            border-radius: 16px;
-            cursor: pointer;
-        }
-    }
-
-    input {
-        &:checked {
-            +label .p-2 {
-                width: 30px;
-            }
-        }
-    }
-}
-
 .portfolioThumbnail {
     padding: 24px 16px;
     display: flex;
