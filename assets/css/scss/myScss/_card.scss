@@ -24,16 +24,19 @@
     .card-header {
         background-color: transparent;
         transition: $trans;
-        > div,
-        > div span{
+        > .card-category,
+        > .card-category span{
             transition: $trans;
+        }
+        .card-category{
+            text-align: center;
         }
         .card-title{
             min-height: 84px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 26px !important;
+            font-size: 24px !important;
         }
         padding: 0;
         border: 0;
@@ -195,7 +198,7 @@
     &.colorSuccess,
     &.colorWarning {
         // Badge header : span en dark au lieu de white
-        .card-header > div span {
+        .card-header > .card-category span {
             color: $dark !important;
         }
 
@@ -207,6 +210,9 @@
 
         // Au hover : tous les textes en dark
         &:hover {
+        .card-header > .card-category span {
+            color: $dark !important;
+        }
             * {
                 color: $dark !important;
             }

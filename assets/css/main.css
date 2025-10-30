@@ -12389,10 +12389,14 @@ fieldset:disabled .btn {
   border: 0;
 }
 
-.card .card-header > div,
-.card .card-header > div span {
+.card .card-header > .card-category,
+.card .card-header > .card-category span {
   -webkit-transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card .card-header .card-category {
+  text-align: center;
 }
 
 .card .card-header .card-title {
@@ -12406,7 +12410,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 26px !important;
+  font-size: 24px !important;
 }
 
 .card .card-header * {
@@ -13010,13 +13014,17 @@ fieldset:disabled .btn {
   color: #72d2c2 !important;
 }
 
-.card.colorSuccess .card-header > div span, .card.colorWarning .card-header > div span {
+.card.colorSuccess .card-header > .card-category span, .card.colorWarning .card-header > .card-category span {
   color: #121b36 !important;
 }
 
 .card.colorSuccess .card-footer .btn,
 .card.colorSuccess .card-footer button, .card.colorWarning .card-footer .btn,
 .card.colorWarning .card-footer button {
+  color: #121b36 !important;
+}
+
+.card.colorSuccess:hover .card-header > .card-category span, .card.colorWarning:hover .card-header > .card-category span {
   color: #121b36 !important;
 }
 
@@ -13482,7 +13490,7 @@ body.is-scrolled header nav > .container {
   margin: 0 auto;
   font-weight: 600;
   font-size: 18px;
-  content: "\ea05";
+  content: "\eacb";
   font-family: Nucleo;
 }
 
@@ -15386,7 +15394,7 @@ blockquote.colorInfo {
 }
 
 body {
-  padding-top: 105px;
+  padding-top: 96px;
   background-color: black;
 }
 
@@ -15602,8 +15610,8 @@ ul.withCaret li:not(:last-child) {
 }
 
 ul.withCaret li:before {
-  content: "\f234";
-  font-family: bootstrap-icons !important;
+  content: "\eae1";
+  font-family: 'Nucleo' !important;
   font-style: normal;
   font-weight: 400 !important;
   font-variant: normal;
