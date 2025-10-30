@@ -30,13 +30,20 @@
         }
         .card-category{
             text-align: center;
+            span{
+                font-size: 16px;
+                text-transform: uppercase;
+            }
         }
         .card-title{
             min-height: 84px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px !important;
+            font-size: 24px ;
+            margin: 0;
+            padding: 0 8px;
+
         }
         padding: 0;
         border: 0;
@@ -224,3 +231,24 @@
         }
     }
 }
+
+
+.card{
+    container-type: inline-size;
+    /* ou juste: container-name: target; si tu veux le nommer */
+}
+
+/* 2. Applique des styles selon SA largeur */
+@container (max-width: 300px) {
+    .card{
+        .card-title{
+            font-size: 22px !important
+        }
+        .card-body{
+            .pricing-card-title{
+                font-size: 20px !important;
+            }
+        }
+    }
+}
+

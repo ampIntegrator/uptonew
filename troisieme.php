@@ -18,7 +18,7 @@
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                                 <div class="card-header">
                                     <div class="card-category px-3 py-2">
-                                        <span class="fs-5">Technologie</span>
+                                        <span>Technologie</span>
                                     </div>
                                     <h2 class="card-title px-3 my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
                                 </div>
@@ -43,9 +43,9 @@
                                 <div class="card-header">
         
                                     <div class="card-category px-3 py-2">
-                                        <span class="fs-5">Business et développement</span>
+                                        <span>Business et développement</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                                    <h2 class="card-title">Déploiement Stratégie Solutions numériques</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -68,9 +68,9 @@
                             <div class="card colorWarning overflow-hidden">
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                                 <div class="card-header"><div class="card-category px-3 py-2">
-                                        <span class="fs-5">Assurances</span>
+                                        <span>Assurances</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                                    <h2 class="card-title">Conseil Digital Partner 360 Growth & ROI</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -88,12 +88,12 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <div class="card colorPurple overflow-hidden">
+                            <div id="target" class="card colorPurple overflow-hidden">
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img004.jpg');"></div>
                                 <div class="card-header"><div class="card-category px-3 py-2">
-                                        <span class="fs-5">Moula moula baby</span>
+                                        <span>Moula moula baby</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                                    <h2 class="card-title">Déploiement Stratégie Solutions numériques</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -116,9 +116,9 @@
                             <div class="card colorWarning overflow-hidden">
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img001.jpg');"></div>
                                 <div class="card-header"><div class="card-category px-3 py-2">
-                                        <span class="fs-5">Conseil</span>
+                                        <span>Conseil</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                                    <h2 class="card-title">Conseil Digital Partner 360 Growth & ROI</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
@@ -139,9 +139,9 @@
                             <div class="card colorTeal overflow-hidden">
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img002.jpg');"></div>
                                 <div class="card-header"><div class="card-category px-3 py-2">
-                                        <span class="fs-5">Développement</span>
+                                        <span>Développement</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Déploiement Stratégie Solutions numériques</h2>
+                                    <h2 class="card-title">Déploiement Stratégie Solutions numériques</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 1930€ TTC</h3>
@@ -164,9 +164,9 @@
                             <div class="card colorSuccess overflow-hidden">
                                 <div class="card-thumbnail overflow-hidden" style="background-image: url('assets/img/img003.jpg');"></div>
                                 <div class="card-header"><div class="card-category px-3 py-2">
-                                        <span class="fs-5">Transformation</span>
+                                        <span>Transformation</span>
                                     </div>
-                                    <h2 class="card-title my-0 fs-3">Conseil Digital Partner 360 Growth & ROI</h2>
+                                    <h2 class="card-title">Conseil Digital Partner 360 Growth & ROI</h2>
                                 </div>
                                 <div class="card-body">
                                     <h3 class="pricing-card-title m-0">à partir de 930€ TTC</h3>
