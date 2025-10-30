@@ -185,9 +185,33 @@
                         </div>
                         <div class="col-md-12">
                             <div id="heightRadio">
-                                
+                                <form class="colorPrimary">
+                                    <div class="d-flex gap-3 align-items-center">
+                                        <label class="fw-bold">Min-height:</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="heightRadio" id="height300" value="300">
+                                            <label class="form-check-label" for="height300">300px</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="heightRadio" id="height350" value="350">
+                                            <label class="form-check-label" for="height350">350px</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="heightRadio" id="height400" value="400" checked>
+                                            <label class="form-check-label" for="height400">400px</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="heightRadio" id="height450" value="450">
+                                            <label class="form-check-label" for="height450">450px</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="heightRadio" id="height500" value="500">
+                                            <label class="form-check-label" for="height500">500px</label>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="box withImage" style="background-image: url(assets/img/Photo0001.avif);"></div>
+                            <div class="box withImage" id="testBox" style="background-image: url(assets/img/Photo0001.avif); min-height: 400px;"></div>
                         </div>
                         <div class="col-md-12">
                             <div class="box withImage" style="background-image: url(assets/img/Photo0004.avif);"></div>
@@ -218,6 +242,22 @@
 
         </section>
     <i class="icon icon-video"></i>
+
+    <script>
+        // Script pour modifier la min-height de la box avec les radios
+        document.addEventListener('DOMContentLoaded', function() {
+            const radios = document.querySelectorAll('input[name="heightRadio"]');
+            const testBox = document.getElementById('testBox');
+
+            radios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    if (this.checked) {
+                        testBox.style.minHeight = this.value + 'px';
+                    }
+                });
+            });
+        });
+    </script>
 	</body>
     <script src="assets/js/custom.js"></script>
 
