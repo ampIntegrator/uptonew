@@ -120,7 +120,7 @@
                                 <div class="row g-4">
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-basket-shopping"></i>
+                                                <i class="icon icon-rocket-4"></i>
                                                 <h3 class="iconsBoxTitle">Marc Mouly King</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -128,7 +128,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-msgs"></i>
+                                                <i class="icon icon-award-5"></i>
                                                 <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -136,7 +136,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-gift"></i>
+                                                <i class="icon icon-heart-5"></i>
                                                 <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -144,7 +144,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <i class="icon icon-chart-bar-trend-up-4"></i>
                                                 <h3 class="iconsBoxTitle">Business is business is biz biz !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -158,7 +158,7 @@
                                 <div class="row g-4">
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-basket-shopping"></i>
+                                                <i class="icon icon-lightbulb-3-4"></i>
                                                 <h3 class="iconsBoxTitle">Marc Mouly King</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -166,7 +166,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-msgs"></i>
+                                                <i class="icon icon-gift-5"></i>
                                                 <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -174,7 +174,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-gift"></i>
+                                                <i class="icon icon-bell-5"></i>
                                                 <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -182,7 +182,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <i class="icon icon-lock-5"></i>
                                                 <h3 class="iconsBoxTitle">Yippie Kaï !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -196,7 +196,7 @@
                                 <div class="row g-4">
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-basket-shopping"></i>
+                                                <i class="icon icon-cloud-5"></i>
                                                 <h3 class="iconsBoxTitle">Marc Mouly King</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -204,7 +204,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-msgs"></i>
+                                                <i class="icon icon-credit-card-5"></i>
                                                 <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -212,7 +212,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-gift"></i>
+                                                <i class="icon icon-cart-shopping-5"></i>
                                                 <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -220,7 +220,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <i class="icon icon-bag-shopping-4"></i>
                                                 <h3 class="iconsBoxTitle">Business is business is biz biz !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -234,7 +234,7 @@
                                 <div class="row g-4">
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-basket-shopping"></i>
+                                                <i class="icon icon-bookmark-5"></i>
                                                 <h3 class="iconsBoxTitle">Marc Mouly King</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -242,7 +242,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-msgs"></i>
+                                                <i class="icon icon-camera-5"></i>
                                                 <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -250,7 +250,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-gift"></i>
+                                                <i class="icon icon-gear-2-5"></i>
                                                 <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
@@ -258,7 +258,7 @@
                                         </div>
                                         <div class="col-md-6 col-lg-3">
                                             <div class="infraBox">
-                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <i class="icon icon-folder-5"></i>
                                                 <h3 class="iconsBoxTitle">Yippie Kaï !</h3>
                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                                     obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
