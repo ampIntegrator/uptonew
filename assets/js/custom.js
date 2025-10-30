@@ -60,52 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// TO REMOVE - JUST FOR DEMO
-document.addEventListener('DOMContentLoaded', function() {
-    // Liste des couleurs
-    const colorNames = ['Primary', 'Success', 'Danger', 'Info', 'Orange', 'Purple', 'Warning', 'Teal', 'Indigo', 'Cyan'];
-    
-    // Trouver toutes les zones radio
-    const radioZones = document.querySelectorAll('.radioZone');
-    
-    // Pour chaque zone radio
-    radioZones.forEach(radioZone => {
-        // Trouver la .box parente la plus proche
-        const box = radioZone.closest('.box');
-        
-        if (!box) return; // Si pas de .box parente, on skip
-        
-        // Trouver tous les radios dans cette zone
-        const radios = radioZone.querySelectorAll('input[type="radio"]');
-        
-        // Fonction pour changer la couleur de cette box spécifique
-        function changeBoxColor(colorName) {
-            // Retirer toutes les classes color*
-            colorNames.forEach(color => {
-                box.classList.remove('color' + color);
-            });
-            
-            // Ajouter la nouvelle classe
-            box.classList.add('color' + colorName);
-        }
-        
-        // Écouter les changements sur tous les radios de cette zone
-        radios.forEach(radio => {
-            radio.addEventListener('change', function() {
-                if (this.checked) {
-                    // Extraire le nom de la couleur depuis l'ID (radio[ColorName] ou radio[ColorName]2)
-                    const id = this.id;
-                    const colorName = colorNames.find(color => id.includes('radio' + color));
-                    
-                    if (colorName) {
-                        changeBoxColor(colorName);
-                    }
-                }
-            });
-        });
-    });
-});
-
 // AJUSTEMENT COULEUR UNDERMENU HEADER
 document.addEventListener('DOMContentLoaded', function() {
     const liSuccess = document.querySelector('.liSuccess');
