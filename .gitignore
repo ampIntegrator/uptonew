@@ -1,0 +1,7 @@
+# Compiled CSS files (generated from SCSS)
+assets/css/main.css
+assets/css/main.css.map
+
+# macOS system files
+.DS_Store
+*/.DS_Store
