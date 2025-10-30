@@ -20,7 +20,7 @@
                     <div class="box colorOrange">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">Stratégie marketing digital 360°</h2>
+                                <h2>Stratégie marketing digital 360°</h2>
                                 <p><strong>Pilotez votre croissance avec une vision globale et orientée ROI</strong></p>
                                 <p class="mb-0">Avec notre approche 360°, nous alignons vos objectifs business avec les bons leviers digitaux : SEO, SEA, contenu, data, IA et automatisation. Pas de plan figé ni de théorie inutile, mais une stratégie claire, priorisée et actionnable pour générer des résultats concrets.</p>
                             </div>
@@ -68,7 +68,7 @@
                     <div class="box colorWarning">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">Gestion SEO - Référencement naturel</h2>
+                                <h2>Gestion SEO - Référencement naturel</h2>
                                 <p><strong>Améliorez durablement votre visibilité sur Google. </strong></p>
                                 <p class="mb-0">Avec notre gestion SEO, vous bénéficiez d'une optimisation technique, éditoriale et stratégique continue pour attirer des visiteurs qualifiés, renforcer votre position face à la concurrence et générer plus de conversions, sans dépendre uniquement de la publicité.</p>
                             </div>
@@ -113,7 +113,7 @@
                     <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">Gestion SEA - Publicité numérique</h2>
+                                <h2>Gestion SEA - Publicité numérique</h2>
                                 <p><strong>Des campagnes publicitaires rentables et pilotées au ROI.</strong></p>
                                 <p class="mb-0">Nous créons, optimisons et gérons vos campagnes Google Ads et Meta Ads pour générer des leads qualifiés, augmenter vos ventes et réduire vos coûts d'acquisition grâce à une approche data-driven et transparente.</p>
                             </div>
@@ -158,7 +158,7 @@
                     <div class="box colorPrimary">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">IA pour entreprise</h2>
+                                <h2>IA pour entreprise</h2>
                                 <p><strong>L'intelligence artificielle adaptée à vos besoins et à votre infrastructure.</strong></p>
                                 <p class="mb-0">Nous identifions les tâches répétitives à automatiser, intégrons les meilleures IA du marché et les déployons, au choix en cloud ou sur vos serveurs internes, pour garantir performance, sécurité et conformité.</p>
                             </div>
@@ -203,7 +203,7 @@
                     <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">Analytics, Tracking & DATA</h2>
+                                <h2>Analytics, Tracking & DATA</h2>
                                 <p><strong>Des données fiables pour piloter vos décisions en toute conformité.</strong></p>
                                 <p class="mb-0">Nous mettons en place un tracking complet, déployons Matomo ou Looker Studio sur vos serveurs internes si nécessaire, et vous fournissons des tableaux de bord clairs, alignés sur vos indicateurs business, tout en respectant le RGPD.</p>
                             </div>
@@ -248,7 +248,7 @@
                     <div class="box colorSuccess">
                         <div class="row g-4">
                             <div class="col-12">
-                                <h2 class="textToAdjust">Conformité RGPD & Protection des Données</h2>
+                                <h2>Conformité RGPD & Protection des Données</h2>
                                 <p><strong>Une conformité simple, claire et sans perte de performance.</strong></p>
                                 <p class="mb-0">Nous sécurisons vos données, adaptons vos outils marketing et déployons des solutions de tracking respectueuses du RGPD, hébergées en interne si nécessaire, pour allier protection, transparence et efficacité digitale.</p>
                             </div>
@@ -303,7 +303,7 @@
                     <div class="box colorOrange">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">Stratégie marketing digital 360°</h2>
+                                <h2>Stratégie marketing digital 360°</h2>
                                 <p><strong>Pilotez votre croissance avec une vision globale et orientée ROI</strong></p>
                                 <p class="mb-0">Avec notre approche 360°, nous alignons vos objectifs business avec les bons leviers digitaux : SEO, SEA, contenu, data, IA et automatisation. Pas de plan figé ni de théorie inutile, mais une stratégie claire, priorisée et actionnable pour générer des résultats concrets.</p>
                             </div>
@@ -352,7 +352,7 @@
                     <div class="box colorWarning">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">Gestion SEO - Référencement naturel</h2>
+                                <h2>Gestion SEO - Référencement naturel</h2>
                                 <p><strong>Améliorez durablement votre visibilité sur Google. </strong></p>
                                 <p class="mb-0">Avec notre gestion SEO, vous bénéficiez d'une optimisation technique, éditoriale et stratégique continue pour attirer des visiteurs qualifiés, renforcer votre position face à la concurrence et générer plus de conversions, sans dépendre uniquement de la publicité.</p>
                             </div>
@@ -398,7 +398,7 @@
                     <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">Gestion SEA - Publicité numérique</h2>
+                                <h2>Gestion SEA - Publicité numérique</h2>
                                 <p><strong>Des campagnes publicitaires rentables et pilotées au ROI.</strong></p>
                                 <p class="mb-0">Nous créons, optimisons et gérons vos campagnes Google Ads et Meta Ads pour générer des leads qualifiés, augmenter vos ventes et réduire vos coûts d'acquisition grâce à une approche data-driven et transparente.</p>
                             </div>
@@ -444,7 +444,7 @@
                     <div class="box colorPrimary">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">IA pour entreprise</h2>
+                                <h2>IA pour entreprise</h2>
                                 <p><strong>L'intelligence artificielle adaptée à vos besoins et à votre infrastructure.</strong></p>
                                 <p class="mb-0">Nous identifions les tâches répétitives à automatiser, intégrons les meilleures IA du marché et les déployons, au choix en cloud ou sur vos serveurs internes, pour garantir performance, sécurité et conformité.</p>
                             </div>
@@ -490,7 +490,7 @@
                     <div class="box colorTeal">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">Analytics, Tracking & DATA</h2>
+                                <h2>Analytics, Tracking & DATA</h2>
                                 <p><strong>Des données fiables pour piloter vos décisions en toute conformité.</strong></p>
                                 <p class="mb-0">Nous mettons en place un tracking complet, déployons Matomo ou Looker Studio sur vos serveurs internes si nécessaire, et vous fournissons des tableaux de bord clairs, alignés sur vos indicateurs business, tout en respectant le RGPD.</p>
                             </div>
@@ -536,7 +536,7 @@
                     <div class="box colorSuccess">
                         <div class="row g-4">
                             <div class="col-9">
-                                <h2 class="textToAdjust">Conformité RGPD & Protection des Données</h2>
+                                <h2>Conformité RGPD & Protection des Données</h2>
                                 <p><strong>Une conformité simple, claire et sans perte de performance.</strong></p>
                                 <p class="mb-0">Nous sécurisons vos données, adaptons vos outils marketing et déployons des solutions de tracking respectueuses du RGPD, hébergées en interne si nécessaire, pour allier protection, transparence et efficacité digitale.</p>
                             </div>

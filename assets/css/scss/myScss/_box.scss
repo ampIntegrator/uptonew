@@ -72,12 +72,6 @@
     }
 }
 
-.infraBox,
-.box {
-    // Utilisation de la map globale
-    @include color-variants-simple($theme-colors);
-}
-
 .infraBox {
     padding: 24px 16px;
     border-radius: $border-radius-lg;
