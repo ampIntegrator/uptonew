@@ -11597,8 +11597,8 @@ form fieldset textarea:focus::placeholder, form fieldset textarea:active::placeh
   margin-bottom: 8px;
   width: 100%;
 }
-.inputRadioBox label,
-.inputCheckBox label {
+.inputRadioBox label.checkableLabel,
+.inputCheckBox label.checkableLabel {
   font-weight: 600;
   color: #ffffff;
   height: 44px;
@@ -11609,8 +11609,10 @@ form fieldset textarea:focus::placeholder, form fieldset textarea:active::placeh
   cursor: pointer;
   transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
 }
-.inputRadioBox label i,
-.inputCheckBox label i {
+.inputRadioBox label.checkableLabel::before,
+.inputCheckBox label.checkableLabel::before {
+  content: "\eac9";
+  font-family: "Nucleo";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11628,11 +11630,11 @@ form fieldset textarea:focus::placeholder, form fieldset textarea:active::placeh
   display: none !important;
 }
 
-.inputRadioBox label i {
+.inputRadioBox label.checkableLabel::before {
   border-radius: 50%;
 }
 
-.inputCheckBox label i {
+.inputCheckBox label.checkableLabel::before {
   border-radius: 3px;
 }
 
@@ -11671,7 +11673,7 @@ form.colorPrimary .inputRadioBox > span,
 form.colorPrimary .inputCheckBox > span {
   color: #04a8ff !important;
 }
-form.colorPrimary input:checked + label.checkableLabel i {
+form.colorPrimary input:checked + label.checkableLabel::before {
   background-color: #04a8ff !important;
   color: #ffffff !important;
 }
@@ -11715,7 +11717,7 @@ form.colorDanger .inputRadioBox > span,
 form.colorDanger .inputCheckBox > span {
   color: #FF0066 !important;
 }
-form.colorDanger input:checked + label.checkableLabel i {
+form.colorDanger input:checked + label.checkableLabel::before {
   background-color: #FF0066 !important;
   color: #ffffff !important;
 }
@@ -11759,7 +11761,7 @@ form.colorOrange .inputRadioBox > span,
 form.colorOrange .inputCheckBox > span {
   color: #ffc107 !important;
 }
-form.colorOrange input:checked + label.checkableLabel i {
+form.colorOrange input:checked + label.checkableLabel::before {
   background-color: #ffc107 !important;
   color: #ffffff !important;
 }
@@ -11803,7 +11805,7 @@ form.colorPurple .inputRadioBox > span,
 form.colorPurple .inputCheckBox > span {
   color: #6f42c1 !important;
 }
-form.colorPurple input:checked + label.checkableLabel i {
+form.colorPurple input:checked + label.checkableLabel::before {
   background-color: #6f42c1 !important;
   color: #ffffff !important;
 }
@@ -11847,7 +11849,7 @@ form.colorWarning .inputRadioBox > span,
 form.colorWarning .inputCheckBox > span {
   color: #ffc107 !important;
 }
-form.colorWarning input:checked + label.checkableLabel i {
+form.colorWarning input:checked + label.checkableLabel::before {
   background-color: #ffc107 !important;
   color: #ffffff !important;
 }
@@ -11891,7 +11893,7 @@ form.colorTeal .inputRadioBox > span,
 form.colorTeal .inputCheckBox > span {
   color: #20c997 !important;
 }
-form.colorTeal input:checked + label.checkableLabel i {
+form.colorTeal input:checked + label.checkableLabel::before {
   background-color: #20c997 !important;
   color: #ffffff !important;
 }
@@ -11935,7 +11937,7 @@ form.colorSuccess .inputRadioBox > span,
 form.colorSuccess .inputCheckBox > span {
   color: #01FF88 !important;
 }
-form.colorSuccess input:checked + label.checkableLabel i {
+form.colorSuccess input:checked + label.checkableLabel::before {
   background-color: #01FF88 !important;
   color: #ffffff !important;
 }
@@ -11979,7 +11981,7 @@ form.colorInfo .inputRadioBox > span,
 form.colorInfo .inputCheckBox > span {
   color: #72d2c2 !important;
 }
-form.colorInfo input:checked + label.checkableLabel i {
+form.colorInfo input:checked + label.checkableLabel::before {
   background-color: #72d2c2 !important;
   color: #ffffff !important;
 }
