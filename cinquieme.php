@@ -72,15 +72,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="box withImage imageOrange">
-                <div class="boxImg" style="background-image: url(assets/img/img004.jpg)">
-                    <div class="py-5">
-                        <div class="py-5">
-                            <div class="py-5"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="box withImage colorOrange" style="background-image: url(assets/img/img004.jpg);"></div>
         </div>
         <div class="col-lg-6">
             <div class="box h-100">
@@ -201,15 +193,7 @@
         </div>
 
         <div class="col-md-4">
-            <div class="box withImage imageDanger">
-                <div class="boxImg" style="background-image: url(assets/img/img004.jpg)">
-                    <div class="py-5">
-                        <div class="py-5">
-                            <div class="py-5"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="box withImage colorDanger" style="background-image: url(assets/img/img004.jpg);"></div>
         </div>
 
         <div class="col-lg-8">

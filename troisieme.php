@@ -184,61 +184,22 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="box withImage imageSuccess">
-                                <div class="boxImg" style="background-image: url(assets/img/img001.jpg);">
-                                    <div class="py-5">
-                                        <div class="py-5">
-                                            <div class="py-5"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="box withImage colorSuccess" style="background-image: url(assets/img/img001.jpg);"></div>
                         </div>
                         <div class="col-md-6">
-                            <div class="box withImage imageWarning">
-                                <div class="boxImg flexCC" style="background-image: url(assets/img/img004.jpg);">
-                                    <div class="py-5">
-                                        <div class="py-5">
-                                            <div class="py-5"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="quote">
-                                    <h3>Bonjour morning ventana bella chat window sol verde jardin beautiful casa notte.</h3>
-                                </div>
+                            <div class="box withImage colorWarning withQuote" style="background-image: url(assets/img/img004.jpg);">
+                                <h3>Bonjour morning ventana bella chat window sol verde jardin beautiful casa notte.</h3>
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="box withImage imageTeal">
-                                <div class="boxImg flexCC" style="background-image: url(assets/img/img005.jpg);">
-                                    <div class="py-5">
-                                        <div class="py-5">
-                                            <div class="py-5">
-                                                <div class="py-5"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="quote">
-                                    <h3>Voyage through montañas unter cielo blå cherche ancient caminos Wald mare vacker lumière whispers tiempo Stern vento dröm étoile silence.</h3>
-                                </div>
+                            <div class="box withImage colorTeal withQuote" style="background-image: url(assets/img/img005.jpg);">
+                                <h3>Voyage through montañas unter cielo blå cherche ancient caminos Wald mare vacker lumière whispers tiempo Stern vento dröm étoile silence.</h3>
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <div class="box withImage imagePrimary">
-                                <div class="boxImg flexCC" style="background-image: url(assets/img/img005.jpg);">
-                                    <div class="py-5">
-                                        <div class="py-5">
-                                            <div class="py-5">
-                                                <div class="py-5"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="quote">
-                                    <h3>Voyage through montañas unter cielo blå cherche ancient caminos Wald mare vacker lumière whispers tiempo Stern vento dröm étoile silence.</h3>
-                                </div>
+                            <div class="box withImage colorPrimary withQuote" style="background-image: url(assets/img/img005.jpg);">
+                                <h3>Voyage through montañas unter cielo blå cherche ancient caminos Wald mare vacker lumière whispers tiempo Stern vento dröm étoile silence.</h3>
                             </div>
                         </div>
                     </div>
