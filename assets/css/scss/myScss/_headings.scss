@@ -1,6 +1,6 @@
 .blocTitle {
     font-size: 28px;
-    line-height: 1.15;
+    line-height: 1.2;
     margin-bottom: 24px;
 
     // Variante avec chiffre
@@ -11,7 +11,9 @@
 
         span {
             margin-right: 16px;
-            font-weight: bold;
+            font-size: 74px;
+            font-family: $font-family-base;
+            font-weight: 600;
         }
 
         // Générer les couleurs pour le span
@@ -29,9 +31,16 @@
         &:after {
             display: block;
             content: "";
-            height: 6px;
-            width: 40px;
+            height: 5px;
+            width: 48px;
             margin-top: 12px;
+        }
+        &.center{
+            text-align: center;
+            &:after{
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
 
         // Générer les couleurs pour le :after
