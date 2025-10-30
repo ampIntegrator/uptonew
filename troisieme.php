@@ -185,29 +185,38 @@
                         </div>
                         <div class="col-md-12">
                             <div id="heightRadio">
-                                <form class="colorPrimary">
-                                    <div class="d-flex gap-3 align-items-center">
-                                        <label class="fw-bold">Min-height:</label>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="heightRadio" id="height300" value="300">
-                                            <label class="form-check-label" for="height300">300px</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="heightRadio" id="height350" value="350">
-                                            <label class="form-check-label" for="height350">350px</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="heightRadio" id="height400" value="400" checked>
-                                            <label class="form-check-label" for="height400">400px</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="heightRadio" id="height450" value="450">
-                                            <label class="form-check-label" for="height450">450px</label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="heightRadio" id="height500" value="500">
-                                            <label class="form-check-label" for="height500">500px</label>
-                                        </div>
+                                <form class="box colorPrimary">
+                                    <div class="innerForm">
+                                        <fieldset>
+                                            <div class="inputRadioBox">
+                                                <span>Min-height:</span>
+                                                <input type="radio" name="heightRadio" id="height300" value="300" />
+                                                <label for="height300" class="checkableLabel">
+                                                    <i class="icon icon-check"></i>
+                                                    <span>300px</span>
+                                                </label>
+                                                <input type="radio" name="heightRadio" id="height350" value="350" />
+                                                <label for="height350" class="checkableLabel">
+                                                    <i class="icon icon-check"></i>
+                                                    <span>350px</span>
+                                                </label>
+                                                <input type="radio" name="heightRadio" id="height400" value="400" checked />
+                                                <label for="height400" class="checkableLabel">
+                                                    <i class="icon icon-check"></i>
+                                                    <span>400px</span>
+                                                </label>
+                                                <input type="radio" name="heightRadio" id="height450" value="450" />
+                                                <label for="height450" class="checkableLabel">
+                                                    <i class="icon icon-check"></i>
+                                                    <span>450px</span>
+                                                </label>
+                                                <input type="radio" name="heightRadio" id="height500" value="500" />
+                                                <label for="height500" class="checkableLabel">
+                                                    <i class="icon icon-check"></i>
+                                                    <span>500px</span>
+                                                </label>
+                                            </div>
+                                        </fieldset>
                                     </div>
                                 </form>
                             </div>
