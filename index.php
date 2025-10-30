@@ -16,60 +16,44 @@
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <div class="infraBox">
-                                <div class="flexCS">
-                                    <span class="fs-0 text-success me-2 fw-bold">
-                                        01
-                                    </span>
-                                    <h4 class="fw-bold flexCS m-0">
-                                        Stratégie business <br>
-                                        & plan d'actions trimestriel
-                                    </h4>
-                                </div>
+                                <h3 class="blocTitle withFigure colorSuccess">
+                                    <span>01</span>
+                                    Stratégie business <br>
+                                    & plan d'actions trimestriel
+                                </h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est a eaque
                                     temporibus vero animi exercitationem dignissimos, doloribus aliquid alias!</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="infraBox">
-                                <div class="flexCS">
-                                    <span class="fs-0 text-success me-2 fw-bold">
-                                        02
-                                    </span>
-                                    <h4 class="fw-bold flexCS m-0">
-                                        Stratégie business <br>
-                                        & plan d'actions trimestriel
-                                    </h4>
-                                </div>
+                                <h3 class="blocTitle withFigure colorSuccess">
+                                    <span>02</span>
+                                    Stratégie business <br>
+                                    & plan d'actions trimestriel
+                                </h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est a eaque
                                     temporibus vero animi exercitationem dignissimos, doloribus aliquid alias!</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="infraBox">
-                                <div class="flexCS">
-                                    <span class="fs-0 text-success me-2 fw-bold">
-                                        03
-                                    </span>
-                                    <h4 class="fw-bold flexCS m-0">
-                                        Stratégie business <br>
-                                        & plan d'actions trimestriel
-                                    </h4>
-                                </div>
+                                <h3 class="blocTitle withFigure colorSuccess">
+                                    <span>03</span>
+                                    Stratégie business <br>
+                                    & plan d'actions trimestriel
+                                </h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est a eaque
                                     temporibus vero animi exercitationem dignissimos, doloribus aliquid alias!</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="infraBox">
-                                <div class="flexCS">
-                                    <span class="fs-0 text-success me-2 fw-bold">
-                                        04
-                                    </span>
-                                    <h4 class="fw-bold flexCS m-0">
-                                        Stratégie business <br>
-                                        & plan d'actions trimestriel
-                                    </h4>
-                                </div>
+                                <h3 class="blocTitle withFigure colorSuccess">
+                                    <span>04</span>
+                                    Stratégie business <br>
+                                    & plan d'actions trimestriel
+                                </h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est a eaque
                                     temporibus vero animi exercitationem dignissimos, doloribus aliquid alias!</p>
                             </div>
@@ -183,8 +167,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3>Générer plus de leads qualifiés</h3>
-                                <div class="separator"></div>
+                                <h3 class="blocTitle withSeparator colorInfo">Générer plus de leads qualifiés</h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
                                     intelligente de SEO et SEA. Mais nous allons plus loin : nous optimisons vos pages
                                     clés et vos tunnels de conversion pour capter des prospects réellement intéressés
@@ -194,8 +177,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3>Suivre et améliorer vos performances</h3>
-                                <div class="separator"></div>
+                                <h3 class="blocTitle withSeparator colorInfo">Suivre et améliorer vos performances</h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
                                     puis nous centralisons vos données dans des dashboards clairs et simples à lire.
                                     Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
@@ -204,8 +186,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3>Générer plus de leads qualifiés</h3>
-                                <div class="separator"></div>
+                                <h3 class="blocTitle withSeparator colorInfo">Générer plus de leads qualifiés</h3>
                                 <p>Nous améliorons votre visibilité sur les moteurs de recherche grâce à une combinaison
                                     intelligente de SEO et SEA. Mais nous allons plus loin : nous optimisons vos pages
                                     clés et vos tunnels de conversion pour capter des prospects réellement intéressés
@@ -215,8 +196,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3>Suivre et améliorer vos performances</h3>
-                                <div class="separator"></div>
+                                <h3 class="blocTitle withSeparator colorInfo">Suivre et améliorer vos performances</h3>
                                 <p>Fini les décisions à l'aveugle. Nous mettons en place un tracking fiable et complet,
                                     puis nous centralisons vos données dans des dashboards clairs et simples à lire.
                                     Vous savez exactement ce qui fonctionne, ce qui coûte trop cher et ce qu'il faut
@@ -261,7 +241,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 class="headingWithIcon">
+                                <h3 class="blocTitle withIcon colorPrimary">
                                     <i class="icon icon-presentation-screen"></i>
                                     Ceci est un titre iconisé
                                 </h3>
@@ -274,7 +254,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 class="headingWithIcon">
+                                <h3 class="blocTitle withIcon colorPrimary">
                                     <i class="icon icon-gear-2"></i>
                                     Ceci est une icone de ventilateur
                                 </h3>
@@ -286,7 +266,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 class="headingWithIcon">
+                                <h3 class="blocTitle withIcon colorPrimary">
                                     <i class="icon icon-heart-hand"></i>
                                     Du ROI pour les rois et les reines du Biz'
                                 </h3>
@@ -299,7 +279,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="infraBox">
-                                <h3 class="headingWithIcon">
+                                <h3 class="blocTitle withIcon colorPrimary">
                                     <i class="icon icon-heart-hand"></i>
                                     SEO, SEA, on s'enf fout, on veut votre moula, votre femme et vos enfants.
                                 </h3>

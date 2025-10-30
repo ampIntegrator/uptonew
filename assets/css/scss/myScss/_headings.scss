@@ -1,0 +1,67 @@
+.blocTitle {
+    font-size: 28px;
+    line-height: 1.15;
+    margin-bottom: 24px;
+
+    // Variante avec chiffre
+    &.withFigure {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        span {
+            margin-right: 16px;
+            font-weight: bold;
+        }
+
+        // Générer les couleurs pour le span
+        @each $name, $color in $theme-colors {
+            &.color#{$name} {
+                span {
+                    color: $color;
+                }
+            }
+        }
+    }
+
+    // Variante avec separator (transformé en :after)
+    &.withSeparator {
+        &:after {
+            display: block;
+            content: "";
+            height: 6px;
+            width: 40px;
+            margin-top: 12px;
+        }
+
+        // Générer les couleurs pour le :after
+        @each $name, $color in $theme-colors {
+            &.color#{$name} {
+                &:after {
+                    background-color: $color;
+                }
+            }
+        }
+    }
+
+    // Variante avec icône
+    &.withIcon {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        i {
+            font-size: 48px;
+            margin-right: 16px;
+        }
+
+        // Générer les couleurs pour l'icône
+        @each $name, $color in $theme-colors {
+            &.color#{$name} {
+                i {
+                    color: $color;
+                }
+            }
+        }
+    }
+}
