@@ -114,36 +114,36 @@
         <div class="row">
             <div class="col-12">
                 <div class="box">
-                    <div class="iconsBox">
+                    <div class="iconsBox colorWarning">
                         <div class="row g-4">
                                 <div class="col-md-6 col-lg-3">
                                     <div class="infraBox">
-                                        <i class="icon icon-basket-shopping fs-2"></i>
-                                        <h3 class="mt-3 fs-4">Marc Mouly King</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
-                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
-                                    </div>
-                                </div>
-                                <div class="ccol-md-6 col-lg-3">
-                                    <div class="infraBox">
-                                        <i class="icon icon-msgs fs-2"></i>
-                                        <h3 class="mt-3 fs-4">La dinguerie grave !</h3>
+                                        <i class="icon icon-basket-shopping"></i>
+                                        <h3 class="iconsBoxTitle">Marc Mouly King</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                             obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="infraBox">
-                                        <i class="icon icon-gift fs-2"></i>
-                                        <h3 class="mt-3 fs-4">Non mais allo quoi !</h3>
+                                        <i class="icon icon-msgs"></i>
+                                        <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                             obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="infraBox">
-                                        <i class="icon icon-chart-bar-trend-up fs-2"></i>
-                                        <h3 class="mt-3 fs-4">Poutine is a huge turd</h3>
+                                        <i class="icon icon-gift"></i>
+                                        <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="infraBox">
+                                        <i class="icon icon-chart-bar-trend-up"></i>
+                                        <h3 class="iconsBoxTitle">Poutine is a huge turd</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
                                             obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
                                     </div>

@@ -1,0 +1,51 @@
+.iconsBox {
+
+    // Style de base pour l'icône
+    i {
+        font-size: 36px;
+        transition: $trans;
+    }
+
+    // Style de base pour le titre
+    .iconsBoxTitle {
+        margin-top: 16px;
+        color: $white;
+        transition: $trans;
+    }
+
+    // Variantes de couleur : icône colorée, titre en white
+    @each $name, $color in $theme-colors {
+        &.color#{$name} {
+            i {
+                color: $color;
+            }
+
+            .iconsBoxTitle {
+                color: $white;
+            }
+
+            // Variante .colorTitle : titre coloré, icône en white
+            &.colorTitle {
+                i {
+                    color: $white;
+                }
+
+                .iconsBoxTitle {
+                    color: $color;
+                }
+            }
+        }
+    }
+
+    // Variante .center : centrer l'icône et le titre seulement
+    &.center {
+        i {
+            display: block;
+            text-align: center;
+        }
+
+        .iconsBoxTitle {
+            text-align: center;
+        }
+    }
+}
