@@ -10,7 +10,7 @@
     <?php include 'assets/include/header.php'; ?>
 
     <section id="section04" class="container mt-5">
-        <div class="row">
+        <div class="row g-4">
             <div class="col-12">
                 <div class="box">
                     <div class="row g-4">
@@ -111,52 +111,172 @@
     </section>
 
     <section id="section05" class="container pb-5">
-        <div class="row">
+        <div class="row g-4">
             <div class="col-12">
                 <div class="box">
-                    <div class="iconsBox colorWarning">
-                        <div class="row g-4">
-                                <div class="col-md-6 col-lg-3">
-                                    <div class="infraBox">
-                                        <i class="icon icon-basket-shopping"></i>
-                                        <h3 class="iconsBoxTitle">Marc Mouly King</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
-                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="iconsBox colorWarning">
+                                <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-basket-shopping"></i>
+                                                <h3 class="iconsBoxTitle">Marc Mouly King</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-msgs"></i>
+                                                <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-gift"></i>
+                                                <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <h3 class="iconsBoxTitle">Business is business is biz biz !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <div class="infraBox">
-                                        <i class="icon icon-msgs"></i>
-                                        <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
-                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <div class="infraBox">
-                                        <i class="icon icon-gift"></i>
-                                        <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
-                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-3">
-                                    <div class="infraBox">
-                                        <i class="icon icon-chart-bar-trend-up"></i>
-                                        <h3 class="iconsBoxTitle">Poutine is a huge turd</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
-                                            obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
-                                    </div>
-                                </div>
                             </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="iconsBox colorDanger center">
+                                <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-basket-shopping"></i>
+                                                <h3 class="iconsBoxTitle">Marc Mouly King</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-msgs"></i>
+                                                <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-gift"></i>
+                                                <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <h3 class="iconsBoxTitle">Yippie Kaï !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="iconsBox colorPurple colorTitle">
+                                <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-basket-shopping"></i>
+                                                <h3 class="iconsBoxTitle">Marc Mouly King</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-msgs"></i>
+                                                <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-gift"></i>
+                                                <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <h3 class="iconsBoxTitle">Business is business is biz biz !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="iconsBox colorSuccess colorTitle center">
+                                <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-basket-shopping"></i>
+                                                <h3 class="iconsBoxTitle">Marc Mouly King</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-msgs"></i>
+                                                <h3 class="iconsBoxTitle">La dinguerie grave !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-gift"></i>
+                                                <h3 class="iconsBoxTitle">Non mais allo quoi !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="infraBox">
+                                                <i class="icon icon-chart-bar-trend-up"></i>
+                                                <h3 class="iconsBoxTitle">Yippie Kaï !</h3>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid laboriosam
+                                                    obcaecati nobis ipsa magni atque voluptas dignissimos tenetur nisi expedita?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </section>
 
     <section id="section06" class="container pb-5">
-        <div class="row">
+        <div class="row g-4">
             <div class="col-12">
                 <div class="box colorInfo">
                     <div class="row g-4">
@@ -230,7 +350,7 @@
     </section>
 
     <section id="section07" class="container py-5">
-        <div class="row">
+        <div class="row g-4">
             <div class="col-12">
 
                 <div class="box colorPrimary">

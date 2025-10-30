@@ -8,9 +8,14 @@
 
     // Style de base pour le titre
     .iconsBoxTitle {
-        margin-top: 16px;
+        margin: 12px 0 24px;
+        line-height: 1.2;
         color: $white;
         transition: $trans;
+        font-size: 24px;
+    }
+    .infraBox{
+        height: 100%;
     }
 
     // Variantes de couleur : icône colorée, titre en white
