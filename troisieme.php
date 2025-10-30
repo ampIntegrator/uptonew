@@ -183,8 +183,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-12">
+                            <div class="box withImage" style="background-image: url(assets/img/Photo0001.avif);"></div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="box withImage" style="background-image: url(assets/img/Photo0004.avif);"></div>
+                        </div>
                         <div class="col-md-6">
-                            <div class="box withImage colorSuccess" style="background-image: url(assets/img/img001.jpg);"></div>
+                            <div class="box withImage colorPrimary" style="background-image: url(assets/img/img006.jpg);"></div>
                         </div>
                         <div class="col-md-6">
                             <div class="box withImage colorWarning withQuote" style="background-image: url(assets/img/img004.jpg);">
@@ -192,7 +198,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="box withImage colorTeal withQuote" style="background-image: url(assets/img/img005.jpg);">
+                            <div class="box withImage colorDanger withQuote" style="background-image: url(assets/img/img005.jpg);">
                                 <h3>Voyage through montañas unter cielo blå cherche ancient caminos Wald mare vacker lumière whispers tiempo Stern vento dröm étoile silence.</h3>
                             </div>
                         </div>
