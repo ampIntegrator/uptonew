@@ -1,3 +1,4 @@
+// Select2 Base Styles
 .select2-container {
     box-sizing: border-box;
     display: inline-block;
@@ -100,10 +101,6 @@
     padding: 0
 }
 
-.select2-results__options li:nth-child(odd){
-    background-color: rgba(4, 168, 255, .1)
-}
-
 .select2-results__option {
     padding: 6px;
     user-select: none;
@@ -185,25 +182,12 @@
 
 .select2-container--default .select2-selection--single {
     background-color: #fff;
-    border-bottom: 2px solid rgba(4, 168, 255, .4);
     border-radius: 0;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: white;
     line-height: 43px;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__clear {
-    cursor: pointer;
-    float: right;
-    font-weight: bold;
-    height: 44px;
-    margin-right: 20px;
-    padding-right: 0px;
-    color: #04a8ff;
-    font-size: 24px;
-    margin-top: -1px;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
@@ -266,17 +250,6 @@
 
 .select2-container--default .select2-selection--multiple.select2-selection--clearable {
     padding-right: 25px
-}
-
-.select2-container--default .select2-selection--multiple .select2-selection__clear {
-    cursor: pointer;
-    font-weight: bold;
-    height: 20px;
-    margin-right: 10px;
-    margin-top: 5px;
-    position: absolute;
-    right: 0;
-    padding: 1px
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
@@ -369,12 +342,6 @@
     border-top-right-radius: 0
 }
 
-.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-        border-bottom-color: rgba(4, 168, 255, 1)
-}
-
 .select2-container--default .select2-search--dropdown .select2-search__field {
     border: 0;
     outline: none;
@@ -437,11 +404,6 @@
 
 .select2-container--default .select2-results__option--selected {
     background-color: #ddd
-}
-
-.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color: #04a8ff;
-    color: white
 }
 
 .select2-container--default .select2-results__group {
@@ -697,4 +659,43 @@
 
 .select2-container--classic.select2-container--open .select2-dropdown {
     border-color: #5897fb
+}
+
+// Color Variants for form.colorXXX
+form {
+    @each $name, $color in $theme-colors {
+        &.color#{$name} {
+            // Alternance odd des options dropdown avec opacité 0.1
+            .select2-results__options li:nth-child(odd) {
+                background-color: rgba($color, 0.1);
+            }
+
+            // Bordure inférieure du select avec opacité 0.4
+            .select2-container--default .select2-selection--single {
+                border-bottom: 2px solid rgba($color, 0.4);
+            }
+
+            // Couleur du bouton clear
+            .select2-container--default .select2-selection--single .select2-selection__clear {
+                color: $color;
+            }
+
+            // Bordure inférieure quand ouvert (opacité 1)
+            .select2-container--default.select2-container--open.select2-container--below .select2-selection--single,
+            .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+                border-bottom-color: rgba($color, 1);
+            }
+
+            // Option highlighted
+            .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+                background-color: $color;
+                color: white;
+            }
+
+            // Multiple clear button
+            .select2-container--default .select2-selection--multiple .select2-selection__clear {
+                color: $color;
+            }
+        }
+    }
 }
