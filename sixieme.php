@@ -122,17 +122,14 @@
                                 <span>Radio inline</span>
                                 <input type="radio" name="radioDisplay" id="radioDisplay001" />
                                 <label for="radioDisplay001" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix001</span>
                                 </label>
                                 <input type="radio" name="radioDisplay" id="radioDisplay002" />
                                 <label for="radioDisplay002" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 002</span>
                                 </label>
                                 <input type="radio" name="radioDisplay" id="radioDisplay003" />
                                 <label for="radioDisplay003" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 003</span>
                                 </label>
                             </div>
@@ -143,21 +140,18 @@
                                 <div>
                                     <input type="radio" name="radioDisplayAaa" id="radioDisplay001aaa" />
                                     <label for="radioDisplay001aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayAaa" id="radioDisplay002aaa" />
                                     <label for="radioDisplay002aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayAaa" id="radioDisplay003aaa" />
                                     <label for="radioDisplay003aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -169,21 +163,18 @@
                                 <div>
                                     <input type="checkbox" id="checkbox001" />
                                     <label for="checkbox001" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkbox002" />
                                     <label for="checkbox002" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkbox003" />
                                     <label for="checkbox003" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -195,21 +186,18 @@
                                 <div>
                                     <input type="checkbox" id="checkbox001aaa" />
                                     <label for="checkbox001aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkbox002aaa" />
                                     <label for="checkbox002aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkbox003aaa" />
                                     <label for="checkbox003aaa" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -245,17 +233,14 @@
                                 <span>Radio inline</span>
                                 <input type="radio" name="radioDisplayB" id="radioDisplayB001" />
                                 <label for="radioDisplayB001" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix001</span>
                                 </label>
                                 <input type="radio" name="radioDisplayB" id="radioDisplayB002" />
                                 <label for="radioDisplayB002" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 002</span>
                                 </label>
                                 <input type="radio" name="radioDisplayB" id="radioDisplayB003" />
                                 <label for="radioDisplayB003" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 003</span>
                                 </label>
                             </div>
@@ -266,21 +251,18 @@
                                 <div>
                                     <input type="radio" name="radioDisplayBbb" id="radioDisplayB001bbb" />
                                     <label for="radioDisplayB001bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayBbb" id="radioDisplayB002bbb" />
                                     <label for="radioDisplayB002bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayBbb" id="radioDisplayB003bbb" />
                                     <label for="radioDisplayB003bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -292,21 +274,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxB001" />
                                     <label for="checkboxB001" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxB002" />
                                     <label for="checkboxB002" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxB003" />
                                     <label for="checkboxB003" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -318,21 +297,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxB001bbb" />
                                     <label for="checkboxB001bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxB002bbb" />
                                     <label for="checkboxB002bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxB003bbb" />
                                     <label for="checkboxB003bbb" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -368,17 +344,14 @@
                                 <span>Radio inline</span>
                                 <input type="radio" name="radioDisplayC" id="radioDisplayC001" />
                                 <label for="radioDisplayC001" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix001</span>
                                 </label>
                                 <input type="radio" name="radioDisplayC" id="radioDisplayC002" />
                                 <label for="radioDisplayC002" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 002</span>
                                 </label>
                                 <input type="radio" name="radioDisplayC" id="radioDisplayC003" />
                                 <label for="radioDisplayC003" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 003</span>
                                 </label>
                             </div>
@@ -389,21 +362,18 @@
                                 <div>
                                     <input type="radio" name="radioDisplayCcc" id="radioDisplayC001ccc" />
                                     <label for="radioDisplayC001ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayCcc" id="radioDisplayC002ccc" />
                                     <label for="radioDisplayC002ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayCcc" id="radioDisplayC003ccc" />
                                     <label for="radioDisplayC003ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -415,21 +385,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxC001" />
                                     <label for="checkboxC001" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxC002" />
                                     <label for="checkboxC002" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxC003" />
                                     <label for="checkboxC003" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -441,21 +408,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxC001ccc" />
                                     <label for="checkboxC001ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxC002ccc" />
                                     <label for="checkboxC002ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxC003ccc" />
                                     <label for="checkboxC003ccc" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -492,17 +456,14 @@
                                 <span>Radio inline</span>
                                 <input type="radio" name="radioDisplayD" id="radioDisplayD001" />
                                 <label for="radioDisplayD001" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix001</span>
                                 </label>
                                 <input type="radio" name="radioDisplayD" id="radioDisplayD002" />
                                 <label for="radioDisplayD002" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 002</span>
                                 </label>
                                 <input type="radio" name="radioDisplayD" id="radioDisplayD003" />
                                 <label for="radioDisplayD003" class="checkableLabel">
-                                    <i class="icon icon-check"></i>
                                     <span>Choix 003</span>
                                 </label>
                             </div>
@@ -513,21 +474,18 @@
                                 <div>
                                     <input type="radio" name="radioDisplayDdd" id="radioDisplayD001ddd" />
                                     <label for="radioDisplayD001ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayDdd" id="radioDisplayD002ddd" />
                                     <label for="radioDisplayD002ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="radio" name="radioDisplayDdd" id="radioDisplayD003ddd" />
                                     <label for="radioDisplayD003ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -539,21 +497,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxD001" />
                                     <label for="checkboxD001" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxD002" />
                                     <label for="checkboxD002" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxD003" />
                                     <label for="checkboxD003" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>
@@ -565,21 +520,18 @@
                                 <div>
                                     <input type="checkbox" id="checkboxD001ddd" />
                                     <label for="checkboxD001ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Checkbox 001</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxD002ddd" />
                                     <label for="checkboxD002ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 002</span>
                                     </label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="checkboxD003ddd" />
                                     <label for="checkboxD003ddd" class="checkableLabel">
-                                        <i class="icon icon-check"></i>
                                         <span>Choix 003</span>
                                     </label>
                                 </div>

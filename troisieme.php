@@ -192,27 +192,22 @@
                                                 <span>Min-height:</span>
                                                 <input type="radio" name="heightRadio" id="height300" value="300" />
                                                 <label for="height300" class="checkableLabel">
-                                                    <i class="icon icon-check"></i>
                                                     <span>300px</span>
                                                 </label>
                                                 <input type="radio" name="heightRadio" id="height350" value="350" />
                                                 <label for="height350" class="checkableLabel">
-                                                    <i class="icon icon-check"></i>
                                                     <span>350px</span>
                                                 </label>
                                                 <input type="radio" name="heightRadio" id="height400" value="400" checked />
                                                 <label for="height400" class="checkableLabel">
-                                                    <i class="icon icon-check"></i>
                                                     <span>400px</span>
                                                 </label>
                                                 <input type="radio" name="heightRadio" id="height450" value="450" />
                                                 <label for="height450" class="checkableLabel">
-                                                    <i class="icon icon-check"></i>
                                                     <span>450px</span>
                                                 </label>
                                                 <input type="radio" name="heightRadio" id="height500" value="500" />
                                                 <label for="height500" class="checkableLabel">
-                                                    <i class="icon icon-check"></i>
                                                     <span>500px</span>
                                                 </label>
                                             </div>

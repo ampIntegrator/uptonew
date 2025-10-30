@@ -100,7 +100,7 @@ form {
         width: 100%;
     }
 
-    label {
+    label.checkableLabel {
         font-weight: 600;
         color: $white;
         height: 44px;
@@ -111,7 +111,9 @@ form {
         cursor: pointer;
         transition: $trans;
 
-        i {
+        &::before {
+            content: "\eac9";
+            font-family: 'Nucleo';
             display: flex;
             align-items: center;
             justify-content: center;
@@ -119,7 +121,7 @@ form {
             min-width: 18px;
             max-width: 18px;
             height: 18px;
-            background-color: $white !important; // BLANC par défaut - important pour écraser bgToAdjust
+            background-color: $white !important;
             color: $white;
             transition: $trans;
             font-size: 20px;
@@ -132,11 +134,11 @@ form {
 }
 
 // Différence entre radio (rond) et checkbox (carré)
-.inputRadioBox label i {
+.inputRadioBox label.checkableLabel::before {
     border-radius: 50%;
 }
 
-.inputCheckBox label i {
+.inputCheckBox label.checkableLabel::before {
     border-radius: 3px;
 }
 
@@ -193,7 +195,7 @@ form {
 
             // SEULEMENT quand checked : le background devient coloré
             input:checked+label.checkableLabel {
-                i {
+                &::before {
                     background-color: $color !important;
                     color: $white !important;
                 }
