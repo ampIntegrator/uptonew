@@ -118,6 +118,7 @@
                                 <option value="WY">Guadeloupe</option>
                             </select>
                         </fieldset>
+
                         <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
@@ -214,7 +215,7 @@
                             </div>
                         </fieldset>
                     </div>
-                                    <div class="formFooter">
+                    <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
@@ -229,6 +230,16 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
+                        <fieldset>
+                            <select class="basicSelect" name="state">
+                                <option value="AL">Alabama</option>
+                                <option value="WY">Wyoming</option>
+                                <option value="AL">Lorraine</option>
+                                <option value="WY">Aquitaine</option>
+                                <option value="AL">Normandie</option>
+                                <option value="WY">Guadeloupe</option>
+                            </select>
+                        </fieldset>
                         <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
@@ -325,7 +336,7 @@
                             </div>
                         </fieldset>
                     </div>
-                                    <div class="formFooter">
+                    <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
@@ -340,6 +351,16 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
+                        <fieldset>
+                            <select class="basicSelect" name="state">
+                                <option value="AL">Alabama</option>
+                                <option value="WY">Wyoming</option>
+                                <option value="AL">Lorraine</option>
+                                <option value="WY">Aquitaine</option>
+                                <option value="AL">Normandie</option>
+                                <option value="WY">Guadeloupe</option>
+                            </select>
+                        </fieldset>
                         <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
@@ -436,7 +457,7 @@
                             </div>
                         </fieldset>
                     </div>
-                                    <div class="formFooter">
+                    <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
@@ -452,6 +473,7 @@
                         commodi ab eos delectus fugit!
                     </p>
                     <div class="innerForm">
+
                         <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
@@ -547,8 +569,18 @@
                                 </div>
                             </div>
                         </fieldset>
+                        <fieldset>
+                            <select class="basicSelect" name="state">
+                                <option value="AL">Alabama</option>
+                                <option value="WY">Wyoming</option>
+                                <option value="AL">Lorraine</option>
+                                <option value="WY">Aquitaine</option>
+                                <option value="AL">Normandie</option>
+                                <option value="WY">Guadeloupe</option>
+                            </select>
+                        </fieldset>
                     </div>
-                                    <div class="formFooter">
+                    <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>
                     </div>
                 </form>
