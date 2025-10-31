@@ -579,6 +579,16 @@
                                 <option value="WY">Guadeloupe</option>
                             </select>
                         </fieldset>
+                        <fieldset>
+                            <select class="multipleSelect" name="states[]" multiple="multiple">
+  <option value="AL">Fraise</option>
+  <option value="WY">Haricot</option>
+  <option value="AL">Pomme</option>
+  <option value="WY">Vanille</option>
+  <option value="AL">Laitue</option>
+  <option value="WY">Goyave</option>
+</select>
+                        </fieldset>
                     </div>
                     <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>

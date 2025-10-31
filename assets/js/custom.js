@@ -222,3 +222,10 @@ $(document).ready(function() {
         allowClear: true,
     });
 });
+
+$(document).ready(function() {
+    $('.multipleSelect').select2({
+        placeholder: "Choisir un truc",
+        allowClear: true,
+    });
+});
