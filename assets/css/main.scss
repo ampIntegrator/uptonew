@@ -186,3 +186,103 @@ pre {
         color: white !important
     }
 }
+
+// ============================================
+// CENTRALIZED BASIX ICONS MANAGEMENT
+// ============================================
+
+// Icon variables - easy to modify
+$icon-priority-low: "\ea08";   // basix-priority-low (chevron down)
+$icon-arrow-right: "\ea0c";    // basix-arrow-right-1
+$icon-check: "\ea07";          // basix-check-2
+$icon-xmark: "\ea06";          // basix-xmark
+
+// Font-size variables
+$icon-size-accordion: 16px;
+$icon-size-voirPlus: 14px;
+$icon-size-stepper: 16px;
+$icon-size-select2-arrow: 12px;
+$icon-size-select2-clear: 20px;
+
+// === 1. ACCORDIONS ===
+// Remplace <i class="icon icon-chevron-down"></i> par :after
+button.accordion-button {
+    i.icon {
+        display: none;
+    }
+
+    &:after {
+        content: $icon-priority-low;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $icon-size-accordion;
+        margin-left: auto;
+        transition: transform 0.3s ease;
+    }
+
+    // Rotation à l'ouverture
+    &:not(.collapsed):after {
+        transform: rotate(180deg);
+    }
+}
+
+// === 2. BLOG VOIR PLUS ===
+// Remplace <i class="icon icon-chevron-right"></i> par :after
+span.voirPlus {
+    i.icon {
+        display: none;
+    }
+
+    &:after {
+        content: $icon-arrow-right;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $icon-size-voirPlus;
+        margin-left: 8px;
+    }
+}
+
+// === 3. STEPPER ===
+// Remplace le :before par basix-check-2
+.stepper .olStepper .stepperItem:before {
+    content: $icon-check;
+    font-family: 'basix' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $icon-size-stepper;
+}
+
+// === 4. SELECT2 ARROW ===
+// Cache le b et met basix-priority-low en :before
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    b {
+        display: none;
+    }
+
+    &:before {
+        content: $icon-priority-low;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $icon-size-select2-arrow;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// === 5. SELECT2 CLEAR ===
+// Remplace le x par basix-xmark en :before
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    &:before {
+        content: $icon-xmark;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $icon-size-select2-clear;
+    }
+}
