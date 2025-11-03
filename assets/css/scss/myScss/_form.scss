@@ -112,8 +112,10 @@ form {
         transition: $trans;
 
         &::before {
-            content: "\eacd";
-            font-family: 'Nucleo';
+            content: $icon-check;
+            font-family: 'basix' !important;
+            font-style: normal;
+            font-weight: normal;
             display: flex;
             align-items: center;
             justify-content: center;
