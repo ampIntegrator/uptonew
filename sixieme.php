@@ -118,6 +118,16 @@
                                 <option value="WY">Guadeloupe</option>
                             </select>
                         </fieldset>
+                        <fieldset>
+                            <select class="multipleSelect" name="states[]" multiple="multiple">
+                                <option value="AL">Fraise</option>
+                                <option value="WY">Haricot</option>
+                                <option value="AL">Pomme</option>
+                                <option value="WY">Vanille</option>
+                                <option value="AL">Laitue</option>
+                                <option value="WY">Goyave</option>
+                            </select>
+                        </fieldset>
 
                         <fieldset>
                             <input type="text" placeholder="Votre nom" />
@@ -241,6 +251,16 @@
                             </select>
                         </fieldset>
                         <fieldset>
+                            <select class="multipleSelect" name="states[]" multiple="multiple">
+                                <option value="AL">Fraise</option>
+                                <option value="WY">Haricot</option>
+                                <option value="AL">Pomme</option>
+                                <option value="WY">Vanille</option>
+                                <option value="AL">Laitue</option>
+                                <option value="WY">Goyave</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
                             <input type="text" placeholder="Votre nom" />
                         </fieldset>
                         <fieldset>
@@ -359,6 +379,16 @@
                                 <option value="WY">Aquitaine</option>
                                 <option value="AL">Normandie</option>
                                 <option value="WY">Guadeloupe</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <select class="multipleSelect" name="states[]" multiple="multiple">
+                                <option value="AL">Fraise</option>
+                                <option value="WY">Haricot</option>
+                                <option value="AL">Pomme</option>
+                                <option value="WY">Vanille</option>
+                                <option value="AL">Laitue</option>
+                                <option value="WY">Goyave</option>
                             </select>
                         </fieldset>
                         <fieldset>
@@ -581,14 +611,15 @@
                         </fieldset>
                         <fieldset>
                             <select class="multipleSelect" name="states[]" multiple="multiple">
-  <option value="AL">Fraise</option>
-  <option value="WY">Haricot</option>
-  <option value="AL">Pomme</option>
-  <option value="WY">Vanille</option>
-  <option value="AL">Laitue</option>
-  <option value="WY">Goyave</option>
-</select>
+                                <option value="AL">Fraise</option>
+                                <option value="WY">Haricot</option>
+                                <option value="AL">Pomme</option>
+                                <option value="WY">Vanille</option>
+                                <option value="AL">Laitue</option>
+                                <option value="WY">Goyave</option>
+                            </select>
                         </fieldset>
+
                     </div>
                     <div class="formFooter">
                         <button class="btn btnSubmit">Valider</button>

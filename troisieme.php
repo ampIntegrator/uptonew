@@ -6,7 +6,7 @@
 	<body class="bg-black">
         
         <?php include 'assets/include/header.php'; ?>
-        <div id="topPage" class="flexCC mt-5">
+        <div id="topPage" class="flexCC mt-5 px-5">
             <h1 class="text-center">Ceci est le titre de la page <br> pour les price lists</h1>
         </div>
         <section id="section01" class="container pb-5 mt-5">
