@@ -10,6 +10,20 @@
 
 // IMPORTS
 @import 'scss/myScss/variables';
+
+// ============================================
+// CENTRALIZED BASIX ICONS VARIABLES
+// ============================================
+// Icon unicode variables - easy to modify
+$icon-priority-low: "\ea08";   // basix-priority-low (chevron down)
+$icon-arrow-right: "\ea0c";    // basix-arrow-right-1
+$icon-check: "\ea07";          // basix-check-2
+$icon-xmark: "\ea06";          // basix-xmark
+
+// Font-size variables
+$icon-size-accordion: 16px;
+$icon-size-stepper: 16px;
+
 @import 'scss/myScss/utilities';
 @import 'scss/bootstrap/bootstrap';
 @import 'scss/myScss/box';
@@ -188,40 +202,11 @@ pre {
 }
 
 // ============================================
-// CENTRALIZED BASIX ICONS MANAGEMENT
+// CENTRALIZED BASIX ICONS IMPLEMENTATION
 // ============================================
 
-// Icon variables - easy to modify
-$icon-priority-low: "\ea08";   // basix-priority-low (chevron down)
-$icon-arrow-right: "\ea0c";    // basix-arrow-right-1
-$icon-check: "\ea07";          // basix-check-2
-$icon-xmark: "\ea06";          // basix-xmark
-
-// Font-size variables
-$icon-size-accordion: 16px;
-$icon-size-stepper: 16px;
-
 // === 1. ACCORDIONS ===
-button.accordion-button {
-    i.icon {
-        display: none;
-    }
-
-    &:after {
-        content: $icon-priority-low;
-        font-family: 'basix' !important;
-        font-style: normal;
-        font-weight: normal;
-        font-size: $icon-size-accordion;
-        margin-left: auto;
-        transition: transform 0.3s ease;
-    }
-
-    // Rotation à l'ouverture
-    &:not(.collapsed):after {
-        transform: rotate(180deg);
-    }
-}
+// Géré dans _accordion.scss
 
 // === 2. BLOG VOIR PLUS ===
 span.voirPlus {

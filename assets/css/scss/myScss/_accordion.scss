@@ -7,17 +7,24 @@
         // Icône Bootstrap
         padding-right: 40px;
 
-        // Masquer la flèche par défaut de Bootstrap
+        // Remplacer la flèche par défaut de Bootstrap par basix icon
         &::after {
-            display: none;
-        }
-
-        i {
-            transition: $trans;
+            content: $icon-priority-low;
+            font-family: 'basix' !important;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $icon-size-accordion;
+            transition: transform 0.3s ease;
             position: absolute;
             right: 16px;
             top: 50%;
             transform: translateY(-50%);
+            background-image: none; // Supprimer l'image de fond Bootstrap
+        }
+
+        // Cacher les anciennes balises i
+        i {
+            display: none;
         }
 
         &:focus {
@@ -37,10 +44,13 @@
 
             // Accordion FERMÉ : titre et icône en couleur
             .accordion-button.collapsed {
-                span, i {
+                span {
                     color: $color !important;
                     transition: $trans;
-                
+                }
+
+                &::after {
+                    color: $color !important;
                 }
             }
 
@@ -49,12 +59,13 @@
                 background-color: $color !important;
                 transition: $trans;
 
-                span, i {
+                span {
                     color: $white !important;
                     transition: $trans;
                 }
 
-                i {
+                &::after {
+                    color: $white !important;
                     transform: translateY(-50%) rotate(180deg);
                 }
             }
@@ -65,7 +76,11 @@
     &.colorSuccess,
     &.colorWarning {
         .accordion-button:not(.collapsed) {
-            span, i {
+            span {
+                color: $dark !important;
+            }
+
+            &::after {
                 color: $dark !important;
             }
         }
@@ -78,4 +93,5 @@
 
 .accordion-item:nth-child(2) .accordion-body,
 .accordion-item:nth-child(2) .accordion-body * {
-    color: $text-dark !important;}
+    color: $text-dark !important;
+}
