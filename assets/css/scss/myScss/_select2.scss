@@ -269,14 +269,7 @@
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__clear {
-    cursor: pointer;
-    font-weight: bold;
-    height: 20px;
-    margin-right: 10px;
-    margin-top: 5px;
-    position: absolute;
-    right: 0;
-    padding: 1px
+    display: none;
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
@@ -348,6 +341,10 @@
     float: left;
     margin-left: 10px;
     margin-right: auto
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear span{
+    display: none;
 }
 
 .select2-container--default.select2-container--focus .select2-selection--multiple {

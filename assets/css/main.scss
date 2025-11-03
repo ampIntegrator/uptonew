@@ -199,13 +199,9 @@ $icon-xmark: "\ea06";          // basix-xmark
 
 // Font-size variables
 $icon-size-accordion: 16px;
-$icon-size-voirPlus: 14px;
 $icon-size-stepper: 16px;
-$icon-size-select2-arrow: 12px;
-$icon-size-select2-clear: 20px;
 
 // === 1. ACCORDIONS ===
-// Remplace <i class="icon icon-chevron-down"></i> par :after
 button.accordion-button {
     i.icon {
         display: none;
@@ -228,7 +224,6 @@ button.accordion-button {
 }
 
 // === 2. BLOG VOIR PLUS ===
-// Remplace <i class="icon icon-chevron-right"></i> par :after
 span.voirPlus {
     i.icon {
         display: none;
@@ -239,13 +234,12 @@ span.voirPlus {
         font-family: 'basix' !important;
         font-style: normal;
         font-weight: normal;
-        font-size: $icon-size-voirPlus;
+        font-size: 16px;
         margin-left: 8px;
     }
 }
 
 // === 3. STEPPER ===
-// Remplace le :before par basix-check-2
 .stepper .olStepper .stepperItem:before {
     content: $icon-check;
     font-family: 'basix' !important;
@@ -255,7 +249,6 @@ span.voirPlus {
 }
 
 // === 4. SELECT2 ARROW ===
-// Cache le b et met basix-priority-low en :before
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     b {
         display: none;
@@ -266,7 +259,7 @@ span.voirPlus {
         font-family: 'basix' !important;
         font-style: normal;
         font-weight: normal;
-        font-size: $icon-size-select2-arrow;
+        font-size: 14px;
         color: white;
         position: absolute;
         top: 50%;
@@ -276,13 +269,12 @@ span.voirPlus {
 }
 
 // === 5. SELECT2 CLEAR ===
-// Remplace le x par basix-xmark en :before
 .select2-container--default .select2-selection--single .select2-selection__clear {
     &:before {
         content: $icon-xmark;
         font-family: 'basix' !important;
         font-style: normal;
         font-weight: normal;
-        font-size: $icon-size-select2-clear;
+        font-size: 16px !important
     }
 }
