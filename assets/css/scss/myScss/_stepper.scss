@@ -111,6 +111,8 @@
                     width: 26px;
                     height: 26px;
                     background-color: $white;
+                    font-family: $font-family-base !important;
+
                 }
 
                 position: relative;
@@ -137,6 +139,7 @@
                     background-color: $disabledColor;
                     color: $white;
                     font-weight: 400 !important;
+                    font-family: $font-family-base !important;
                 }
 
                 &:after {

@@ -99,3 +99,31 @@ p {
 .fw-semibold {
     font-weight: 600;
 }
+
+ul.withCaret {
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        line-height: 1.2;
+
+        &:not(:last-child) {
+            margin-bottom: 16px;
+        }
+
+        &:before {
+            content: "\ea09";
+            font-family: 'basix' !important;
+            font-style: normal;
+            font-weight: 400 !important;
+            font-variant: normal;
+            position: relative;
+            left: -4px;
+            margin-right: 2px;
+            transform: rotate(-90deg);
+        }
+    }
+}

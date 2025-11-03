@@ -338,7 +338,7 @@
     position: absolute;
     left: 0;
     top: 0;
-
+    transition: $trans;
     // Cacher le × par défaut
     span {
         visibility: hidden;
@@ -359,9 +359,8 @@
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover,.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus {
-    background-color: #f1f1f1;
-    color: #333;
-    outline: none
+
+    transform: rotate(90deg)
 }
 
 .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
