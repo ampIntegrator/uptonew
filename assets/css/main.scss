@@ -179,14 +179,15 @@ ul.withCaret {
         }
 
         &:before {
-            content: "\eae1";
-            font-family: 'Nucleo' !important;
+            content: "\ea09";
+            font-family: 'basix' !important;
             font-style: normal;
             font-weight: 400 !important;
             font-variant: normal;
             position: relative;
             left: -4px;
             margin-right: 2px;
+            transform: rotate(-90deg)
         }
     }
 }
