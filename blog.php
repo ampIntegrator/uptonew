@@ -32,7 +32,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/city.jpg);"></div>
@@ -53,7 +53,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0007.avif);"></div>
@@ -74,7 +74,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0008.avif);"></div>
@@ -95,7 +95,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0002.avif);"></div>
@@ -116,7 +116,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/city.jpg);"></div>
@@ -137,7 +137,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0008.avif);"></div>
@@ -158,7 +158,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0002.avif);"></div>
@@ -179,7 +179,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/adobe004.avif);"></div>
@@ -200,7 +200,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0009.avif);"></div>
@@ -221,7 +221,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0005.avif);"></div>
@@ -255,7 +255,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/city.jpg);"></div>
@@ -276,7 +276,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0007.avif);"></div>
@@ -297,7 +297,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0008.avif);"></div>
@@ -318,7 +318,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0002.avif);"></div>
@@ -339,7 +339,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/city.jpg);"></div>
@@ -360,7 +360,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0008.avif);"></div>
@@ -381,7 +381,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0002.avif);"></div>
@@ -402,7 +402,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/adobe004.avif);"></div>
@@ -423,7 +423,7 @@
                                             <p class="card-text mb-3">This is a wider card with supporting text below as
                                                 a natural lead-in to additional content to go to the pool with the horse and the glucks.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0009.avif);"></div>
@@ -444,7 +444,7 @@
                                             <p class="card-text mb-3">This is not a wider card with not supporting text below as
                                                 a natural lead-in to additional not content.
                                             </p> 
-                                            <span class="voirPlus flexCS">Voir plus <i class="icon icon-chevron-right"></i></span>
+                                            <span class="voirPlus flexCS">Voir plus</span>
                                         </div>
                                         <div class="col-4 h-100">
                                             <div class="bgi" style="background-image: url(assets/img/Photo0005.avif);"></div>
