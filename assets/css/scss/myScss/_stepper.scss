@@ -78,8 +78,9 @@
                 margin: 0 auto;
                 font-weight: 600;
                 font-size: 18px;
-                content: "\eacb";
-                font-family: Nucleo;
+                content: $icon-check;
+                font-family: 'basix' !important;
+                font-style: normal;
             }
 
             &:not(:last-child) {
