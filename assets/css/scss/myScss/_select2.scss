@@ -207,6 +207,15 @@
     color: #04a8ff;
     font-size: 24px;
     margin-top: -1px;
+
+    // Remplacer le × par l'icône basix-xmark
+    &:before {
+        content: $icon-xmark;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px !important;
+    }
 }
 
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
@@ -218,7 +227,26 @@
     position: absolute;
     top: -1px;
     right: 1px;
-    width: 20px
+    width: 20px;
+
+    // Cacher la flèche par défaut (bordures CSS)
+    b {
+        display: none;
+    }
+
+    // Remplacer par l'icône basix-priority-low
+    &:before {
+        content: $icon-priority-low;
+        font-family: 'basix' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {

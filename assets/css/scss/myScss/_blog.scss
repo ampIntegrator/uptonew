@@ -20,6 +20,20 @@
             font-size: 20px;
             transition: $trans;
         }
+
+        // Cacher l'ancien <i> et utiliser basix icon
+        i.icon {
+            display: none;
+        }
+
+        &:after {
+            content: $icon-arrow-right;
+            font-family: 'basix' !important;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            margin-left: 8px;
+        }
     }
     &:hover{
         .voirPlus{
